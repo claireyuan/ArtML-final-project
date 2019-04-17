@@ -1,0 +1,1 @@
+global = { \key g \minor \time 2 / 4 } rh = \relative c ' { d 8 ( | g 8 [ a b es c ] | d 4 . ) d 8 ( | c 8 [ d e es c ] | d 4 . ) d 8 ( | c 8 [ d e es c ] | d e es 1 6 d c 8 b es | a 4 . . g 1 6 | g ' 4 . ) r 8 | } lh = { \partial 8 s 8 | g 2 ~ | g 4 g 4 ~ | g 2 ~ | g 4 g 4 | g 2 ~ | g 4 g 4 ~ | f is 4 d | g 4 g , 4 | }

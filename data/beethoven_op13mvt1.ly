@@ -1,4 +1,3 @@
-\include "english.ly"
 Global =  {\key c\major \time 4/4}
 
 RH = {
@@ -6,7 +5,7 @@ RH = {
     c2.\p <e bf>4-. |
     <f af,>-. <g e>-. <af f>-. <b d,>-. |
     <c ef,!>-. <c e,>2 <e bf!>4-. | <f af,>-. <g e>-. <af f>-. <b d,>-. |
-    <c g ef! c>2-._\markup{\italic "cresc."} <g f b, g>-. | <ef c g>-. <d af f>-. |
+    <c g ef! c>2-. <g f b, g>-. | <ef c g>-. <d af f>-. |
     <c ef,>1(~| <c ef,>2 <b f d>)
   }
 }

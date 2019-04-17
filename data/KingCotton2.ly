@@ -1,5 +1,3 @@
-\include "english.ly"
-
 Global = {\key  ef \major \time 6/8}
 
 RH = \relative c'' {
@@ -17,16 +15,3 @@ LH = \relative c {
 	g[ r <bf ef>] ef, r4
 }
 
-\score { {
-\context PianoStaff <<
-  \new Staff = "up" {
-    \Global \clef treble
-    \RH
-  }
-  \new Staff = "down" {
-    \Global \clef bass
-    \LH
-  }
->>
-}
-}

@@ -1,6 +1,3 @@
-\include "english.ly"
-
-
 Global =  {\key d \minor \time 3/8}
 
 RH =  {
@@ -26,18 +23,4 @@ LH = {
   \times 2/3 {d16([ e f])} \times 2/3 {g([ a bf])} \times 2/3 {c([ bf a])}
   << {r8 e4}
   \\ {a,4.} >>
-}
-
-\score { {
-\context PianoStaff <<
-  \new Staff = "up" {
-    \Global \clef treble
-    \RH
-  }
-  \new Staff = "down" {
-    \Global \clef bass
-    \LH
-  }
->>
-}
 }

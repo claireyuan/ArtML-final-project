@@ -1,6 +1,3 @@
-\include "english.ly"
-
-Global = {\key  f \major \time 2/2}
 
 RH = \relative c' {
         \partial 4 \tuplet 3/2 {c8[^( d e)]} |
@@ -14,18 +11,4 @@ LH = \relative c, {
        r | f4 <f' a c> c <g' bf c> | f, <f' a c> <f a c> <f a c> | g, <g' bf c> c, <g' bf c> |
 	f, <f' a c> <f a c> <f a c> | bf, <g' bf> c, <g' bf c>
 	f, <f' a c> <f a c> <f a c> | d <f a d> df <f g bf> | c <c e g c>-^ r r
-}
-
-\score { {
-\context PianoStaff <<
-  \new Staff = "up" {
-    \Global \clef treble
-    \RH
-  }
-  \new Staff = "down" {
-    \Global \clef bass
-    \LH
-  }
->>
-}
 }

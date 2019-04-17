@@ -11,10 +11,8 @@ RH = {
 }
 
 LH = {
-  \set tupletSpannerDuration = #(ly:make-moment 1 4) \times 2/3 {
     f8[ aes c'] f8[ aes c'] f8[ aes c'] f[ bes des'] f[ c' aes] f[ c aes,] f,[ aes, c] e,[ g, c] f,[ aes, c] f[ aes c'] f[ aes c'] f[ bes des']
     f8[ c' aes] f[ c aes,] f,[ aes, c] e,[ g, c] f,[ aes, c] f[ aes c']
-  }
   << { des'4( bes) c'2 des'4( bes c'2) des'4( bes) } \\ { g2 aes2 g2 aes g } >> <aes c'>4( <e g> <f aes> <des f>)
   <c e>4 r r2
 }

@@ -3,7 +3,7 @@ Global =  {\key d\minor \time 4/4}
 RH = {
   r2 cis'4\staccato e'\staccato a'2.^\fermata
   \tempo 4 = 224 a'8\p( g') g'8( f') f'( e') e'( d') a'( g')
-  g'( f') f'( e') e'( d') d''_\markup { \italic "cresc." }( c''!) c''( bes') bes'( a') a'( g') g'( gis') \break
+  g'( f') f'( e') e'( d') d''( c''!) c''( bes') bes'( a') a'( g') g'( gis')
   \tempo 4 = 40 <<
     {
       gis'4.(

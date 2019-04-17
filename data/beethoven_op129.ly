@@ -1,4 +1,4 @@
-\include "english.ly"
+
 Global =  {\key g\major \time 2/4}
 
 RH = {
