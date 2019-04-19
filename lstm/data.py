@@ -35,7 +35,7 @@ class Corpus(object):
         with open(path, 'r', encoding="utf8") as f:
             tokens = 0
             for line in f:
-                words = split(line) + ['<eos>']
+                words = line.split() + ['<eos>']
                 tokens += len(chars)
                 for word in words:
                     self.dictionary.add_word(word)
@@ -45,7 +45,7 @@ class Corpus(object):
             ids = torch.LongTensor(tokens)
             token = 0
             for line in f:
-                words = split(line) + ['<eos>']
+                words = line.split() + ['<eos>']
                 for word in words:
                     ids[token] = self.dictionary.word2idx[word]
                     token += 1
