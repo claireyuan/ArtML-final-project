@@ -5,7 +5,7 @@ set -x
 mkdir ${1}
 
 python main.py --cuda \
-	--data ../data/clean \
+	--data ../data \
 	--model GRU \
 	--emsize 32 \
 	--nhid 256 \
@@ -17,7 +17,7 @@ python main.py --cuda \
 	--save ./${1}/model.pt # 2>&1 | tee -a train${1}.log
 
 python generate.py --cuda \
-	--data ../data/clean \
+	--data ../data \
 	--checkpoint ./${1}/model.pt \
 	--outf ./${1}/generated.txt \
 	--words 1000 # 2>&1 | tee -a train${1}.log

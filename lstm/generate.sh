@@ -3,7 +3,7 @@
 set -x
 
 python generate.py --cuda \
-	--data ../data/clean \
+	--data ../data \
 	--checkpoint ./${1}/model.pt \
 	--outf ./${1}/generated.txt \
 	--words 100000 # 2>&1 | tee -a train${1}.log
