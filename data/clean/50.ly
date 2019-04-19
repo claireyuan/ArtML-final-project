@@ -1,0 +1,1 @@
+global = { \key g \major \time 4 / 4 } rh = \relative c ' ' { c 4 e 8 c g 4 g c e 8 c g 4 g ' f 8 e d c b c b c d c b a g 4 r c e 8 c g 4 g e ' g 8 e c 4 e 8 c d b c a b g a f is g a b c d e f is g } lh = \relative c { c 4 r r 2 c 4 r r 2 c 4 r c r g r g ' 8 f e d c 4 r r 2 c ' 4 r r f is , g c , d d , g r r 2 }
