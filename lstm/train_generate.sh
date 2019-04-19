@@ -2,6 +2,8 @@
 
 set -x
 
+mkdir ${1}
+
 python main.py --cuda \
 	--data ../data/clean \
 	--model GRU \
