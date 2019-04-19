@@ -15,7 +15,7 @@ python main.py --cuda \
 	--save model${1}.pt # 2>&1 | tee -a train${1}.log
 
 python generate.py --cuda \
-	--data data/clean \
+	--data ../data/clean \
 	--checkpoint ./model${1}.pt \
 	--outf generated${1}.txt \
 	--words 1000 # 2>&1 | tee -a train${1}.log
