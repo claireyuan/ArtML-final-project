@@ -1,3 +1,0 @@
-data/clean/20.ly
-data/clean/5.ly
-data/clean/50.ly
