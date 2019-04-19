@@ -8,9 +8,9 @@ import random
 test_percent = 5
 valid_percent = 5
 
-train_file = 'data/clean/train.txt'
-valid_file = 'data/clean/valid.txt'
-test_file = 'data/clean/test.txt'
+train_file = 'data/train.txt'
+valid_file = 'data/valid.txt'
+test_file = 'data/test.txt'
 
 with open(train_file, 'w') as train, open(valid_file, 'w') as valid, open(test_file, 'w') as test:
 	for filename in sys.argv[1:]:
