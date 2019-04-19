@@ -36,7 +36,7 @@ class Corpus(object):
             tokens = 0
             for line in f:
                 words = line.split() + ['<eos>']
-                tokens += len(chars)
+                tokens += len(words)
                 for word in words:
                     self.dictionary.add_word(word)
 
