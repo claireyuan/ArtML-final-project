@@ -1,0 +1,35 @@
+Global = { \key d \major \time 3/4 }
+RH = \relative g' {
+%19
+e4 <<{\stemdown c c} \\ {\stemup a' a} >>  | 
+%20
+<< {\stemdown cis, b} \\ {\stemup a' gis} >> e4  | 
+%21
+r16 a,[ gis a] dis[ a dis a] dis[ a dis a]  | 
+%22
+gis4 e'16[ fis gis fis] e4  | 
+%23
+r16 a,[ gis a] dis[ a dis a] dis[ a dis a]  | 
+%24
+gis4 <e e'> e'8 cis  | 
+%25
+a4 r8 a'16 gis a8 a  | 
+%26
+a4 r8 b,16 cis e d cis b  | }
+LH = \relative g {
+%20
+e2 r4  | 
+%21
+f,,8[ f' f f f f]  | 
+%22
+e,[ e' e e e e]  | 
+%23
+f,[ f' f f f f]  | 
+%24
+e2 r4  | 
+%25
+cis16 a' gis a cis,4 r  | 
+%26
+d16 a' gis a d,4 r  | 
+%27
+e16 a gis a e4 r  | }

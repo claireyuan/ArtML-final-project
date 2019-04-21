@@ -1,0 +1,29 @@
+Global = { \key b \minor \time 3/4 }
+RH = \relative c'' {
+    \barnumbercheck #25
+    d2.\> ~  | 
+    d2\!) d4(\<  | 
+    e f g  | 
+    a c,  d\!  | 
+    e\> d b  | 
+    d2.\! ~  | 
+    d2) d4   | 
+    \barnumbercheck #32
+
+  } \alternative {
+    {
+      g2.( \<  | }
+LH = \relative c' {
+    r4 <f c a>2  | 
+    r4 <e c a>2  | 
+    r4 <e b g d>2  | 
+    r4 <d a e c>2  | 
+    r4 <d a fis c>2  | 
+  }
+  \alternative {
+    {
+      \change staff=treble
+      \stemup
+      e4\rest <g e b>2  | 
+      e4\rest <fis cis a>2  | 
+      d4\rest <fis d b>2  | }

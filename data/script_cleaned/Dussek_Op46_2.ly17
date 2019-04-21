@@ -1,0 +1,35 @@
+Global = { \key f \major \time 4/4 }
+RH = \relative g' {
+%17
+a, f' a, f' a, f' a, f' a, f' a, f' a, f' a, f'  | 
+%18
+a, f' a, f' a, f' a, f' a, f' a, f' a, f' a, f'  | 
+%19
+e4 <e c'> <e c'> r  | 
+%20
+c'4 d16 c b a g8 e g e  | 
+%21
+g4. f8 d2  | 
+%22 original has b flat below, changed to b because of natural b in left hand
+c8 c \grace d16 c8 b16 c d8[ d] \grace e16 d8 c16 d  | 
+%23
+e8 c g' e e d g,4  | 
+%24
+c' d16 c bes as g8 es g es  | }
+LH = \relative g {
+%18
+<a a'> <g g'> <a a'> <b b'>  | 
+%19
+c8[ c' g e] c4 r  |  \clef g
+%20
+c'8[ g' e g] c, g' e g  | 
+%21
+b,[ d f g] b, d f g  | 
+%22
+<e c> <e c> <e c>4 <g b,>8 <g b,> <g b,>4  | 
+%23
+<g c,>2 <f d g,>  | 
+%24
+c8[ g' es g] c,8[ g' es g]  | 
+%25
+b,[ d f g] b, d f g  | }

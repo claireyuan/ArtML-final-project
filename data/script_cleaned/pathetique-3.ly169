@@ -1,0 +1,20 @@
+Global = { \key c \minor \time 2/2 }
+RH = \relative c' {
+ <fis es! c>2-. <fis d c>-.  | 
+ <g d b>4 r r g,,  | 					%157
+ <d' b>(-. <d b>-. <d b>-. <d b>)-.  | 
+ << {
+  g2. g4  | 
+  s1  | 
+  bes2. bes4  | 						%161 (1)
+  s1  | 
+  d2. a4(  | }
+LH = \relative c {
+ <d b>2. \clef treble <as'! f!>4  | 
+ <g es>2. <as f>4  | 			%165
+ <g es>2. <as f>4  | 
+ r1  | 
+ r1  | 
+ r1  | 					%169
+ r2 r4 \clef bass g,,-.  | 
+ c8 es g c c, f g b  | }

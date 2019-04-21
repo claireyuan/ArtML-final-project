@@ -1,0 +1,29 @@
+Global = { \key d \major \time 3/4 }
+RH = \relative g' {
+%2
+<a' fis>8[ a, <a' fis> a, <gis' eis> a,]  | 
+%3
+<a' fis>8[ a, <a' fis> a, <gis' eis> a,]  | 
+%4
+<a' fis>4 r8 a a' fis  | 
+%5
+d4 d fis16 e d e  | 
+%6
+d4 r8 d'8 a fis  | 
+%7
+d4 d fis16 e d e  | 
+%8
+d4 r8 d fis  a  | 
+%9
+<e g>4 <d fis> <fis a>8. <fis a>16  | }
+LH = \relative g { d2.  |  d2. d2 r4  |  \clef treble
+%5
+fis'8[ a fis a g a]  | 
+%6
+fis8[ a fis a fis a]  | 
+%7
+fis8[ a fis a g a]  | 
+%8
+fis a fis4 r  |  \clef bass
+%9
+cis d r  |  cis d r  | }

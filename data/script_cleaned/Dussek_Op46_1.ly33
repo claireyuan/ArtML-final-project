@@ -1,0 +1,31 @@
+Global = { \key c \major \time 4/4 }
+RH = \relative g' {) e( d- | )] } {d[ e e d] d[ c c b]} >>  | 
+% m20
+<b d>4 e16[ c' e, c'] d,[ b' d, b'] c,[ a' c, a']  | 
+% m22
+g4 <b g'>  <b g'> r \bar": | :"
+% m23
+d4. b8 g[ g a b]  | 
+% m24
+a4 a8[ b] a4 r  | 
+% m25
+d4. b8 g[ g a b]  | 
+% m26
+c4 c8[ e] c4 r  | }
+LH = \relative a {
+% m34
+d,,[ d' d d] d[ d d d]  | 
+% m35
+e,[ e' e e] e[ e e e]  | 
+% m36
+f,[ f' f f] f,4 r  | 
+% m37
+f'16[\f c' a c] f,[ c' a c] f,4 r  | 
+% m38
+e16[ c' g c] e,[ c' g c] e,4 r  |  \clef treble
+% m39
+<b' g'>8[ <b g'>] <b g'>4 r2  | 
+% 40
+<c g'>8[ <c g'>] <c g'>4 r2  |  \clef bass
+% 41 42
+g4 r4 r2  | }

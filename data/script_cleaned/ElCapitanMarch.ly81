@@ -1,0 +1,35 @@
+Global = { \key c \major \time 6/8 }
+RH = \relative c'' {
+	<< \stemUp {df'2 ~ \break df8} \\
+	   \stemDown {df,8[ <df f>16 <df f>] <df f>8[ <df f>] \break b8\rest}
+	>>
+	
+	   <c e>8^.[ <c g'>^. <c c'>^.]  | 
+	<a f'>8[ <a c f>16 <a c f>] <a c f>8[ <a c f>]  | 
+	<a c f>8[ <f f'>^> <a a'>^> <c c'>^>]  | 
+	<f f'>2^^  | 
+	<e e'>4^^ <a a,>^^  | 
+	<d d,>8^^[ <a a,>^^] <a a,>4^^
+
+	\break
+
+	r8 <a, a'>[ <g g'> <f f'>]  | 
+	<bf bf'>2^^  | 
+	<a a'>4^^ <g g'>4^^  | }
+LH = \relative c {
+	g[ <bf c e>] c,[ <bf' c e>]  | 
+	f[ <a c f>] c,[ <a' c>]
+
+	\break \noPageBreak
+
+	<bf c c,>2  | 
+	f8->[ <a c>] c,[ <a' c>]  | 
+	f->[ <a c>] c,[ <a' c>]  | 
+	f->[ <a c>] c,[ <a' c>]  | 
+	f[ <a c>] c,[ <a' c>]  | 
+	bf,[ <f' bf df>] bf,[ <f' bf df>]
+
+	\break \noPageBreak
+
+	c[ <bf' c>] c,[ <g' bf c>]  | 
+	<f a c> <f f,>[ <c c,> <a a,>]  | }

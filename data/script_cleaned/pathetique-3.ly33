@@ -1,0 +1,20 @@
+Global = { \key c \minor \time 2/2 }
+RH = \relative c' {
+ } >>
+ ges'4-. bes2 bes4 ~  | 
+ bes( es2  a,4)  | 
+ bes2 \p ~ \times 2/3 {  bes8[ a bes]  c[ bes a] }  | 		%33
+ bes2 ~ \times 2/3 {  bes8[ a bes]  c[ bes a] }  | 
+ \times 2/3 { r8  bes[ c]  d[ c bes] r  d[ es]  f[ es d] }  | 
+ \times 2/3 {  f[ es d]  c[ bes as!]  g[ f es] }  d16[ c bes as]  | 
+ \times 2/3 {  g8[ es f]  g[ f es] } as2  | 			%37
+ \times 2/3 {  g8[-. es' f]  g[ f es] } as2  | }
+LH = \relative c {
+ bes,4 \clef treble <f'' d bes>-. <ges \sf es bes>2  | 	%33
+ r4 <f d bes>-. <ges \sf es bes>2  | 
+ <f d bes>4 r <as f bes,> r  | 
+ <as f d bes> r r2 \clef bass  | 
+ es,4 r \times 2/3 { r8  bes'[ c]  d[ c bes] }  | 		%37
+ es4 r \times 2/3 {r8  bes[ c]  d[ c bes] }  | 
+ es4 r es r  | 
+ <es des bes g> r r2  | }

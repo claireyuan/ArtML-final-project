@@ -1,0 +1,19 @@
+Global = { \key f \major \time 2/2 }
+RH = \relative c'' {
+	d4 <a a'> <a d>-^ <g cs e>-^  |  <f d' f> r8 \stemdown <e e'>8^( <f f'>2)  |  \stemneutral
+	#(set-octavation 0)
+	bf4 <f f'> <f bf>-^ <f b>-^
+
+	\break
+
+	<f a c>4.-^ <f f'>8 <c c'>4 <d d'>  |  <bf bf'>4.-^ <a a'>8 <bf bf'>4 <g g'>  | 
+	<< \stemup { f'1~  |  f4} \\
+	 \stemdown { <c a f>4 <c a f> <c a f> <c a f>  |  <c a f>} >> r8 <c c'>8^( <d d'>4. <bf bf'>8)  | 
+	<a a'>4 r8 <gs gs'>^( <a a'>2)  | }
+LH = \relative c { <f f,> <a c> e <g a cs>  |  d <f a d> <f f,>^^ <e e,>^^  | 
+	<d d,> <f a> c <ef f a>  |  bf <d f bf> <d d,>^^ <df df,>^^
+
+	\break
+
+	<c c,> <f a> a, <f' a>  |  g, <e' bf' c> c <e bf' c>  |  <f a c> r8 <e e,> <d d,>4 <c c,>  |  <f f,> r r2  | 
+	<f f,>4 <a c> c, <a' c>  | }

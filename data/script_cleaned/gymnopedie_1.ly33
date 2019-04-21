@@ -1,0 +1,24 @@
+Global = { \key b \minor \time 3/4 }
+RH = \relative c'' {
+      fis2.\!  | 
+      b,4 a b  | 
+      cis d e  | 
+      cis d \> e  | 
+      fis,2.  | 
+      < c' a e c>2.\!)  | 
+      <d a fis d>2.  | 
+      \barnumbercheck #40
+    } {
+      g2.( \<  | }
+LH = \relative c' {
+      d4\rest <a' e cis>2  | 
+      d,4\rest <a' fis cis a>2  | 
+      a,4\rest <d a>4 <g d b>  | 
+      s2.  | 
+      s2.  | 
+    } {
+      \change staff=treble
+      \stemup
+      e4\rest <g e b>2  | 
+      e4\rest <a f d a>2  | 
+      d,4\rest <f c a>2  | }

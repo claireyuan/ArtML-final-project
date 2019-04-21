@@ -1,0 +1,46 @@
+Global = { \key c \major \time 6/8 }
+RH = {{
+	<< { \stemdown <a f' a>4.^^ \stemup a8 } \\
+	   { \stemdown s8 <f a>16[ <f a>] <f a>8[ f] }
+	>>  |  \stemneutral
+	<e bf'>16[^( a bf8]) r <bf g' bf>^^
+	<< { \stemdown <bf g' bf>4.^^ \stemup bf8 } \\
+	   { \stemdown s8 <g bf>16[ <g bf>] <g bf>8[ g] }
+	>> \stemneutral
+	
+	\break \nopagebreak
+
+	<a c>16[( b c8]) r8 <c a' c>^^  | 
+	<c a' c>4.( <bf? g' bf?>8)  | 
+	<a f' a>8.^> <e a>16[ <e a>8. <d a'>16]  | 
+	<d a'>8[ <e a> <d a'> <df a'>]
+	<c a'>16[^( gs' a8]) r8 <a f' a>^^  | 
+	<< { \stemdown <a f' a>4.^^ \stemup a8 } \\
+	   { \stemdown s8 <f a>16[ <f a>] <f a>8[ f]}
+	>> \stemneutral
+	
+	\break \nopagebreak
+
+	<gs b>16[^( as b8]) r8 <gs b>  | 
+	<gs b>4 <e e'>  | 
+	<e a cs e>2  | }
+LH = \relative c {
+	c[r <e g c>] a,[ r <e' a c>]
+
+	\break \nopagebreak
+
+	f,[r <a' d f>] <a d f>[ r <a d f>]  | 
+	f[r <a d f>] <fs a c ef>4.  | 
+	<g c e?>8[ r <g c e>] <g c e>[ r <g c e>]  | 
+	<g c d>[r <g c d>] <g b f'>[ r <g b f'>]  | 
+	<c e> r r r4 <g d b g>8  | 
+	<c, e g>4 r8 <c c,>4 r8
+% end second theme (lower)
+	\break
+% begin third theme (lower)
+	\override staff.timesignature #'style = #'()
+	\key f \major
+	\time 2/4
+	f8[ <a c>] c,[ <a' c>]  | 
+	f[ <a c>] c,[ <a' c>]  | 
+	f[ <a c>] c,[ <a' c>]  | }

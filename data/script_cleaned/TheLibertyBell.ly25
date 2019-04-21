@@ -1,0 +1,44 @@
+Global = { \key f \major \time 6/8 }
+RH = \relative c' { cs2._(  |  <d g>8)[ r f]} >> d8[ r bf]  | 
+	a4. f  |  g e
+
+\pagebreak
+}
+% begin page 2
+\alternative
+{
+	{
+		f4.~ f4 c'8
+	}
+	{
+		f,4.~ f4 f8
+	}
+}
+	\bar " |  | "
+	\key bf \major
+	<d bf' d>4.^( <ef bf' ef>  |  <e bf' e> <f bf f'>)  |  #(set-octavation 1)
+	<f' bf d>8_^\arpeggio[ r <f bf d>] <f bf d>[ r <e bf' cs>]  | }
+LH = \relative c { c,[ r <a' c>] <a c>[ r <a c>]  |  e[ r <bf' c>] c,[ r <bf' c>]
+
+\pagebreak
+}
+% begin page 2 (lower)
+
+\alternative
+{
+	{
+		<f a c>8[ r <f a c>] <f a c>4 r8
+	}
+	{
+		<f a c>8[ r <f a c>] <f a c>4 r8
+	}
+}
+	\bar " |  | "
+	\key bf \major
+
+	bf,8-^[ r bf'] c,-^[ r bf']  |  cs,-^[ r bf'] d,-^[ r bf']  |  bf,[ r <bf' d f>] <bf d f>[ r <bf cs e>]  | 
+	bf,[ r <bf' d f>] <bf d f>[ r <f bf d>]
+
+	\break
+
+	bf,8-^[ r bf'] c,-^[ r bf']  |  cs,[ r bf'] d,[ r bf']  | }

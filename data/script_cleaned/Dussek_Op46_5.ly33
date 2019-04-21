@@ -1,0 +1,25 @@
+Global = { \key d \major \time 3/4 }
+RH = \relative g' {
+%35
+<< {\stemdown d4 b b} \\ {\stemup fis'4 gis gis} >>  | 
+%36
+<< {\stemdown cis, cis cis} \\ {\stemup a'4 a a} >>  | 
+%37
+<a cis,>2 \bar ": | :" e4  | 
+%38
+<cis a>8[ e, <cis' a> e, <b' d> e,]  | 
+%39
+<e' cis>8[ e, <e' cis> e, <bis' dis> e,]  | 
+%40
+<e' cis>8[ e, <e' cis> e, <bis' dis> e,]  | 
+%41
+<e' cis>4 r8 e e' cis  | }
+LH = \relative g {
+%36
+a,[ a' e a cis, e]  | 
+%37
+a,4 a' \bar ": | :" r  | 
+%38
+a2.  |  a2.  |  a2.  |  a4 a, r  |  \clef treble
+%42
+cis''8[ e cis e d e]  | }

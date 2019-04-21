@@ -1,0 +1,27 @@
+Global = { \key d \major \time 6/8 }
+RH = \relative c'' { d8-.[ cs-. d-.] b4-. <b b'>8  |  <a d a'>4.^^ <b d fs>4^^ fs'8-.  | 
+	a-.[ gs-. a-.] fs4-. fs8^(  |  g[) d\rest g]^( fs[) d\rest fs]^(
+
+	\break
+
+	e[) b\rest e]^( d[) b\rest d]  |  <a a'>4 r8 <a cs e a>4^^ r8  |  r4 fs'8\( g4 gs8
+\repeat volta 2
+{
+	a4 fs8\) d'-.[ cs-. b-.]  |  a-.[ d,\rest fs-.] d-.[ b\rest fs'-.]  |  <e cs g>2.^^(
+
+	\break
+
+	<d a fs>8)[ r fs] d[ r fs]  | }
+LH = \relative c { d-.[ cs-. d-.] b4.-.  |  <fs fs'>4.^^ <b b'>4^^ fs'8-.  | 
+	a-.[ gs-. a-.] fs4-. fs8^(  |  g[) r g]^( fs[) r fs]^(
+
+	\break
+
+	e[) r e]^( d[) r d]  |  a4 r8 <a a,>4^^ r8  |  r2.
+\repeat volta 2
+{
+	d8[ r <fs a>] a,[ r <fs' a>]  |  <d d,>[ r <fs a>] fs,[ r <fs' a>]  |  a,4_( b8 cs[ b a])
+
+	\break
+
+	d[ r <fs a>] a,[ r <fs' a>]  | }

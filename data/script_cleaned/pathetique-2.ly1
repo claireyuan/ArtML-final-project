@@ -1,0 +1,26 @@
+Global = { \key as \major \time 2/4 }
+RH = \relative c' {\nobreak			%1
+  es4. <des-4>8)  | \nobreak
+  <c-3>[( <es-4> as  bes)]  | \nobreak
+  es,4.-3( <e-4>8  | 
+  f4) <bes,^2^4>8.( \lengthenstems <c-5>32  <des!-4>) \revertstemlenghts  | 	%5
+ es!4( <a,^4>  | 
+  des) c16^.^5( bes^. as!^.  g)^.  | 
+ <bes g>4-3-5(  as8-4) \clef treble s  | 
+ \fingerup c'4( <bes-4>  | }
+LH = {{		%1
+ as es as es bes'-3 es, bes'-2 es,  | 
+ as es bes' es, c' as d as  | 
+ g bes g bes g bes g bes  | 
+ g bes_2 g bes_3 g es g es  | 		%5
+ as es as es es_2 c es c  | 
+ f des f des des des des des  | 
+ des( es des  es)
+
+  \hidetupletbracket
+  \unhidetupletnumber
+ \times 2/3 { c[^. es^. as^.] }
+ \times 2/3 { \stemneutral \hidetupletnumber
+ c^\markup{\finger 1}[-. es-. as-.] \stemdown }
+ c,16 es c es bes es bes es  | 		%9
+ es as es as es bes'-2 es, bes'  | }

@@ -1,0 +1,35 @@
+Global = { \key bes \major \time 4/4 }
+RH = \relative g' {
+%44
+f8 e e4 r8 e8( f g)  | 
+%45
+f( e) es4 c'8 a f es  | 
+%46
+es4.( f16 es) d4 r  | 
+%47
+d2 r8 a' g16 fis e d  | 
+%48
+d4.( e16 d) cis4 r  | 
+%49
+d8( cis) c4 a'8( fis d c)  | 
+%50
+c4.( d16 c) bes4 d  | 
+%51
+es16( d es f) g8 es cis( d) r d  | }
+LH = \relative g {
+%52
+<g es>4 r d8 f d f  | 
+%53
+r4 f a bes  | 
+%54
+f r <g bes>2 
+%55
+<f a> <g bes>  | 
+%56
+<f a>4 r r2  |  r1  | 
+%58
+bes8[ d bes d] bes d bes d  | 
+%59
+bes[ es bes es] bes es bes es  | 
+%60
+bes[ es bes es] bes es bes es  | }

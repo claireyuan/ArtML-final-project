@@ -1,0 +1,31 @@
+Global = { \key c \major \time 6/8 }
+RH = \relative c'' {
+	<g d b>^^[ r f] d[ c b]  | 
+	<c e>[ r e] e4 e8  | 
+	<a e c=''>^^\arpeggio r r c,=''4.(  | 
+	b4. a)  | 
+	
+	\break
+
+	<a' e c>8^^\arpeggio r r c,4.(  | 
+	b4. a)  | 
+	<a' e c>8\arpeggio r r <<{\stemdown e4.(  | 
+	d4. c  | }
+LH = {{
+	e^^[ r c] e[ r c]  | 
+	<c d> r r <b d g>4.  | 
+	c8[ g_. g_.] g_.[ g_. g_.]  | 
+\stemdown	g[ <g g'>^. <g g'>^.] <g g'>^.[ <g g'> <g g'>]
+\stemneutral
+	\break \nopagebreak
+
+	<a a'>4.^^ <b b'>^^  | 
+	<c c'>^^ <e e'>^^  | 
+	<g g'>2. ~
+	<g g'>4 e8^. e^.[ d^. c^.]  | 
+	b[ r g] b_.[ r g]
+
+	\break \nopagebreak
+
+	b4 f'8^. f^.[ e^. d]  | 
+	e^.[ r c^.] e^.[ r c^.]  | }

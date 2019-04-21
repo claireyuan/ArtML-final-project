@@ -1,0 +1,46 @@
+Global = { \key as \major \time 2/4 }
+RH = \relative c' {	%65
+ \stemNeutral
+ \slurNeutral
+ \tieNeutral
+ <as  c,>8 b\rest b\rest <es-2>16.(  e32)  | 
+ f8~_\< \times 2/3 {  f16[(  es!) des-.(]  c[-._\! bes-.^3_\>  as)-.] }  g32[( des' bes  g)]_\!  | 
+  %\allowScriptUnderSlur
+  as16.-2([^\markup \tiny  \override #'(baseline-skip . 1) {
+    \halign #-2  \center-column { 
+    	 \finger "3213"
+	 \musicglyph #"scripts.turn"}}
+  c32^5]  es,8^1) r <es'' es,>16.-4( <e e,>32)  | 
+ <f f,>8~ \times 2/3 { <f f,>16[( <es! es,!>-4) <des des,>-4-.(]
+   <c c,>[-. <bes bes,>-4-. <as as,>-4)-.] <g g,-5>[( <des'-4 des,> <g,-5 g,>)] }  | 	%69
+   <as as,>8-4 b,\rest \grace{ \override Stem  #'stroke-style = #"grace" {\stemUp es8^3_(_\markup{\dynamic rf} \stemNeutral}
+   \revert Stem #'stroke-style }
+   \unhideTupletNumber
+   \times 2/3 {des16)[( c  des)]} \times 2/3{ f[(  es) des-.] } \hideTupletNumber | 
+ c8 b\rest \stemUp \grace {
+\override Stem   #'stroke-style = #"grace"
+   c8^4( 
+  \revert Stem #'stroke-style }
+ \times 2/3 {
+     bes16)[_\markup{ \dynamic rf}( a  bes)]  des[(  c) bes_.] }  | 
+ s4 \clef bass \grace {
+\override Stem   #'stroke-style = #"grace"
+   c,8^4( 
+  \revert Stem #'stroke-style }
+ \times 2/3 {
+     bes16)[_\markup{\dynamic rf}( a  bes)]  des[(  c) bes_.] }  | 
+ \stemDown
+ as!16 \pp d,\rest <as'^4 es c> d,\rest \fingerLeft <as'-5 c, as>4^\markup{" "}^\fermata \bar " | }
+LH = \relative c {
+    as[(  es) es]  as[(  es) es]  g[(  es) es]  g[(  es) es]  | 
+    as[(  es) es]  g[(  es) es]  f[(  as,) as]  f'[(  <as,_3>) <as_2>]  | %61 (1)
+  }
+ } \\ {
+  \fingerDown
+  as4( <des-3>  | 
+  <c-4> g)  | 
+   as8[( g  f) f]  | 		% 61 (2)
+ } >>
+ \times 2/3 {  es16[-. <g-4>-. bes-.]  <es^1>[-. <g^4>-. bes-.] } <es^1>4  | 
+ \times 2/3 {  <des,,-5>16[-. <g-3>-. bes-.]  <des^1>[-. <g^3>-. bes-.] } des4^\markup{\finger "1-2"}  | 
+ <c^1>( \allowScriptUnderSlur f,^\markup{\finger "3-1"}  | }

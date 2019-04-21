@@ -1,0 +1,29 @@
+Global = { \key as \major \time 2/4 }
+RH = \relative c' {	%33
+ es!4( \fingerup <a,-2-4>  | 
+  des)  <c-5>16^.( bes^. as!^.  g)^.  | 
+ <bes-5 g-3>4(  as8-4)\nobeam \clef treble <es'-2>  | 
+ \lengthenstems <as-4>[( ces \allowscriptunderslur bes^\markup{\vspace #1 \finger "4-5"}  <as-4>)] \revertstemlenghts  | 	%37
+ <g-3>(  des') r4  | 
+  \lengthenstems as8[( ces \allowscriptunderslur bes^\markup{\vspace #1 \finger "4-5"}  <as-4>)] \revertstemlenghts  | 
+   as-5(  g-4) d'4\rest  | 
+   \lengthenstems <as-4>8[( ces \allowscriptunderslur bes^\markup{\vspace #1 \finger "4-5"}  <as-4>)] \revertstemlenghts | }
+LH = {{		%41
+ }
+ s2*3  | 
+ \times 2/3 {
+  <b  gis>16[\pp <b gis> <b gis>] <b gis>[ <b gis> <b gis>]
+    <b gis>[ <b gis> <b gis>] <b gis>[ <b gis> <b gis>]  |  \nobreak	%45
+  <b a>[ <b a> <b a>] <b a>[ <b a> <b a>]
+    <b a>[ <b a> <b a>] <b a>[ <b a> <b a>]  | 
+  <b gis>[ <b gis> <b gis>] <b gis>[ <b gis> <b gis>]
+    <b gis>[ <b gis> <b gis>] <b gis>[ <b gis> <b gis>]  |  \nobreak
+  <ces as! d,>[ <ces as d,> <ces as d,>] <ces as d,>[ <ces as d,> <ces as d,>]
+    <ces as d,>[ <ces as d,> <ces as d,>] <ces as d,>[ <ces as d,> <ces as d,>]  |  \nobreak
+  <ces as d,>[ <ces as d,> <ces as d,>] <ces as d,>[ <ces as d,> <ces as d,>]
+    <ces as d,>[ <ces as d,> <ces as d,>] <ces as d,>[ <ces as d,> <ces as d,>]  | 	%49
+  
+  <bes! as des,!>[_\markup{\vspace #.8 \italic "cresc."} <bes as des,> <bes as des,>]
+    <bes as des,>[ <bes as des,> <bes as des,>]
+    <bes g des>[ <bes g des> <bes g des>] <bes g es des>[ <bes g es des> <bes g es des>]  | 
+   c,![(\p  <es-2>)_. <es-1>_.]  <as-3>[(  <es-2>)_. <es-1>_.]  g[(  es)_. es_.]  g[(  es)_. es_.]  | }

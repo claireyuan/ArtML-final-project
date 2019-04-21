@@ -1,0 +1,22 @@
+Global = { \key c \minor \time 2/2 }
+RH = \relative c' {
+ es as g f  | 				%85
+ es d f  es)  | 
+ << {
+  s1*2  | 
+  as2 des4 c  | 				%89 (1)
+  bes as g es  | 
+  \stemneutral
+  r <c'' c,>2( f,4 ~  | 
+  f <bes bes,>2  es,4) ~  | 
+  \stemup
+  es( as g f  | }
+LH = \relative c {
+ <es c> <as f>( bes, c  | 		%89
+ des d  es) r  | 
+ <c' as>2( <f des>  | 
+ <bes, g> <es c>)  | 
+ f,( g4 as  | 				%93
+ a bes  es,) es'(  | 
+ d! es ges a,  | 
+  bes)-. r r <des es,>(  | }

@@ -1,0 +1,42 @@
+Global = { \key ef \major \time 6/8 }
+RH = \relative c'' { c4.^( af'  | 
+	g c,)  |  f4.~ f4 g8  |  af4^( g8 af4 f8  |  ef4.) c  |  bf2.\(
+}
+\alternative
+{
+	{
+		af4\) ef8_( f4 ff8)  | 
+\break
+	}
+	{
+		af4 c8^( ef4 af8)  | 
+	}
+}
+
+\repeat volta 2
+{
+	\acciaccatura fs8 g4^> r8 c,4 r8  | }
+LH = \relative c {
+	ef8[ r <g bf>] <g bf df>[ r <g bf df>]  |  af,[ r <af' c ef>] <af c ef>[ r <af c ef>]  | 
+	af^>[ r <c ef>] f,^>[ r <af c f>]  | 
+
+	\break
+
+	c,[ r <g' c e>] <g c e>[ r <g c e>]  |  df[ r <bf' df f>] <bf df f>[ r <bf df f>]  | 
+	d,[ r <af' b f'>] <af b f'>[ r <af b f'>]  |  ef[ r <af c ef>] <af c ef>[ r <af c ef>]  | 
+	ef[ r <g df' ef>] ef[ r <g df' ef>]
+}
+\alternative
+{
+	{
+		<af c ef>4 r8 r4 r8
+	\break
+	}
+	{
+		<af c ef>4 r8 r4 r8
+	}
+}
+\repeat volta 2
+{
+	\clef treble
+	\acciaccatura fs' g4^> r8 c,4 r8  | }

@@ -1,0 +1,25 @@
+Global = { \key d \major \time 6/8 }
+RH = \relative c'' { <fs a,>8[ d cs] d[ e fs]  |  g^^ r r <b g b,>4.^^  | 
+	b8-.[ a-. g-.] bf-.[ a-. g-.]  |  fs[ e d] e[ r e]  |  d4 r8 d4^( c8)
+
+\pagebreak
+
+% begin page 3
+
+	\key g \major
+	b4.( d  |  b') \acciaccatura as8 b4.^^  |  \acciaccatura as8 b8^^ r r <b d, b>4.~  |  <b d, b> a4 g8  | }
+LH = \relative c { <e e,> <d d,>)
+
+	\break
+
+	<d d,>8[ r <fs a>] a,[ r < fs' a>]  |  d[ r <fs a>] << \stemup {c8[ r <fs a>]} \\
+		\stemdown { c4.} >>  |  b8[ r <g' b>] g,[ r <g' b>]  | 
+	g[ r <b e>] e,[ r <g bf e>]  |  a,[ r <fs' a d>] a,[ r <g' a>]  |  <d fs a>4 r8 r4 r8
+
+\pagebreak
+
+% begin page 3 (lower)
+
+\key g \major
+
+	g8[ r <b d>] d,[ r <b' d>]  |  g[ r <b d>] d,[ r <b' d>]  |  g[ r <b d>] d,[ r <b' d>]  | }

@@ -1,0 +1,45 @@
+Global = { \key f \major \time 2/2 }
+RH = \relative c' { <c c,>-. <b b,>-. <c c,>-. <d d,>-.
+
+	\break
+
+	<g, g,>2.^> <a a,>4-.  |  <bf bf,>-. <c c,>-. <d d,>-. <e e,>-.
+}
+\alternative
+{
+	{
+		<f f,>1~  |  <f f,>4. <e e,>8 <d d,>4. <c c,>8
+	}
+	{
+		<f f,>1~  |  <f f,>4 d,,_( ef e)
+	}
+}
+
+\break
+
+\key bf \major
+\repeat volta 2
+{
+	f2 g4._( a8)  |  bf2 d  |  <f ef a,>1^>^(~  |  <f ef a,>4 ef b4. c8)  |  <d f,>1^>^(~  | }
+LH = \relative c { <f f,> <a c f> c, <a' c f>  |  <f f,> <a c f> c, <a' c f>
+
+	\break
+
+	<e e,> <bf' c e> c, <bf' c e>  |  <e, e,> <bf' c e> c, <bf' c e>
+}
+\alternative
+{
+	{
+		f4 <f a c f> <f a c f> <f a c f>  |  <f a c f> r r2
+	}
+	{
+		f4 <f a c f> <f a c f> <f a c f>  |  <f a c f> r r2
+	}
+}
+
+\break
+
+\key bf \major
+\repeat volta 2
+{
+	bf,4 <f'bf d> f, <f' bf d>  |  bf, <f' bf d> f, <f' bf d>  |  c <f a ef'> f, <f' a ef'>  |  c <f a ef'> f, <f' a ef'>  | }

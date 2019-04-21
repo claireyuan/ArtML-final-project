@@ -1,0 +1,79 @@
+Global = { \key g \minor \time 21/16 }
+RH = \relative g'' {
+
+	r8 <es'' g>16 g, es <a es'> es
+	<c' g'> a g es es' <c ges'> ges
+	r8 <d' f>16 as d, <e b> b  | 
+
+	<c' f> f, a! b, g c fis,
+	g' es <es a?> <fis,? a> es <a es'> es r4..  | 
+
+	r8 <g g'>8. <a a'>16 <f f'>
+	<es es'> <g g,>8 <c! c,!> <es es,>
+	% todo: tie
+	<f a, es>16 <c f,~ c> <c f,~ c>8 <b f b,> <c f, c>16  | 
+
+	r8 \ottava #1 <g' d' g>8. <a a'>16 <f d' f>
+	<e b' e> \ottava #0 <g d g,>8 <c g c,> <e c e,>
+	<f des f,>16 <des f, des> q8 <c c,> <des des,>16  | 
+
+	<f des f,> <des f, des> q8 <c c,> <des des,>16
+	<g f des g,> <des g, des> q <c g c,>8 <des g, des>
+	\tuplet 3/2 { <des f as as,>16 <des f, des>
+	\set stemrightbeamcount = #1 q } q <c f, c>8 <des des,>  | 
+
+	\set timing.beatstructure = #'(5 5 5 1 1 1 1 1 1)
+	c16\rest \ottava #1 <a! des a'!>^[ <a des des,>~ \tuplet 3/2 { q <a des a'> q] }
+	\ottava #0 c\rest \ottava #1 <b f' b>^[ <b des des,>~ \tuplet 3/2 { q <b f' b> q] }
+	\ottava #0 c\rest \ottava #1 <h f' h>^[ <h des des,>~ \tuplet 3/2 { q <h f' h> q] }
+
+	\set score.subdividebeams = ##t
+	\tupletspan 16
+	\times 2/3 {
+		r32 <des! f as! des!>[ <c f as c>
+		<b des f b> <as des f as> <f as des f>
+		<des f as des> <c f as c> <b'! des! f b>
+		<as! des f as!> <f as des f> <f as c>\>
+	}
+
+	<g h f' g>64 <a~ h~ e> <a h d> des
+	<h a f h,> <g h,~ as> <f h,> \clef bass <d! as d,!>]\!  | 
+
+	\ottava #0 \clef treble \set timing.beatstructure = #'(2 5 7 7)
+	\voiceone
+	<g e d g,>\> <d g, e> des c <f, c> e c32 \set score.subdividebeams = ##f
+	<g e' g>8.\mf^\markup\italic{sostenuto} <a! a'!>16 <f f'> \clef bass
+	<c' es> g8 c es_\markup\italic{dim.} f16 c c8 b c16  | 
+
+	\onevoice
+	r8 \clef treble <c c'>16 f g es es' <g c, g> q8 <c, g c,>4~q4..~  | }
+LH = \relative b {
+
+	% splicing into two systems; avoid spurious clef change
+	\set staff.explicitclefvisibility = #end-of-line-invisible \clef treble
+
+	\onevoice
+	r8 g8.^\mp a16 f es g,8 c es f16 c c8 b c16  | 
+
+	% no surprises at next clef change
+	\unset staff.explicitclefvisibility
+
+	r8 c'16--_\p f,-- g-- es!-- es'-- <c g g'>-- q8-- <c c,>4-- <d h d,>16 q4.  | 
+
+	<f! cis f,>16^\mp <cis b! cis,> <es es,>4 <d d,>16~
+	q <b b,>4 <a a,>8^\markup\whiteout\pad-markup #0.5 \italic{poco a poco crescendo et agitato}
+	r \ottava #1 <es'' g>16 c! g <d' f> a \ottava #0  | 
+
+	<f d b f> <d b d,> <e b e,>4 <d~ a d,~>16
+	<d d,> <b e, b>4 <a c, a>8
+	r16 <as des,> as, \clef bass des, <as as'> <as des> des,  | 
+
+	<b! b'!> \clef treble <d'' b'> as \clef bass <des,> <as as'> <d as> d,
+	<es! es,!> \clef treble <d'' g> g, \clef bass <b es, b> es,,~ <es b'> b
+	<des des,> as' <f' as f'> as' des, <as des,> as,  | 
+
+	\voicetwo
+	<a! a,!>16 s4 <as as,>16 s4 <g g,>8 s8. s16*6  | 
+	\change staff = "rh"
+	s64*4 as'32~ as s8. es'8 \clef bass <es, fis>16 c4 <es g>8 f4. <a! f>16  | 
+	s16*21  | }

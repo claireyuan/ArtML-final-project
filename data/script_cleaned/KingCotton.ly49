@@ -1,0 +1,39 @@
+Global = { \key ef \major \time 6/8 }
+RH = \relative c'' { #(set-octavation 1) <c' ef>-.[ <c d>-. c-.] <c ef> r r  | 
+	<c ef>-.[ <c d>-. c-.] <c ef> #(set-octavation 0) r r  | 
+	\clef bass
+	\acciaccatura fs,,, g4 r8 c,4 r8
+
+	\break
+
+	\clef treble
+	\acciaccatura a''' bf4^> r8 ef,4 r8  |  #(set-octavation 1) <ef' gf>-.[ <ef f>-. ef-.] <ef gf>^> r r  | 
+	<ef gf>-.[ <ef f>-. ef-.] <ef gf>^> #(set-octavation 0) r r  | 
+	\clef bass
+	\acciaccatura a,,, bf4^> r8 ef,4 r8  | 
+	\clef treble
+	<cf'' ef gf cf>4.~ <cf ef gf cf>4 <df ff gf bf>8
+
+\pagebreak
+
+% begin page 4
+
+	<cf ef gf cf>4 <df ff gf bf>8 <cf ef gf cf> r r  | 
+	<cf ef gf cf>4.^>~ <cf ef gf cf>4 <df ff gf bf>8  | }
+LH = \relative c { af''[ af af] <g c,> r r af[ af af] <g c,> r r
+	\clef bass
+	\acciaccatura fs,,, g4 r8 c,4 r8
+
+	\break
+
+	\clef treble
+	\acciaccatura a''' bf4^> r8 ef,4 r8  |  cf''-.[ cf-. cf-.] <bf ef,>^> r r  |  cf-.[ cf-. cf-.] <bf ef,>^> r r
+	\clef bass
+	\acciaccatura a,,, bf4^> r8 ef,4 r8  |  <cf' cf'>4.^>~ <cf cf'>4 <gf gf'>8
+
+\pagebreak
+
+% begin page 4
+
+	<cf cf'>4 <gf gf'>8 <cf cf'> r r  |  <cf cf'>4.~ <cf cf'>4 <gf gf'>8  |  <cf cf'>4 <gf gf'>8 <cf cf'> r r  | 
+	<cf cf'>4 <gf gf'>8 <cf cf'>4 <ef ef,>8  |  <af af,>4. <ff ff,>  | }

@@ -1,0 +1,19 @@
+Global = { \key c \minor \time 2/2 }
+RH = \relative c' {
+ <c es, c> r r2  | 			%17
+ <e,,  c g>1\fp  | 
+ f8( c' as f' c as' f  c')  | 
+ bes( g e c bes b c  g)  | 
+ bes!2(  as4) r  | 			%21
+ <d,  bes f>1\fp  | 
+ es8( bes' g es' bes g' es  bes')  | 
+ as( g f es d c bes  as)  | }
+LH = \relative c {
+ <c, c,> r r2  | 				%17
+ <bes bes,>1  | 
+ <as as,>4 r r2  | 
+ r4 <c' e,> <c e,> <c e,>  | 
+ <c f,>2. r4  | 				%21
+ <as, as,>1  | 
+ <g g,>4 r r2  | 
+ r4 <bes' d,>-. <bes d,>-. <bes d,>-.  | }

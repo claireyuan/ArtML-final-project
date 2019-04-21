@@ -1,0 +1,37 @@
+Global = { \key c \major \time 3/4 }
+RH = \relative g' {
+%33
+r16 g' fis g b[ g b g] b g b g  | 
+%34
+r e dis e g[ e g e] g e g e  | 
+%35
+d4 a8[ b c d]  | 
+%36
+<a c>2 <g b>4  | 
+%37
+r16 g'[ fis g] b[ g b g] b[ g b g]  | 
+%38
+e8[ g fis e d c]  | 
+%39
+b2 b16[ a g a]  | 
+%40 original mark below was "rf"
+g4 << {\stemdown d'2\rfz} \\ {\stemup f2} >> | }
+LH = \relative g, {
+%35
+d,8[ fis d fis d fis]  | 
+%36
+e[ g e g e g]
+%37
+b,4 r r  | 
+%38
+c4 r r  | 
+%39
+d d' <c d,>  | 
+%40
+<b g> b8 d b g  | 
+%41
+c4 d d  | 
+%42
+g, b8 d b g  | 
+%43
+c4 d d  | }

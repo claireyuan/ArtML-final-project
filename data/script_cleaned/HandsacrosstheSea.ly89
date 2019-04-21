@@ -1,0 +1,15 @@
+Global = { \key f \major \time 2/2 }
+RH = \relative c'' { <d f d'> r r2  |  r1  |  <ef ef'>2.-^ <d d'>4  |  <c c'>2.-^ <d d'>4  |  <ef ef'>2. <d d'>4  | 
+	<c c'>-^ <d d'>-^ <ef ef'>-^ <f f'>-^
+
+	\break
+
+	<gf gf'>-^ <ef ef'>-^ r2  |  gf8-.-^[ f-.] ef4-. <c c'> <bf bf'>  |  <a a'> <f f'>-^ <g g'>-^ <a a'>-^  | }
+LH = \relative c {
+	<bf bf,> <f' bf d> f, <f' bf d>  |  bf, <f' bf d> f, <f' bf d>  |  bf, <f' bf d> f, <f' bf d>  | 
+	bf, <f' bf d> f, <f' bf d>
+
+	\break
+
+	a, <f' c' ef> f, <f' c' ef>  |  a, <f' c' ef> f, <f' c' ef>  |  a, <f' c' ef> f, <f' c' ef>  | 
+	a, <f' c' ef> f, <f' c' ef>  |  bf, <f' bf d> bf, <f' bf d>  | }

@@ -1,0 +1,25 @@
+Global = { \key f \major \time 6/8 }
+RH = \relative c' { <gf ef bf gf>^^  |  <f ef a, f>4. <ef ef,>4.^^
+	\bar " |  | "
+	<< \stemup {<d d,>4.^^ <ef ef,>^^
+		\break
+
+		<e e,>^^ <f f,>^^} \\
+	 \stemdown {\set fontsize=#-4 g,4\rest \set fontsize=#0 <f bf>8 \set fontsize=#-4 b4\rest \set fontsize=#0 <f bf>8
+		\break
+
+		\set fontsize=#-4 b4\rest \set fontsize=#0 <g bf>8 \set fontsize=#-4 b4\rest \set fontsize=#0 <f bf>8} >>  | 
+	<f' bf d>8^^[ r <f bf d>] <f bf d>[ r <e bf' cs>]  |  <f bf d>4.~ <f bf d>4 <f f,>8  | 
+	<< \stemup {<d d,>4.^^ <ef ef,>^^  |  <e e,>^^ <f f,>^^} \\
+	 \stemdown {\set fontsize=#-4 g,4\rest \set fontsize=#0 <f bf>8 \set fontsize=#-4 b4\rest \set fontsize=#0 <f bf>8  | }
+LH = \relative c { f,[ r <f' a>] f,[ r <f' gs>]  | 
+	f,4 <f f'>8_( <e e'>4 <f f'>8)  |  bf[ r <f' bf>] bf,[ r <bf' cs>]
+
+	\break
+
+	bf,4 <f f'>8_( <e e'>4 <f f'>8)  |  c'8[ r <f a c>] c[ r <f a c>]  |  c[ r <e bf' c>] c[ r <e bf' c>]  | 
+	f,4^( f'8) f,4^( f'8)  |  f,4^( f'8) f,4^( f'8)
+
+	\break
+
+	bf,8^^[ r <d bf'>] c^^[ r <ef bf'>]  |  cs^^[ r <e bf'>] d^^[ r <f bf>]  | }

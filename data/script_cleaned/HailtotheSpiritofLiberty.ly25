@@ -1,0 +1,44 @@
+Global = { \key f \major \time 2/2 }
+RH = \relative c' { <a a,>2 a,
+
+	\break
+
+	g4-^ r f-^ r  |  d-^ r d4.^( f8)  |  d-.[ e-. f-. e-.] d4-. f-.  |  d r d4.^( f8  |  a4) r c4.^( c,8)
+
+	\break
+
+	\acciaccatura c8 a'4 r \acciaccatura bf,8 g'4 r
+}
+\alternative
+{
+	{
+		<< \stemup {f1 ~  |  f4 \stemdown f8[^( g] a[ bf c d])} \\
+		 \stemdown {g,,4\rest <f a c> <f a c> <f a c>  |  <f a c> s2.} >>
+	}
+
+	{
+		<< \stemup {f'1 ~  |  f4} \\
+		 \stemdown {g,4\rest <f a c> <f a c> <f a c>  | }
+LH = \relative c, { d <f a d> <f a d> <f a d>  | 
+	bf, <f' bf d> <f bf d> <f bf d>  |  c <f a c> <f a c> <f a c>
+
+	\break
+
+	e <bf' c> c, <bf' c>
+}
+\alternative
+{
+	{
+		<f f,>4 <e e,> <d d,> <c c,>  |  f, r r2
+	}
+
+	{
+		<f' f,>4 <e e,> <d d,> <c c,>  |  <f f,> r r2
+	}
+}
+\pagebreak
+
+	%begin page 3 (lower)
+\key bf \major
+	bf,4 <f' bf d> <f bf d> <f bf d>  |  bf, <f' bf d> f <a c ef>  |  bf, <f' bf d> <f bf d> <f bf d>  | 
+	bf, <f' bf d> <f bf d> <f bf d>  | }

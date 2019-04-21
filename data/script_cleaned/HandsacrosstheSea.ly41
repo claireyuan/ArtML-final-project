@@ -1,0 +1,23 @@
+Global = { \key f \major \time 2/2 }
+RH = \relative c'' { \stemneutral
+	#(set-octavation 0)
+	bf4 <f f'> <f bf>-^ <f b>-^  |  <f a c>4.-^ <f f'>8 <c c'>4 <d d'>  |  <bf bf'>4.-^ <a a'>8 <bf bf'>4 <g g'>  | 
+	<< \stemup {f'1~  |  f4} \\
+	 \stemdown {<c a f>4 <c a f> <c a f> <c a f>  |  <c a f>} >> r4 f,2
+	\bar " |  | "
+
+\pagebreak
+% begin page 3
+
+\key bf \major
+	bf4.^( c8 d4. c8  | }
+LH = \relative c { bf <d f bf> <d d,>^^ <df df,>^^  | 
+	<c c,> <f a> a, <f' a>  |  g, <e' bf' c> c <e bf' c>  |  <f a c> r8 <e e,> <d d,>4 <c c,>  |  <f f,> r f2
+	\bar " |  | "
+
+\pagebreak
+
+% begin page 3 (lower)
+
+\key bf \major
+	bf,4 <f' bf d> f, <f' bf d>  |  bf, <f' bf d> f, <f' bf d>  | }

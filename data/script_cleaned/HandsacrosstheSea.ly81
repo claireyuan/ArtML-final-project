@@ -1,0 +1,24 @@
+Global = { \key f \major \time 2/2 }
+RH = \relative c'' { <f d>} >> r4 r2
+
+	\bar " |  | "
+\pagebreak
+
+% begin page 4
+
+\repeat volta 2
+{
+	r2 \repeat "tremolo" 4 { <f' af>16^( d16) }  | 
+	\repeat "tremolo" 4 { <ef g>16\( c } \repeat "tremolo" 4 { <ef g>16 c\) }  | 
+	<c ef g>4 r r <b f' g>-.-^  |  <c ef c'>-.-^ r r2  |  r2 \repeat "tremolo" 4 { <g' bf>16^( e) }  | 
+	\repeat "tremolo" 4 { <f a>16\( d) } \repeat "tremolo" 4 { <f a>16 d\) }
+
+	\break
+
+	<d f a>4 r r <cs g' a>-^  | }
+LH = \relative c { <d d,> r8 <a a'> <f f'>4^^ <e e'>^^  |  <ef? ef'?>2.^^ <d d'>4  | 
+	<c c'>2.^^ <d d'>4  |  <ef ef'>2. <d d'>4  |  <c c'>2. <d d'>4  |  <ef ef'>^^ <d d'>^^ <ef ef'>^^ <f f'>^^
+
+	\break
+
+	<gf gf'>^^ <ef ef'>^^ r2  |  <gf gf'>8-.-^[ <f f'>-.] <ef ef'>4-. <c c'> <bf bf'>  |  <a a'> f'^^ g^^ a^^  | }

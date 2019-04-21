@@ -1,0 +1,24 @@
+Global = { \key f \major \time 6/8 }
+RH = \relative c' { <f bf d>4.~ <f bf d>4 #(set-octavation 0) f,8  | 
+	<d bf' d>4.^( <ef bf' ef>  |  <e bf' e> <f bf f'>)  |  #(set-octavation 1)
+
+	\break
+
+	<f' c' ef>8[ r <f c' ef>] <f c' ef>[ r <f b d>]  |  <f c' ef>4.~ <f c' ef>4 #(set-octavation 0) d8  | 
+	<< \stemup {c4.^>^( b  |  <f a c c,>4)} \\
+	 \stemdown {d4\rest <ef a>8 d4\rest <d gs>8  |  s4} >> f8_( e4 f8)  | }
+LH = \relative c { f,[ r <f' a c>] <f a c>[ r <f a c>]  |  bf,[ r <f' bf>] bf,[ r <bf' cs>]
+
+	\break
+
+	bf,[ r <f' bf d>] <f bf d>[ r <f bf d>]  |  ef[ r <g bf ef>] c,[ r <g' bf ef>]  | 
+	f[ r <g bf d>] f,[ r <f' a ef'>]  |  bf,[ r <f' bf>] <f bf>[ r <f bf>]  | 
+	<bf bf,>4 <bf bf,>8-. <bf bf,>-.[ <a a,>-. <g g,>-.]
+
+\pagebreak
+
+% begin page 3 (lower)
+
+\repeat volta 2
+{
+	<fs fs,>2.(  |  <g g,>4) <bf bf,>8-. <bf bf,>-.[ <a a,>-. <g g,>-.]  |  <fs fs,>2.(  | }

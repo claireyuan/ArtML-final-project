@@ -1,0 +1,19 @@
+Global = { \key c \minor \time 2/2 }
+RH = \relative c' {
+ \times 2/3 {  es8[ g f]  es[ d c]  b[ c bes]  as[ g f] }  | 		%53
+ es4 r \times 2/3 { r8  bes[ c]  d[ c bes] }  | 
+ es4 r \times 2/3 { r8  bes[ c]  d[ c bes] }  | 
+ es4 r \times 2/3 { r8  b[ c_ \markup{\italic "cresc."}]  d[ c b] }  | 
+ \times 2/3 {  f'8[ es d]  as'[ g f]  d'[ c b]  f'[ es d] }  | 	%57
+ f'2. \ff \times 2/3 {  es8[ d c] }  | 
+ \times 2/3 {  b8[ as g]  f[ es d]  c[ b as] } \times 4/5 {  g16[ f es d c] }  | 
+ b1 \sf ~  | }
+LH = \relative c {
+ as1  | 						%57
+ <g g,> ~  | 
+ <g g,>  | 
+ <f' d g,> ~  | 
+ <f d g,>2^\fermata r  | 			%61
+ c8 es g c c, f g b  | 
+ c, es g c es g es d  | 
+ c g' <es c> g <d b> g <c, as> g'  | }

@@ -1,0 +1,14 @@
+Global = { \key d \major \time 6/8 }
+RH = \relative c'' {
+	<d d'>4 <d d'>8 <d d'>4 <d d'>8  |  <d d'> r r <d d'>4.^^~  |  <d d'>4 <d d'>8 <d d'>4 <d d'>8  | 
+	<d d'>4^^ r8 <d d'>4^^ r8 <d d'>4^^ r8 <d d'>4^^( <c c'>8 \bar " |  | "
+
+	\break
+
+	<b b'>4.( <d d'>)  |  \ottava #1 <b' b'> \acciaccatura <as as'>8 <b b'>4.  | 
+	\acciaccatura <as as'>8 <b b'>8 r r <b b'>4.~  | }
+LH = \relative c { <g' g'>^^ <ef ef'>^^  |  <d d'>8^^ r r <d d'>4.~  | 
+	<d d'>4 <d d'>8 <d d'>4 <d d'>8  |  <d d'>8 r r <d d'>4.^^~  |  <d d'>4 <d d'>8 <d d'>4 <d d'>8  | 
+	<d d'>4^^ r8 <d d'>4^^ r8  |  <d d'>4^^ r8 <d d'>4^^ r8
+
+	\bar " |  | }

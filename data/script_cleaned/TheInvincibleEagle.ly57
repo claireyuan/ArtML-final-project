@@ -1,0 +1,23 @@
+Global = { \key d \major \time 6/8 }
+RH = \relative c'' { <a a,>4. <e e,>
+
+	\break
+
+	<a a,>2.~  |  <a a,>4. d,4^( c8)  |  b4.( d  |  b') \acciaccatura as8 b4.  |  \acciaccatura as8 b8^^ r r <b d, b>4.~  | 
+	<b d, b> a4^( g8  |  fs4. e)
+
+	\break
+
+	f4^^( e8) f4^^( e8)  |  <c a' c>2.^^~  | }
+LH = \relative c { e,[ r <g b e>] e[ r <g b e>]  |  c,[ r <a' c e>] cs,[ r <a' cs e>]
+
+	\break
+
+	d,[ r <fs a d>] a,[ r <fs' a d>]  |  fs,[ r <fs' a d>] \stemup <d d,>[ r <fs a d>]  | 
+	\stemneutral g[ r <b d>] d,[ r <b' d>]  |  g[ r <b d>] d,[ r <b' d>]  |  g[ r <b d>] d,[ r <b' d>]  | 
+	g[ r <b d>] d,[ r <b' d>]  | 
+	<< \stemup { gs[ c\rest <d e>] b[ c\rest <d e>]
+		\break
+
+		gs,[ c\rest <d e>] e,[ r <d' e>]} \\
+	 \stemdown { gs,4._( b \break gs e) } >>  | }

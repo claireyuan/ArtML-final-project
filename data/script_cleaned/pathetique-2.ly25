@@ -1,0 +1,29 @@
+Global = { \key as \major \time 2/4 }
+RH = \relative c' {			%25
+ es16-5(  d) d-5(  c) c-5(  ces) ces-5(  bes-3) | 
+ <bes g>2~^4^5  | 
+ <bes^5 g^4>  | 
+ <c as>4( <bes-3>  | 			%29
+ es4.  <des-4>8)  | 
+ <c-3>[( <es-4> as  bes)]  | 
+ \fingerup <es,-3>4.( <e-4>8  | 
+  f4) \lengthenstems <bes,^2^4>8.( <c-5>32  <des!-4>) \revertstemlenghts | }
+LH = {{		%33
+ as es as es es c es c  | 
+ f des f des des des des des  | 
+ des es des es c8 r  | 
+  \unhidetupletnumber
+ \times 2/3 { <es'  ces>16[\pp <es ces> <es ces>]} 
+ \times 2/3 {<es ces>[ <es ces> <es ces>]}
+ \times 2/3 {<es ces>[ <es ces> <es ces>]}
+ \times 2/3 { <es ces>[ <es ces> <es ces>]}  | 		%37
+  \hidetupletnumber
+  \times 2/3 {
+  <es des>[ <es des> <es des>] <es des>[ <es des> <es des>]
+    <es des>[ <es des> <es des>] <es des>[ <es des> <es des>]  | 
+  <es ces>[ <es ces> <es ces>] <es ces>[ <es ces> <es ces>]
+    <es ces>[ <es ces> <es ces>] <es ces>[ <es ces> <es ces>]  | 
+  <es bes>[ <es bes> <es bes>] <es bes>[ <es bes> <es bes>]
+    <es bes g>[ <es bes g> <es bes g>] <es bes g>[ <es bes g> <es bes g>]  | 
+  <es ces>[ <es ces> <es ces>] <es ces>[_\markup{\vspace #.5 \italic "cresc."} <es ces> <es ces>]
+    <es ces>[ <es ces> <es ces>] <es ces>[ <es ces> <es ces>]  | }

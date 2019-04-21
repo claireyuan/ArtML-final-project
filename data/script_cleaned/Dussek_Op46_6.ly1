@@ -1,0 +1,33 @@
+Global = { \key g \major \time 4/4 }
+RH = \relative g' {
+%2
+<b d g>4 <b g> <a c> <b d>  | 
+%3
+<b d>2. <a c>4  | 
+%4
+<g b> g'8 fis a g fis e  | 
+%5
+<d b>2. <a c>4  | 
+%6
+<g b> r r8 d'16 e d8 d  | 
+%7
+d'4 b a g  | 
+%8
+<a d,>4 r r8 d,16 e d8 d  | 
+%9
+d'4 c b a  | }
+LH = \relative g' {
+%2
+<< {\stemdown g4} \\ {\stemup b8 a} >> b8 c d4  | 
+%3
+<c e>4 <c e> <c e>  | 
+%4
+<c e>2 <b d>4  | 
+%5
+<< {\stemdown a a a} \\ {\stemup c c8 d c4} >>  | 
+%6
+<< {\stemdown g g g} \\ {\stemup b b8 c b4} >>  | 
+%7
+a4 a8 g a b  | 
+%8
+g2 \bar ": | :" d'8 b  | }

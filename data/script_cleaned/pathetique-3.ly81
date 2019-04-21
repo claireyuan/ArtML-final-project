@@ -1,0 +1,19 @@
+Global = { \key c \minor \time 2/2 }
+RH = \relative c' {
+ c4-. d^\trill( \f \slashedgrace{c16[ d]} es4)-. <b' d, b>-.  | 	%77
+ <c es, c>-. r r2  | 
+ c,,2( \p f  | 
+ bes,  es)  | 
+ as,( des4 c  | 				%81
+ bes as  g) r  | 
+ r c'2 f,4 ~  | 
+ f bes2 es,4( ~  | }
+LH = \relative c {
+ f4( bes,2 c4  | 				%81
+ des d es  es,)  | 
+ as2( des  | 
+ g,  c)  | 
+ f,( g4 as  | 				%85
+ a bes  es,) r  | 
+ r <c'' as>2 <f, des>4 ~  | 
+ <f des> <bes g>2 <es, c>4 ~  | }

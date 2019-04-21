@@ -1,0 +1,23 @@
+Global = { \key f \major \time 2/2 }
+RH = \relative c' { <d d'>4 <g g,>8-.[ <fs fs,>-.] <g g,>-.[ <a a,>-. <bf bf,>-. <c c,>-.]
+
+	\break
+
+	<d d,>1~  |  <d d,>4 d,8-.[ d-.] d4-. d8-.[ d-.]  |  d4 d8[ d] d4 d8[ d]  | 
+	\repeat tremolo 4 {d,16[( d')]} \repeat tremolo 4 {d,16[( d')]}  |  <d d,>4 <d d,>-> <ef ef,>-> <e e,>->
+
+	\break
+
+	<f f,>2^\markup {\column {\bold "grandioso." " "}} <g g,>4.( <a a,>8)  |  <bf bf,>2 <d d,>  |  <f f,>1~  |  <f f,>4 <ef ef,> <b b,>4.( <c c,>8)  | }
+LH = \relative c {
+	<d d,>^> r r2
+
+	\break
+
+	r4 <g g,>8[ <fs fs,>] <g g,>4 <bf bf,>  |  <d, d,> r r2  |  r1  | 
+	\repeat tremolo 4 {d,16[( d')]} \repeat tremolo 4 {d,16[( d')]}  |  <d d,>4 r r2
+
+	\break
+
+	bf4 <f' bf d> <f f,> <f bf d>  |  bf, <f' bf d> <f f,> <f bf d>  |  c <f a ef'> <f f,> <f a ef'>  | 
+	c <f a ef' > <f f,> <f a ef'>  | }

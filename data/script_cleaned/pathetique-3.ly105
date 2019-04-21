@@ -1,0 +1,20 @@
+Global = { \key c \minor \time 2/2 }
+RH = \relative c' {
+ } >>
+ r2 r4 es'(  | 
+ c des f  g,)  | 
+ bes( as c d,!  | 				%97
+  es)-. bes''( es  des)  | 
+ c2( f  | 
+ bes,  es)  | 
+ as,_ \markup{\italic "cresc."} <des des,>4-. <c c,>-.  | 	%101
+ <bes bes,>-. <as as,>-. <g g,>-. des-.  | }
+LH = \relative c {
+ f, <f f,> ~  | 				%105
+ <f f,> <fis fis,>  | 
+ g,4-. r8 d'16( b  g4)-. r8 es'16( c  | 
+  g4)-. r8 f'16( d  g,4)-. r8 es'16( c  | 
+  g4)-. r8 d''16( b  g4)-. r8 es'16( c  | 	%109
+  g4)-. r8 f'16( d  g,4)-. r8 es'16( c  | 
+  g4)-. r8 d''16( b  g4)-. r8 es'16( c  | 
+  g4)-. r8 f'16( d  g,4)-. r8 es'16( c  | }

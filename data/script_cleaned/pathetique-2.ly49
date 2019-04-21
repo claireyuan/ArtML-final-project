@@ -1,0 +1,21 @@
+Global = { \key as \major \time 2/4 }
+RH = \relative c' {			%49
+ des!4. des8  | 
+ c!4( <bes-3>  | 
+ es4.  <des-4>8)  | 
+  <c-3>[( <es-4> as  bes)]  | 		%53
+ <es,-3>4.( <e-4>8  | 
+  \lengthenstems f4) <bes,-4>8.( <c-5>32  <des-4>) \revertstemlenghts | 
+ es4( <a,-4>  | 
+  des) \times 2/3 {  des16-5[(  c-4) bes-3-.]  bes-4[(  as!) g-.] }  | }
+LH = {{
+   es[(  as) as]  es[(  as) as]  es[(  <bes'-3>) <bes-2>]  es,[(  bes') bes]  | 
+   es,[(  as) as]  es[(  bes') bes]  as[(  c) c]  as[(  d) d]  | 			%61
+   g,[(  bes) bes]  g[(  bes) bes]  g[(  bes) bes]  g[(  bes) bes]  | 
+   g[(  bes) bes]  g[(  <bes^2>) <bes^3>]  g[(  es) es]  g[(  es) es]  | 
+   as[(  es) es]  as[(  es) es]  es[(  c) c]  es[(  c) c]  | 
+   f[(  des) des]  f[(  des) des]  g[(  des) des]  des[( des) des]  | 		%65
+ }
+ s2*5									%66 - %70
+ s4 g4(  | 
+  \stemneutral  as!8) b\rest \stemdown g,4  | }

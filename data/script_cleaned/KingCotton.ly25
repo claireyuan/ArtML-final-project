@@ -1,0 +1,42 @@
+Global = { \key ef \major \time 6/8 }
+RH = \relative c'' {
+
+	\break
+
+	<ef ef'>^>[ r <ef ef'>]^( <d d'>4^> <c c'>8  |  <bf bf'>^>)[ r <bf bf'>-.]^( <af af'>4^> <g g'>8  | 
+	<f f'>8)[ r <af af'>]^( <g g'>4 <f f'>8  |  <ef ef'>4 <d d'>8 <c c'>4 <bf bf'>8)  | 
+
+	\break
+
+	\stemup <ef ef'>8[ r ef'] \stemneutral <ef ef'>4^>^( <c c'>8)  |  <bf bf'>4^^^( <c c'>8) <af af'>4^^^( <f f'>8)  | 
+	<g g'>4^^^( <ef ef'>8) <f f'>4^^^( <d d'>8)  | 
+}
+\alternative
+{
+	{
+		<ef ef'>4 r8 <bf' d f bf>4^> r8
+	}
+	{
+		<ef, ef'>4 ef8_( f4 ff8)
+	}
+}
+
+\pagebreak
+
+% begin page 3
+
+\key af \major
+\repeat volta 2
+{
+	ef8[ r af] g[ r af]  | }
+LH = \relative c {
+	f[ r <a c ef>] f[ r <a c ef>]  |  bf-.[ c-. cs-.] d-.[ c-. bf-.]  | 
+
+	\break
+
+	<c c,>^>[ r <c c,>]^( <bf bf,>4^> <af af,>8  |  <g g,>_>)[ r <g g,>]_( <f f,>4_> <ef ef,>8  | 
+	<d d,>)[ r <af af'>]_( <g g'>4 <f f'>8  |  <ef ef'>4 <d d'>8 <c c'>4 <bf bf'>8)  | 
+
+	\break
+
+	g'[ r <g' bf>] <af c>[ r <af c>]  |  e,[ r <e' g>] <f af>[ r <f af>]  | }

@@ -1,0 +1,27 @@
+Global = { \key f \major \time 2/2 }
+RH = \relative c' { gf8[) f ef f] gf4 f-^  |  gf8[ f ef f] gf4 f-^  | 
+	r2 r4 r8 ef16[^( f]
+
+\pagebreak
+
+	%begin page 4
+
+	gf8[) f-. ef-. d-.] c2~  |  c4 bf^^ a4.^^ ef'16[^( f]  |  gf8[) f-. ef-. d-.] c2~  |  c4 bf^^ a4.^^ ef'16[^( f]  | 
+	gf8[) f-. ef-. d-.] c4 bf  |  a^> g^> f^> e^>
+
+	\break
+
+	ef^> d^> c^> bf^>  | }
+LH = \relative c, {
+	r2 r4 <f a c f>  |  c <f f,> <c c,> r
+
+	\pagebreak
+%begin page 4 (lower)
+
+
+	r2 r4 <bf bf,>^^  |  <a a,>^^ <g g,>^^ <f f,>^^ r  |  r2 r4 <bf bf,>^^  |  <a a,>^^ <g g,>^^ <f f,>4.^^ ef'16[^( f]  | 
+	gf8[) f ef d] c4 bf  |  a <g g'> <f f'> <e e'>
+
+	\break
+
+	<ef ef'> <d d'> <c c'> <bf bf'>  |  <a a'> <g g'> <a a'> f'  | }

@@ -1,0 +1,18 @@
+Global = { \key d \major \time 6/8 }
+RH = \relative c'' {
+	<a f d>4.^^ <a e cs>^^  |  <a f d>^^ <af f d>^^  |  <g ef c>^^ <c ef, c>^^  |  <bf ef, bf>^^ <af ef af,>^^  | 
+	<g ef bf>^^ <ef c>^^
+
+\pagebreak
+
+% begin page 4
+
+	<g ef bf>4.^^ <ef c>^^  |  <g ef bf>^^ <ef c>^^  |  <d bf'>^^ <cs g'>^^  |  <d fs d'>8^^ r r <d d'>4.^^~  | }
+LH = \relative c { <d d,>4^^ <e e,>8 <f f,>4 <d d,>8  |  <bf bf,>4^^ <c c,>8 <d d,>4 <bf bf,>8  | 
+	<a a,>8^^[ d, f] a4^^ a8  |  <d d,>4.^^ <b b,>^^  |  <c c,>^^ <af af'>^^  |  <g g'>^^ <f f'>^^  |  <ef ef'>^^ <af af'>^^
+
+\pagebreak
+
+% begin page 4 (lower)
+
+	<ef ef'>^^ <af af'>^^  |  <ef ef'>^^ <c c'>^^  | }

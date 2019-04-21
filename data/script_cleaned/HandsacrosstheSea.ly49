@@ -1,0 +1,17 @@
+Global = { \key f \major \time 2/2 }
+RH = \relative c'' { bf2 f)  | 
+	<< \stemup {\set fontsize = #-4 b'4\rest d8[^( c] bf4) d8[^( c]  |  bf4) b\rest a2\rest} \\
+	 \stemdown {bf,1~  |  bf2 f} >>  | 
+	c'4.^( d8 ef4. d8  |  c2 f,)
+
+	\break
+
+	<< \stemup {\set fontsize = #-4 b'4\rest ef8[^( d] c4) ef8[^( d]  |  c4) b\rest a2\rest} \\
+	 \stemdown {c,1~  |  c2 f,} >>  | }
+LH = \relative c { bf, <f' bf d> f, <f' bf d>  |  bf, <f' bf d> f, <f' bf d>  | 
+	a, <f' c' ef> f, <f' c' ef>  |  a, <f' c' ef> f, <f' c' ef>
+
+	\break
+
+	a, <f' c' ef> f, <f' c' ef>  |  a, <f' c' ef> f, <f' c' ef>  |  bf, <f' bf d> bf, <f' bf d>  | 
+	bf, <f' bf d> bf, <f' bf d>  |  ef <g bf ef> ef <f bf ef>  | }

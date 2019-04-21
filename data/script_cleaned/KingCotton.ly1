@@ -1,0 +1,25 @@
+Global = { \key ef \major \time 6/8 }
+RH = \relative c'' { <bf bf'>4^^( <d d'>8) <f f'>^.[ <ef ef'>^. <d d'>^.]  | 
+	<ef ef'>4^^( <f f'>8) <g g'>^.[ <f f'>^. <ef ef'>^.]  |  <bf bf'>4 r8 r4 bf8
+
+	\break
+\repeat volta 2
+{
+	<c g ef>8^^[ r bf-.] g-.[ f-. ef-.]  |  g[ r c-.] g-.[ r bf,]_(  |  g')[ r g] g[ f g]  |  af4.~ af4 bf8
+
+	\break
+
+	\stemup <d af d,>^^[ r c] af[ g f]  |  af[ r d] af[ r bf,]_(  |  af')[ r af] af[ g af]  | }
+LH = \relative c { <bf bf'>4^^( <d d'>8) <f f'>^.[ <ef ef'>^. <d d'>^.]  | 
+	<ef ef'>4^^( <f f'>8) <g g'>^.[ <f f'>^. <ef ef'>^.]  |  <bf bf'>4 r8 r4 r8
+
+	\break
+
+\repeat volta 2
+{
+	ef8[ r <g bf>] bf,[ r <g' bf>]  |  ef[ r <g bf>] bf,[ r <g' bf>]  |  ef[ r <g bf>] g[ r <bf ef>]  | 
+	f[ r <af bf d>] bf,[ r <af' bf d>]  | 
+
+	\break
+
+	f[ r <af bf>] bf,[ r <af' bf>]  |  f[ r <af bf>] bf,[ r <af' bf>]  | }

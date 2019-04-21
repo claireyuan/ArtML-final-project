@@ -1,0 +1,20 @@
+Global = { \key c \minor \time 2/2 }
+RH = \relative c' {
+  r ais( b  d)  | 
+  r ais( b  d) ~  | 					%169 (2)
+  d( ais  b2)  | 
+ } >>
+ <es  c g>4.(\p f8 d4.  es8)  | 
+ c2 \slashedgrace d8 c8( b c d  | 
+ \slashedgrace f8 es8 d es  f) g4-. g-.  | 			%173
+ g2. f8(  g)  | 
+ \slashedgrace{f16[( g]} as2)(  d,4) es8(  f)  | }
+LH = \relative c {
+ as( c f, c' bes c g  c)  | 
+ as4-. <as' as,>-. r <as es c as>-.  | 	%189
+ r <g es c g>-. r <fis es c fis,>-.  | 
+ r <f! d b f!>-. r <es c g es>-.  | 
+ r <f d as f>-. r <g d b g>-.  | 
+ <c, c,>-. <c' \sf g es>2.  | 		%193
+ <d c as f>4-. <d \sf b g>2.  | 
+ <c g es>4-. <c \sf g es>2.  | }

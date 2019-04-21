@@ -1,0 +1,26 @@
+Global = { \key f \major \time 2/2 }
+RH = \relative c'' { <a g a,>-. <a f a,>-. <bf g f bf,>2-^  | 
+	<f a>8-.[ <f bf>-. <f c'>-.] r <f bf, g>4-.-^ <g bf, g>-.-^  |  <e bf g>-^ r <a e cs a>-^ r \bar " |  | "
+
+	\break
+
+\repeat volta 2
+{
+	<f d a>4-.-^ r g8-.[ f-. d-. bf-.]  |  a4^( f'8) r f,[ e f a]  |  c-. r g-.[ g-.] g-.[ r a-.] r  | 
+	f4 r \acciaccatura g8 f8[_( e) f-. g-.]
+
+	\break
+
+	a8 r a[ a] a[ r a] r  | }
+LH = \relative c { <cs cs,>-. <d d,>-. <df df,>2-^  | 
+	<c f a>4 <c f a>8-. r <df df,>4-._^ <df df,>-._^  |  <c c,>_^ r <a a,>_^ r \bar " |  | "
+
+	\break
+
+\repeat volta 2
+{
+	<d d,>4-.-^ <f a>-. bf,-. <d g>-.  |  c <f a> a, <f' a>  |  g, <e' bf' c> c <bf' c>  |  f <a c> c, <a' c>
+
+	\break
+
+	<< \stemup {d4\rest <a c> c\rest <a f>  | }

@@ -1,0 +1,35 @@
+Global = { \key c \major \time 3/4 }
+RH = \relative g' {
+%89
+g4. a8 g4  | 
+%90
+g4. a8 g4  | 
+%91
+g4 <e e'> <c c'>  | 
+%92
+<c c'>2 <b b'>4  | 
+%93
+g'4. as8 g4  | 
+%94
+g4. as8 g4  | 
+%95
+g4 <es es'> <c c'>  | 
+%96
+<c c'>2 <b b'>4  | }
+LH = \relative g, { \clef f
+%99
+g,8[ b g b g b]  | 
+%100
+a[ c a c a c]  | 
+%101
+e,4 r r  | 
+%102
+f r r  | 
+%103
+r <e g,> <f g,>  | 
+%104
+<e c> e8[ g e c]  | 
+%105
+f4 g g  | 
+%106
+c,4 e8[ g e c]  | }

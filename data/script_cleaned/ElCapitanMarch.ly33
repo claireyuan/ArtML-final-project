@@ -1,0 +1,38 @@
+Global = { \key c \major \time 6/8 }
+RH = {{
+	<d a'>8[ <e a> <d a'> <df a'>]
+
+	\break \nopagebreak
+
+	<c a'>16[( gs' a8]) r8 <a f' a>^^  | 
+	<a f' a>4.^^ <f a>8  | 
+	<e c'>16[( b' c8)] r8 c  | 
+	<<  {\stemup b16[( a b8]) } \\
+	   \stemdown f4 >> \stemneutral
+	   r8 <b f>  | 
+	<c e,> r \acciaccatura b'8 c4^>  | 
+	\acciaccatura b,8 c4^> <c e bf'? c>^>
+
+	\break \nopagebreak
+
+
+	<f, a>8.^>[ <e a>16] <e a>8.[ <d a'>16]  | 
+	<d a'>8[ <e a> <d a'> <df a'>]  | 
+	<c a'>16^([ gs' a8]) r <a f' a>^^  | }
+LH = \relative c {
+	<e e,>4 <d d,>8 <d b g>8_> r r
+
+	\break \nopagebreak
+
+	<f, f,>8[ r <a c>] d,-^[ r <f g b>]  | 
+	c[ r <e g c>] a,[ r <e' a c>]  | 
+	e,[ r <g' c e>] <g c e>[ r <g c e>]  | 
+	<g c e>[ r <g c e>] <g c e>[ r <g c e>]  | 
+	d[ r <f g b>] g,[ r <f' g b>]
+
+	\break \nopagebreak
+
+	d[ r <f g b>] g,[ r <f' g b>]  | 
+	c[ r <e g c>] g,[ r <e' g c>]  | 
+	c[ r <e g c>] g,[ r <e' g c>]  | 
+	<f f,>[ r <a c>] d,[ r <f g b>]  | }

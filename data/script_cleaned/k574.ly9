@@ -1,0 +1,31 @@
+Global = { \key g\major \voiceI \time 6/8 }
+RH = \relative g'' {
+        \oneVoice d8 b( e) b'-. cis,( fis)  | 
+        cis'-. d,( g) d'-. e,-. a-.  | 
+        fis-. d-. d'( cis) gis-. a-.  | 
+        \voiceOne a4. a4.  | 
+        <d, a'>4. <e a>  | 
+        <es a> <d a'>  | 
+        <es g> <e g>4 fis8  | 
+        b,!( e) cis-. d-. r8
+    }
+
+    \break
+
+    \repeat volta 2 {
+	\oneVoice
+
+        r8  | }
+LH = \relative g' {
+        \context Voice = "one" b8 \change Staff = Down \voiceOne r8 b, e4 cis8  | 
+        fis4 d8 g4 e8  | 
+        fis8 r gis a r a  | 
+        \change Staff = Up \voiceTwo fis-. d-. d'( cis) gis-. a-.  | 
+        a4. a4.  | 
+        a4. bes4.  | 
+        bes4. a8( cis) d  | 
+        r4 e,8 fis s8
+    }
+
+    \repeat volta 2 {
+        s8  | }

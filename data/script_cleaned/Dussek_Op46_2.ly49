@@ -1,0 +1,35 @@
+Global = { \key f \major \time 4/4 }
+RH = \relative g' {
+%47
+d4 cis r8 cis[ e d]  | 
+%48
+d4 cis r8 cis[ e d]  | 
+%49
+\times 2/3 {cis[ e d]} \times 2/3 {cis[ e d]} \times 2/3 {cis[ e d]} \times 2/3 {cis[ e d]}  | 
+%50 printing error: third notes are crotchet (bes, stem up) and quaver (g, stem down) (corrected)
+cis[ <g' bes>] <g bes>4 r8 <g bes>[ <f a> <e g>]  | 
+%51
+f16 d' f, d' f, d' f, d' f, d' f, d' f, d' f, d'  | 
+%52
+f,16 d' f, d' f, d' f, d' f, d' f, d' f, d' f, d'  | 
+%53
+d8 d,16 e d8 d g16 f e d g f e d  | 
+%54
+d'8 d,16 e d8 d g16 f e d g f e d  | }
+LH = \relative g { \clef f
+%50
+r4 a b cis  | 
+%51
+<d d,>2 <d d,>4 <c c,>4  | 
+%52 
+<bes bes,>2 <bes bes,>4 <a a,>4  | 
+%53
+<gis d' f>8[ <gis d' f> <gis d' f><gis d' f>] <gis d' f>2  | 
+%54
+<a d f>8[ <a d f> <a d f> <a d f>] <a d f>2  | 
+%55
+<bes d f>8[ <bes d f> <bes d f><bes d f>] <bes d f>2  | 
+%56
+a16[ f' d f] a,[ f' d f] a,[ e' cis e] a,[ e' cis e]  | 
+%57
+d2 r  | }

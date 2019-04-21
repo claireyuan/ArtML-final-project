@@ -1,0 +1,43 @@
+Global = { \key d \major \time 6/8 }
+RH = \relative c'' { cs[ b a] b[ r b]  |  a4 r8 <a e cs a>4^^ r8
+}
+\alternative
+{
+	{
+		r4 fs8^( g4 gs8)
+	}
+	{
+		r4 <a a,>8^( <gs gs,>4 <a a,>8)
+	}
+}
+
+\pagebreak
+
+% begin page 2
+
+	<b d, b>4.^( <a d, a>  |  <cs g cs,> <d fs, d>)  |  d,8^^ r r <fs a,>4.^^~  |  <fs a,>8[ d cs] d[ e fs]  | 
+	e^^ r r <cs g'>4.^^~  |  <cs g'>8[ e ds] e[ fs g]  |  fs4^^ r8 \acciaccatura es'8 fs4 r8
+
+	\break
+
+	a,4 <a a,>8^( <gs gs,>4 <a a,>8)  | }
+LH = \relative c { fs' f)} >>  | 
+	e8[ r <a cs>] e[ r <gs d'>]  |  <a cs>4 r8 <a a,>4^^ r8
+}
+\alternative
+{
+	{
+		r2.
+	}
+	{
+		r2.
+	}
+}
+
+\pagebreak
+
+% begin page 2 (lower)
+
+	<g g,>4._( <fs fs,>  |  <e e,> <d d,>)  |  <d d,>8^^[ r <fs a>] a,[ r <fs' a>]  | 
+	<d d,>^^[ r <fs a>] a,[ r <fs' a>]  |  cs[ r <g' a>] a,[ r <g' a>]  | 
+	e[ r <g a>] a,[ r <g' a>]  | }

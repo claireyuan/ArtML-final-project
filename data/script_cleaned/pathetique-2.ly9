@@ -1,0 +1,21 @@
+Global = { \key as \major \time 2/4 }
+RH = \relative c' {			%9
+ es4. <des-4>8)  | 
+ <c-3>[( <es-4> as  bes)]  | 
+ es,4.-3(  <e-4>8  | 
+  f4) \lengthenstems <bes,-4>8.( <c-5>32  <des-4>) \revertstemlenghts  | 	%13
+ es!4( <a,-4>  | 
+  des) c16^5^.( bes^4^. as!^4^.  g^3)^.  | 
+ <bes-5>4(  <as-4>8) b16.\rest c,32  | 
+\stemneutral
+c'4^\markup{\finger "5-1"}~ c16( as'-4 g  f-2)  | }
+LH = {{
+ es, as es bes' as c as d-2  | 
+ g, bes g bes g bes g bes  | 
+ g bes_2 g bes_3 g es g es  | 		%13
+ as es as es es c es c  | 
+ f des f des des des des des  | 
+ des es des es c8 s  | 
+ s2*7					%17 - 23
+ es,16(_2_\markup{\vspace #.5 \italic "cresc."}  d) d_2(  c) c_2(  b)_\markup{\italic "(m.s.)"} b_2(  bes_1)  | 
+ <g' es bes>8^\markup{\finger 2}^\markup{\finger 4}^\markup{\finger 5} e\rest e\rest s  | }

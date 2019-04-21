@@ -1,0 +1,26 @@
+Global = { \key f \major \time 6/8 }
+RH = \relative c' {
+		\set fontsize=#-4 b4\rest \set fontsize=#0 <g bf>8 \set fontsize=#-4 b4\rest \set fontsize=#0 <f bf>8} >>  | 
+
+\pagebreak
+% begin page 4
+
+	<ef' a ef'>8[ r <ef a ef'>] <ef a ef'>[ r <d gs d'>]  |  <ef a ef'>4.~ <ef a ef'>4 <d d'>8  | 
+	<< \stemup {s64*1/2 \set fontsize=#-4 f4*31/32\rest \set fontsize=#0 <ef a>8
+		    s64*1/2 \set fontsize=#-4 f4*31/32\rest \set fontsize=#0 <gs d>8} \\
+	 \stemdown {<c c,>4.^^ <b b,>^^} >>  | 
+	<c a f c>4 <f, f,>8( <e e,>4 <f f,>8)  | 
+	<< \stemup {s64*1/2 \set fontsize=#-4 a4*31/32\rest \set fontsize=#0 <bf f>8
+		    s64*1/2 \set fontsize=#-4 f4*31/32\rest \set fontsize=#0 <e bf'>8} \\
+	 \stemdown {<d d'>4.^^ <cs cs'>^^} >>
+
+	\break
+
+	<f bf d>4 <f f,>8( <e e,>4 <f f,>8)  |  <a a,>4.^^ <c c,>^^  |  <bf bf,>4( <c c,>8) <g g,>4( <bf bf,>8)  | }
+LH = \relative c { bf,[ r <bf' d f>] <bf d f>[ r <bf cs e>]  | 
+	bf,[ r <bf' d f>] <bf d f>[ r <bf d>]  |  bf,^^[ r <d bf'>] c^^[ r <ef bf'>]  |  cs[ r <e bf'>] d[ r <f bf>]
+
+	\break
+
+	c[ r <a' c ef>] <a c ef>[ r <gs b d>]  |  f,[ r <a' c ef>] <a c ef>[ r <a c ef>]  |  f,[ r <f' a>] f,[ r <f' gs>]  | 
+	<f f,>4 <f f,>8_( <e e,>4 <f f,>8)  |  bf,8[ r <f' bf>] bf,[ r <bf' cs>]  | }

@@ -1,0 +1,19 @@
+Global = { \key c \minor \time 2/2 }
+RH = \relative c' {
+  \stemneutral <f c>4 <f c>-.( <f d>-. <f d>)-. ~ \stemdown  | 
+  d d(  es2) ~  | 						%161 (2)
+  \stemneutral <a es>4 <a fis>-.( <a fis>-. <a fis>)-. ~ \stemdown  | 
+  fis fis(  g) fis ~  | 
+  fis fis(  g) b ~  | 
+  b b(  c) b ~  | 						%165 (2)
+  b b(  c) b ~  | 
+  b ais_ \markup{\italic "calando"}( b  d)  | }
+LH = \relative c {
+ es, g c es as, c es fis  | 
+ g, c es g g, g' g, g'  | 		%181
+ c,( c' b c bes c g  c)  | 
+ as( c f, c' bes c g  c)  | 
+ as( c f, c' bes c g  c)  | 
+ as4-. <as es c as>-. <g es c g>-. <g d b g>-.  | 	%185
+ c,,8-. c'( b c bes c g  c)  | 
+ as( c f, c' bes c g  c)  | }

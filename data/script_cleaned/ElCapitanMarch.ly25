@@ -1,0 +1,33 @@
+Global = { \key c \major \time 6/8 }
+RH = {{"
+% end second theme (upper)
+\pagebreak
+% begin third theme (upper)
+	\override staff.timesignature #'style = #'()
+	\key f \major
+	\time 2/4
+	<f a>8.[ <e a>16] <e a>8.[ <d a'>16]  | 
+	<d a'>8[ <e a> <d a'> <df a'>]  | 
+	<c a'>16^([ gs' a8]) r <a f' a>^^  | 
+	<a f' a>4. a8  | 
+	<e bf'>16[^( a bf8]) r <bf g' bf>^^
+
+	\break \nopagebreak
+
+	<bf g' bf>4.^^ <g bf>8  | 
+	<a c>16[( b c8]) r8 <c a' c>^^  | 
+	<c a' c>4.( <bf? g' bf?>8)  | 
+	<a f' a>8.^> <e a>16[ <e a>8. <d a'>16]  | }
+LH = \relative c {
+	c[ r <e g c>] g,[ r <e' g c>]  | 
+	c[ r <e g c>] g,[ r <e' g c>]  | 
+	<f f,>[ r <a c>] d,[ r <f g b>]  | 
+	c[ r <e g c>] a,[ r <e' a c>]
+
+	\break \nopagebreak
+
+	f,[ r <a' d f>] <a d f>[ r <a d f>]  | 
+	f[ r <a d f>] <fs a c ef>4.  | 
+	<g c e?>8[ r <g c e>] <g c e>[ r <g c e>]  | 
+	<g c d>[ r <g c d>] <g b f'>[ r <g b f'>]  | 
+	<c e> r r r4 <cs cs,>8  | }

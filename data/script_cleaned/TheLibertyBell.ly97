@@ -1,0 +1,34 @@
+Global = { \key f \major \time 6/8 }
+RH = \relative c' {
+	<< \stemup {a4^^^( bf8) g4^^^( a8)  |  f4^( g8) ef4^( f8)} \\
+	 \stemdown {<ef c>4. <ef bf>  |  <ef a,> <c a>} >>
+
+	\break
+
+	<< \stemup {<d d,>4.^^ <ef ef,>^^  |  <e e,>^^ <f f,>^^} \\
+	 \stemdown {\set fontsize=#-4 g,4\rest \set fontsize=#0 <bf f>8 \set fontsize=#-4 a4\rest \set fontsize=#0 <bf f>8  | 
+		\set fontsize=#-4 a4\rest \set fontsize=#0 <bf g>8 \set fontsize=#-4 b4\rest \set fontsize=#0 <bf f>8} >>  | 
+	<f' bf d>8^^[ r <f bf d>] <f bf d>[ r <e bf' cs>]  |  <f bf d>4.~ <f bf d>4 f8  | 
+	<< \stemup {<d d,>4.^^ <ef ef,>^^  | }
+LH = \relative c { bf,4 <f f'>8_( <e e'>4 <f f'>8)
+
+	\break
+
+	ef'8[ r <g bf ef>] c,[ r <g' bf ef>]  |  f[ r <bf d>] f,[ r <f' a c ef>]
+}
+\alternative
+{
+	{
+		bf,4 <bf bf'>8 <f f'>4 <d d'>8  |  <bf bf'>4 <bf' bf'>8-. <bf bf'>-.[ <a a'>-. <g g'>-.]
+	}
+	{
+		bf4 <bf bf'>8 <f f'>4 <d d'>8  |  <bf bf'>4 r8 <bf bf'>4^^ r8
+	}
+}
+\bar " | ."
+     }
+     
+     dynamics = {
+	s2.\ff  |  s2.*3  |  s2.\p  |  s2.
+
+	s2\< s4\!  | }

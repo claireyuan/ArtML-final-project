@@ -1,0 +1,37 @@
+Global = { \key ef \major \time 6/8 }
+RH = \relative c'' { c4.^( af'  |  g f  |  c2.)  |  af8[ r bf] c[ r af]  | 
+
+	\break
+
+	f'4.^( df  |  c2.)^(  |  bf4) ef,8_( f4 ff8)  |  ef[ r af] g[ r af]  | }
+LH = \relative c {
+	bf,[ r <g' bf>] bf,[ r <af' bf>]  | 
+}
+\alternative
+{
+	{
+		<ef g bf>4 r8 <bf bf,>4_> r8
+	}
+	{
+		<ef g bf>4 r8 r4 r8
+	}
+}
+
+\pagebreak
+
+% begin page 3 (lower)
+\key af \major
+
+\repeat volta 2
+{
+	af,[ r <af' c ef>] <af c ef>[ r <af c ef>]  |  af,[ r <af' c ef>] <af c ef>[ r <af c ef>]  | 
+	af,[ r <af' c ef>] <af c ef>[ r <af c ef>]  |  af,[ r <af' c ef>] <af c ef>[ r <af c ef>]  | 
+	f[ r <af c f>] <af c f>[ r <af c f>]  | 
+
+	\break
+
+	df,[ r <af' df f>] <af df f>[ r <af df f>]  | 
+\override staff.notecollision
+ #'merge-differently-dotted = ##t
+	<< \stemup { ef8[ r <af c>] d,[ r <af' c>] } \\
+	 \stemdown { ef4. d } >>  | }

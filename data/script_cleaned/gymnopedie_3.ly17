@@ -1,0 +1,19 @@
+Global = { \key a \minor \time 3/4 }
+RH = \relative c''' {
+  b, \> a g  | 
+  a2.  | 
+  d,2.\! ~  | 
+  d2.)  | 
+  e'2.(  | 
+  f4 \< g  f\!  | 
+  e \> d e ~  | 
+  e2. ~  | }
+LH = \relative c {
+  d'2.  | 
+  g,2.  | 
+  g2.  | 
+  c2.  | 
+  e2.  | 
+  c2.  | 
+  e2.  | 
+  c2.  | }

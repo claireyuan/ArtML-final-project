@@ -1,0 +1,26 @@
+Global = { \key d \major \time 6/8 }
+RH = \relative c'' { <g g'>4 } >> <b b'>8 <b b'>4 <b b'>8  | 
+
+\repeat volta 2
+{
+	\override staff.notecollision.merge-differently-headed = ##t
+	<< \stemup {b'2.^^  |  as2.^^} \\
+	 \stemdown { b8[ <g e>^. <g e>^.] <g e>^.[ <g e>^. <g e>^.]  |  as[ <g e>^. <g e>^.] <g e>^.[ <g e>^. <g e>^.]} >>  | 
+	<b g e>4.^^ <b fs ds>4.^^
+
+	\break
+
+	<b g e>4.^^ <bf g e>^^  | 
+	<< \stemup {a2.^^  |  gs2.^^} \\
+	 \stemdown {a8[ <f d>^. <f d>^.] <f d>^.[ <f d>^. <f d>^.]  |  gs[ <f d>^. <f d>^.] <f d>^.[ <f d>^. <f d>^.]} >>  | }
+LH = \relative c { c c  |  b g  |  e ef \break d d  |  d d} >>  | 
+
+	g,8[ r <g' b>] d[ r <g b>]  |  <g g,>4 r8 r4 r8
+
+\repeat volta 2
+{
+	<e e,>4^^ <fs fs,>8 <g g,>4 <e e,>8  |  <c c,>4^^ <d d,>8 <e e,>4 <c c,>8  |  <b b,>8^^[ e,^. g^.] b4^^ b8
+
+	\break
+
+	<e e,>4.^^ <cs cs,>^^  | }

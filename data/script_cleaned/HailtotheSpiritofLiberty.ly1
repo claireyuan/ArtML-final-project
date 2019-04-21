@@ -1,0 +1,21 @@
+Global = { \key f \major \time 2/2 }
+RH = \relative c' { f-.[ c-. f-. a-.] c-. r 
+		<< \stemdown {d4^^^(  |  bf) c4^^^( a) bf4^^^(  |  g)} \\
+		   \stemdown {a4  |  g g4 f f  |  e} \\
+		   \stemdown {d4_(  |  d8) b\rest c4_( c8) b\rest bf4_( |  bf)} >>
+	r r \times 2/3 {c8[^( d e)]}
+
+	\break
+
+	\repeat volta 2
+{
+	f4 r8 f^( g4) r8 g8^(  |  a) r <f f'>4^( <e e'> <d d'>)  | }
+LH = \relative c, { f[ c f a,] c r
+		<< \stemup {fs,4^(  |  g8) d\rest e4^( f8) d\rest df4^(  |  c)} \\
+		   \stemup {fs,4_(  |  g) e_( f) df_(  |  c)} >> r4 r r
+
+	\break
+\repeat volta 2
+{
+	f4 <f' a c> c <g' bf c>  |  f, <f' a c> <f a c> <f a c>  |  g, <g' bf c> c, <g' bf c>  | 
+	f, <f' a c> <f a c> <f a c>  | }

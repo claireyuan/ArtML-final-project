@@ -1,0 +1,21 @@
+Global = { \key f \major \time 6/8 }
+RH = \relative c' { <f bf d>4.~ <f bf d>4 #(set-octavation 0) f,8
+
+	\break
+
+	<d bf' d>4.^( <ef bf' ef>  |  <e bf' e> <f bf f'>)  |  #(set-octavation 1)
+	<f' c' ef>8^^[ r <f c' ef>] <f c' ef>[ r <f b d>]  |  <f c' ef>4.~ <f c' ef>4 #(set-octavation 0) d8  | 
+	<< \stemup {c4.^( b  |  <f a c>4)} \\
+	 \stemdown {d4\rest <c ef a>8 d4\rest <gs d b>8  |  s4} >> f8_( e4 f8)
+
+	\break
+
+	<< \stemup {d'4.^( cs  |  <d bf f>4) } \\
+	 \stemdown {d,4\rest <d f bf>8 d4\rest <e g bf>8  | }
+LH = \relative c { f,[ r <a' c ef>] <a c ef>[ r <gs b d>]  | 
+	f,[ r <a' c ef>] <a c ef>[ r <a c ef>]  |  f,[ r <f' a>] f,[ r <f' gs>]  |  f,[ r <f' a>] f,[ r <f' a>]
+
+	\break
+
+	bf,[ r <f' bf>] bf,[ r <bf' cs>]  |  bf,[ r <f' bf d>] bf,[ r <f' bf d>]  |  c[ r <f a c>] c[ r <f a c>]  | 
+	c[ r <e bf' c>] c[ r <e bf' c>]  |  f,4^( f'8) f,4^( f'8)  | }

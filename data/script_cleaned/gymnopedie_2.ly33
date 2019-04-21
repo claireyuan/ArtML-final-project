@@ -1,0 +1,21 @@
+Global = { \key a \minor \time 3/4 }
+RH = \relative c''' {
+  d2. ~  | 
+  d4 ees  aes\!  | 
+  bes2.  | 
+  f2.)  | 
+  r2.  | 
+  r2.  | 
+  g2.( \p \<  | 
+  \barnumbercheck #41
+  f4\! g a  | }
+LH = \relative c'' {
+  r4 <g f d bes>2  | 
+  r4 <aes ees c>2  | 
+  r4 <g d bes>2  | 
+  r4 <a! f c a!>2  | 
+
+  r4 <g e! b!>2  | 
+  r4 <a f c a>2  | 
+  r4 <g e b>2  | 
+  r4 <a f c a>2  | }

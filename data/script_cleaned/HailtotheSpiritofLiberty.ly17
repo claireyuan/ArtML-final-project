@@ -1,0 +1,52 @@
+Global = { \key f \major \time 2/2 }
+RH = \relative c' { d r8 g^( e4) r8 c^(  | 
+	f4 a) <a a'>^( <f f'>  |  <e e'>4. <d d'>8 <e e'>4 <c c'>)
+
+\pagebreak
+% begin page 2
+}
+\alternative
+{
+	{
+		<bf bf'>4^( <a a'> <g g'>) \times 2/3 {c8[^( d e)]}
+	}
+	{
+		<bf bf'>4^( <a a'> <g g'>) <c c'>
+	}
+}
+	\repeat volta 2
+{
+	<e e'>2-> <d d'>->  |  <d d'>->^( e->)  |  <df df'>->^( e->)
+
+	\break
+
+	<d d'>->^( e->)  |  <f f,>^( <g g,>4. <a a,>8  |  <c c,>2 <f f,>)  |  <a a,>1 ~  | }
+LH = \relative c, {
+	<c c'>4. <b b'>8 <c c'>4 <a a'>)
+
+\pagebreak
+% begin page 2 (lower)
+
+
+}
+\alternative
+{
+	{
+		<g g'>4_( <f f'> <e e'>) r
+	}
+
+	{
+		<g g'>4_( <f f'> <e e'>) r
+	}
+}
+	\repeat volta 2
+{
+	g4 <g' bf c> c, <g' bf c>  |  g, <g' bf c> c, <g' bf c>  |  g, <g' bf c> c, <g' bf c>
+
+	\break
+
+	g, <g' bf c> c, <g' bf c>  |  f, <f' a c> c <f a c>  |  f, <f' a c> c <f a c>  |  f <a c> e <a c>  |  d, <a' c> c, <a' c>
+
+	\break
+
+	bf, <f' bf d> bf, <f' bf d>  |  bf, <f' bf d> <f bf d> <f bf d>  | }

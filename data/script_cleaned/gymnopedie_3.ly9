@@ -1,0 +1,20 @@
+Global = { \key a \minor \time 3/4 }
+RH = \relative c''' {
+  g2( \<  g4\!  | 
+  <<\context Voice = "othervoice" {\stemDown r4 <a, f>2  |  s2.}
+    { d2. \> ~  |   d2.\! } >>  | 
+  <<  d2.) \context Voice = "othervoice" {\stemDown r4 <a f>2}>>  | 
+
+  r4 c( f \<  | 
+  g2 a4  | 
+  d,\! e f  | }
+LH = \relative c {
+  e2.  | 
+  g2.  | 
+  d2.  | 
+  g2.  | 
+
+  d2.  | 
+  g,2.  | 
+  g2.  | 
+  g2.  | }

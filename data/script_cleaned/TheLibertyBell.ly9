@@ -1,0 +1,54 @@
+Global = { \key f \major \time 6/8 }
+RH = \relative c' { <a c>4.~ <a c>4 <a c>8
+
+	\break
+
+	<f a>8[ r <f a>] <f a>[ gs <a f>]  |  <c a'>[ r <a f'>] <a f'>[ r <a c>]  |  <g b>[ r g'] <g d b>[ r g]  | 
+	<g d b>4.~ <g d b>4 f8  | 
+	<< \stemup {e8^>[^( r g] g[ fs g])  |  d^>[^( r g] g[ fs g])} \\
+	 \stemdown {<c, g>4. <c g>  |  <b g> <d g,>} >>
+
+	\break
+
+	<c g e>8^>[ r <b g f>] <c g e>^>[ r <b g f>]
+}
+\alternative
+{
+	{
+		<c g e>4. <c g e>
+	}
+	{
+		<c g e>4. bf^>
+	}
+}
+\repeat volta 2
+{
+	a8[^( gs a] d4 c8  |  a4. f)  | }
+LH = \relative c { <f f,>4 <e e,>8 <d d,>4 <c c,>8)
+
+	\break
+
+	<f f,>8[ r <f a c>] <f a c>[ r <f a c>]  |  <f f,>8[ r <f a c>] <f a c>[ r <f a c>]  | 
+	<d d,>4^( <e e,>8 <f f,>4 <e e,>8  |  <d d,>4 <c c,>8 <b b,>4 <a a,>8)  |  <g g,>8[ r <e' g c>] <e g c>[ r <e g c>]  | 
+	<g, g,>[ r <f' b g>] <f b g>[ r <f b g>]
+
+	\break
+
+	<c c,>^>[ r <g g,>] <c c,>^>[ r <g g,>]
+}
+\alternative
+{
+	{
+		<c c,>4 r8 <c e g c>8 r r
+	}
+	{
+		<c c,>4 r8 r4 r8
+	}
+}
+\repeat volta 2
+{
+	f8[ r <a c>] c,[ r <a' c>]  |  f[ r <a c>] a,[ r <f' c'>]  |  bf,[ r <f' bf>] c[ r <e bf'>]
+
+	\break
+
+	f,[ r <f' a c>] <f a c>[ r <f a c>]  | }

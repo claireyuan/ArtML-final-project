@@ -1,0 +1,25 @@
+Global = { \key f \major \time 6/8 }
+RH = \relative c' { d^( g
+
+	\break
+
+	f4.~ f4) f8  | 
+	<< \stemup {g8[^( a bf] e4 d8)} \\
+	 \stemdown {g,4. <g bf>} >>  | 
+	<a c>4. <af c f>  |  <g c e> <f b d> <e g c>4.~ <e g c>4 c'8  | 
+	<< \stemup {\phrasingslurup  d8[\( r d] \acciaccatura e d[ cs d]\)} \\
+	 \stemdown {f,2.} >>
+
+	\break
+
+	<a e'>4. <g e'>  | 
+	<< \stemup {f'4 f8 \acciaccatura a g[^( f) g]  |  a4.~ a4 a8  |  \acciaccatura a \stemdown g4*3/2} \\
+	 \stemdown {f,4. d'  | }
+LH = \relative c { e[ r <bf' c>] c,[ r <bf' c>]  |  f[ r <a c>] d,[ r <af' c>]  | 
+	g,[ r \acciaccatura fs' g] g,[ r \acciaccatura fs' g]  |  c,[ r <g' c>] <g c>[ r <g c>]  | 
+	bf,[ r <bf' d>] <bf d>[ r <bf d>]
+
+	\break
+
+	a,[ r <a' cs>] <a cs>[ r <a cs>]  |  d,[ r <a' d>] bf,[ r <bf' d>]  |  a,[ r <a' e'>] <a e'>[ r <a e'>]  | 
+	bf,[ r <bf' d g>] <bf d g>[ r <bf d g>]  | }

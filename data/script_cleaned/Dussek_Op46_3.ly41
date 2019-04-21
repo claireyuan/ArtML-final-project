@@ -1,0 +1,35 @@
+Global = { \key bes \major \time 4/4 }
+RH = \relative g' {
+%29
+f4 <c a>8. <bes d>16 <c a>4 <c a>  | 
+%30
+<e g,>4. c8 e c e c  | 
+%31
+f4 f f r \bar ": | :"  | 
+%32
+c2 c8 d e f  | 
+%33 error corrected: original has no accidental natural e here but e flat
+e d cis d d4 r  | 
+%34
+d,8 r f r bes r d r  | 
+%35
+d([ c b c] c4) r8 c  | }
+LH = \relative g {
+%35
+f[ a f a] f a f a  | 
+%36
+r <g bes> <g bes> <g bes> <g bes>4 r 
+%37
+r8 <a c> <a c> <a c> <a c>2  | 
+%38
+bes2 c4 cis  | 
+%39
+cis2 d4 r  |  \clef treble
+%40
+r8 <g bes> <g bes> <g bes> <g bes>4 r  | 
+%41
+r8 <a c> <a c> <a c> <a c>4 r  | 
+%42
+bes2 c4 c,  |  \clef bass
+%43
+f,8 a f a f a f a  | }

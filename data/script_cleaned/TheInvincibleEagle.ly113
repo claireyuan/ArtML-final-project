@@ -1,0 +1,28 @@
+Global = { \key d \major \time 6/8 }
+RH = \relative c'' { <c c'>2.~  |  <c c'>4. <g g'>4 <ef ef'>8  | 
+	<d d'>4. <cs cs'>4 <d d'>8  |  <ef ef'>4. <g g'>  |  <d' d'>8 r r <g g,>4.~
+
+	\break
+
+	<g g,>4. <fs fs,>4( <g g,>8)  |  <b b,>4.^^ d,  |  <a a'>^^ d
+}
+\alternative
+{
+	{
+		<g g,>2.~  |  <g g,>4 \ottava #0 <b, b,>8 <b b,>4 <b b,>8
+	}
+	{
+		\ottava #1 <g g'>2.~  | }
+LH = \relative c { <g g,>[ r <b d>] d,[ r <b' d>]  |  <g g,>[ r <b d>] d,[ r <b' d>]  | 
+	<< \stemup { gs[ c\rest <d e>] b[ c\rest <d e>]
+		\break
+
+		gs,[ c\rest <d e>] e,[ r <d' e>]} \\
+	 \stemdown { gs,4. b \break gs e } >>  | 
+
+	a8[ r <c e>] a[ r <c e>]  |  c[ r <ef a>] c[ r <ef a>]  | 
+	<< \stemup { b[ e\rest <d g>] b[ d\rest <d g>]  |  c[ d\rest <ef g>] c[ d\rest <ef g>]  | 
+		b[ c\rest <d g>] g,[ c\rest <b d>]
+		\break
+
+		e,[ a\rest <g c>] ef[ a\rest <g c>] d[ a'\rest <g b>] d[ a'\rest <g b>]  | }

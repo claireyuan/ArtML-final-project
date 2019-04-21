@@ -1,0 +1,22 @@
+Global = { \key c \minor \time 2/2 }
+RH = \relative c' {				%93 (1)
+  es d f  es)  | 
+ } \\ {
+  \stemneutral
+  c2( <f f,>  | 
+  bes, <es es,>) ~  | 
+  \stemdown
+  es,4( c f es  | 			%89 (2)
+  des c bes  es)  | 
+  s1*2  | 
+  c'2 bes4 as  | 				%93 (2)
+  g f as g  | }
+LH = \relative c {
+ <c as!> r) r <as bes,>(  | 		%97
+ <g es> r) r8 \clef treble es''8-. f-. g-.  | 
+ as-. g-. f-. es-. des-. c-. bes-. as-. \clef bass  | 
+ g-. f-. es-. des-. c-. bes-. as-. g-.  | 
+ f-. es-. des-. c-. bes-. a-. bes-. c-.  | 	%101
+ des-. c-. des-. d-. es-. f-. fis-. g-.  | 
+ as,2 des  | 
+ g, c  | }

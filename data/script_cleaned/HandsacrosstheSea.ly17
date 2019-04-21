@@ -1,0 +1,37 @@
+Global = { \key f \major \time 2/2 }
+RH = \relative c'' {"
+	\break
+% begin page 2
+
+	<a' a,>4 r8 <gs gs,>8^( <a a,>2)  |  <c c,>4-^ <f f,>-^ <c c,>-^ r8 <bf bf,>^(  | 
+	<a a,>4) r8 <gs gs,>8^( <a a,>2)  |  r4 f4-^ <f a>-^ <f c'>-^  | 
+	<f f'> r8 <e e'>8^( <f f'>2)  |  <d d'>4.^( <e e'>8 <f f'>4 <d d'>)
+
+	\break
+
+	#(set-octavation 1)
+	<g c g'>1~  |  <g c g'>4 r <f f'>-^ <g c g'>-^  |  <a c a'> r8 <gs gs'>8^( <a a'>2)  | }
+LH = \relative c { <e gs d'>8 r <e gs d'> r <e gs d'> r <e gs> r
+}
+\alternative
+{
+	{
+		<c c'>4 r <a a'> r
+	}
+
+	{
+		<c c'>4 r r2
+	}
+}
+
+	\bar " |  | "
+\pagebreak
+
+% begin page 2 (lower)
+
+	<f f,>4 <a c> c, <a' c>  |  f <a c> c, <a' c>  |  f <a c> c, <a' c>  |  f <a c> <f f,>^^ <e e,>^^  | 
+	<d d,> <f a> d <f a>  |  g, <f' g b> g, <f' g b>
+
+	\break
+
+	c <e g c> b <e g> bf? <e g> <a a,>^^ <g g,>^^  | }

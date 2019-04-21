@@ -1,0 +1,19 @@
+Global = { \key g\major \voiceI \time 6/8 }
+RH = \relative g'' {
+	bes-. g-. g'( fis) cis-. d-.  | 
+	f( e) gis,-. a-. c!-. a-.  | 
+	e'( d) fis,-. g!-. d'-. bes-.  | 
+	bes'( a) cis,-. \voiceOne d-. d'-. d-.  | 
+	d4. d4.  | 
+	<g, d'>4. <a d>  | 
+	<as d> <g d'>  | 
+	<as c> <a c>4 b!8  | }
+LH = \relative g' {
+	s2.  | 
+	s2.  | 
+	s2.  | 
+	s4. r4 d'8  | 
+	b!-. g-. g'( fis) cis-. d-.  | 
+	d4. d4.  | 
+	d4. es4.  | 
+	es4. d8( fis!) g-.  | }

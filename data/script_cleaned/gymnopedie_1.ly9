@@ -1,0 +1,19 @@
+Global = { \key b \minor \time 3/4 }
+RH = \relative c'' {
+    fis2.\!) ~  | 
+    fis2. ~  | 
+    fis2. ~  | 
+    fis2.  | 
+    s4 fis'\<( a  |  g fis cis  | 
+    b cis  d\!  | 
+    a2.\>  | }
+LH = \relative c' {
+    r4 <fis cis a>2  | 
+    r4 <fis d b>2  | 
+    r4 <fis cis a>2  | 
+
+    r4 <fis  d b>2\pp  | 
+    r4 <fis cis a>2  | 
+    r4 <fis d b>2  | 
+    r4 <fis cis a>2  | 
+    r4 <fis cis a>2  | }

@@ -1,0 +1,33 @@
+Global = { \key as \major \time 2/4 }
+RH = \relative c' {		%17
+ c'4 ~ c16( <as-4> g  f-2)  | 
+ c4 ~ c16( as'-4 g  f-1)  | 
+ <es-2>8(  d)~  
+ \allowscriptunderslur
+ d8[(^\markup \tiny \override #'(baseline-skip . 1) {
+    \halign #-4
+    \center-column {
+      \musicglyph #"scripts.turn"
+      	 }}^\markup{\halign #-2 \finger "3212"} 
+ f16.-4  es32)]  | 
+ es4^4  
+ <f,^1>8.[_(^\markup{ 
+  	\halign #-3  \center-column {
+  		\general-align #y #0.2 \finger "4321"
+		\general-align #y #-2 \tiny \musicglyph #"scripts.turn"
+		\general-align #y #-3 \teeny \natural	}
+       }  as32^2  c_)]  | 		%21
+ \grace {\stemup \scaledurations #' (1 . 6) {b16[_(^1 c^2 d_)^4] } \stemneutral}
+ c32(^3 bes!)^2 g'16(~^5 g f32 es \stemdown d![ c bes^3 a c bes as  f)]^1  | 
+ \stemneutral es8-2 b'16\rest \clef bass bes,-3( g-1 bes-4 g-2  es-1)  | 
+ \stemup <as f>8[ <as f>^3^5 <as f>^4^5 <as f d>^3^4^5]  | 
+ s8*3 \stemdown bes16.-2(  es32-4) \stemup  | }
+LH = {{		%25
+ <as f>4_\markup{\vspace #.5 \italic "cresc."} <as f>  | 
+ f16-2(_\p  fes-1)^\< fes-2(  es-1) es-2(  d) d-2(  es-3)^\!  | 
+ es_2(  <fes^1>)^\> <fes^2>(  <es^1>) <es^2>(_\markup{\dynamic "pp"}  <d^1>) <d^2>(  <des^1>)^\!  | 
+ \fingerup c( \p es <as-3> <es-1>) g( es g  es)  | 		%29
+ as es as es bes'-3 es, bes'-2 es,  | 
+ as es bes' es, c' as d as  | 
+ g bes g bes g bes g bes  | 
+ g <bes_2> g <bes_3> g es g es  | }

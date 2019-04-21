@@ -1,0 +1,36 @@
+Global = { \key c \major \time 6/8 }
+RH = {{
+	<bf bf'>2^^  | 
+	<a a'>4^^ <g g'>4^^  | 
+	<a a'>8^^[ <c c'>^^] <c c'>4^^
+
+	\break
+
+	r8 c'[ <g g'> c]  | 
+	<f f,>2^^  | 
+	<e e,>4^^ <a, a,>^^  | 
+	<d d,>8^^[ <a a,>^^] <a a,>4^^  | 
+	r8 <a a,>[ <g g,> <f f,>]  | 
+	<< \stemup {df'2 ~ \break df8} \\
+	   \stemdown {df,8[ <df f>16 <df f>] <df f>8[ <df f>] \break b8\rest}
+	>>
+	
+	   <c e>8^.[ <c g'>^. <c c'>^.]  | }
+LH = \relative c {
+	g,[ <f' g b>] g,[ <f' g b>]  | 
+	<c e g c> r \acciaccatura b' c4->  | 
+	\acciaccatura b,8 c4-> <c c,>->
+
+	\break \nopagebreak
+
+
+	f8^>[ <a c>] c,[ <a' c>]  | 
+	f^>[ <a c>] c,[ <a' c>]  | 
+	f^>[ <a c>] c,[ <a' c>]  | 
+	f[ <a c>] c,[ <a' c>]  | 
+	g[ <bf c e>] c,[ <bf' c e>]
+	g[ <bf c e>] c,[ <bf' c e>]  | 
+	
+	\break \nopagebreak
+
+	f[ <a c f>] c,[ <a' c>]  | }

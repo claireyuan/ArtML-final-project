@@ -1,0 +1,26 @@
+Global = { \key as \major \time 2/4 }
+RH = \relative c' {		%41
+ \stemneutral
+  
+ <fis' fis,>-5~\sf \times 2/3 {  fis16[ <dis-4>-. <b-2>-.] } <b' b,>8~\sf \times 2/3 {  b16[ <gis-4>-. <e-2>-.] }  | 
+ \hidetupletnumber \hidetupletbracket
+ <e'e,>8~\sf \times 2/3 {  e16[ <cis-4>-. <ais-3>-.] } <b b,>8-.\nobeam \clef bass <dis,, b a fis>-.  | 
+ \times 2/3 { <e-5  b-3 gis-2>16[\fp <b-2 gis-1> <b gis>] <b gis>[ <b gis> <b gis>]
+   <b gis>[_\markup{\vspace #.5 \italic "decresc."} <b gis> <b gis>] <b gis>[ <b gis> <b gis>] }  |  \nobreak
+ \stemup
+ e8-4[( gis \allowscriptunderslur fis^\markup{\vspace #-1.9 \finger "4-5"}  e-4)]  | 		%45
+ <dis^3>(  a') r4  | 
+  <e-4>8[( gis <e-4>  <dis-3>)]  | 
+ <d-4-5>4. d8  | 
+ d4. d8  | }
+LH = {{
+   as[(  es)_. es_.]  as[(  es)_. es_.]  <bes'-3>[(  es,)_. es_.] 
+   \once \override fingering #'staff-padding = #'()
+   <bes'_2>[(  es,)_. es_.]  | 
+   as[(  es)_. es_.]  bes'[(  es,)_. es_.]  c'[(  as)_. as_.]  d[(  as)_. as_.]  | 	%53
+   g[(  bes)_. bes_.]  g[(  bes)_. bes_.]  g[(  bes)_. bes_.]  g[(  bes)_. bes_.]  | 
+   g[(  bes) bes]  g[(  <bes-2>) <bes-3>]  g_2[(  es) es]  g[(  es) es]  | 
+   as[(  es) es]  as[(  es) es]  es[(  c) c]  es[(  c) c]  | 
+   f[(  des) des]  f[(  des) des]  g[(  des) des]  des[(  des) des]  | 			%57
+   des[(  es) es]  des[(  es) es]  c[^. es^. as^.] \stemneutral  <c^1>[-. es-. as-.] \stemdown  | 
+   c,[(  es) es]  c[(  es) es]  bes[(  es) es]  bes[(  es) es]  | }

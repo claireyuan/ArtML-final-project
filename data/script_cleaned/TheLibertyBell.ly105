@@ -1,0 +1,23 @@
+Global = { \key f \major \time 6/8 }
+RH = \relative c' { <e e,>^^ <f f,>^^} \\
+	 \stemdown {\set fontsize=#-4 g,4\rest \set fontsize=#0 <bf f>8 \set fontsize=#-4 a4\rest \set fontsize=#0 <bf f>8  | 
+		\set fontsize=#-4 a4\rest \set fontsize=#0 <bf g>8 \set fontsize=#-4 b4\rest \set fontsize=#0 <bf f>8} >>  | 
+
+	\break
+
+	<ef a ef'>8^^[ r <ef a ef'>] <ef a ef'>[ r <d gs d'>]  |  <ef a ef'>4.~ <ef a ef'>4 <d d'>8  | 
+	<< \stemup {s64*1/2 \set fontsize=#-4 f4*31/32\rest \set fontsize=#0 <ef a>8
+		    s64*1/2 \set fontsize=#-4 f4*31/32\rest \set fontsize=#0 <gs d>8} \\
+	 \stemdown {<c c,>4.^^ <b b,>^^} >>  | 
+	<c a f c>4 <f, f,>8( <e e,>4 <f f,>8)  | 
+	<< \stemup {s64*1/2 \set fontsize=#-4 a4*31/32\rest \set fontsize=#0 <bf f>8
+		    s64*1/2 \set fontsize=#-4 f4*31/32\rest \set fontsize=#0 <e bf'>8} \\
+	 \stemdown {<d d'>4.^^ <cs cs'>^^} >>  | 
+	<d f bf d>4 <f f,>8^( <e e,>4 <f f,>8)
+
+	\break
+
+	<g g,>4.^^ <ef ef'>^^  | }
+LH = \relative c { s4.\> s4.\!  |  s2.\p  |  s2.  |  s4 s4.\< s8\!  |  s8 s4.\> s4\!
+
+	s2.*2  |  s4. s4.\<  |  s2.\!  |  s2.\f  | }

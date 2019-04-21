@@ -1,0 +1,20 @@
+Global = { \key f \major \time 2/2 }
+RH = \relative c' { <f a c>} >> r4 \phrasingslurup f2\(
+	}
+}
+\pagebreak
+%begin page 3
+
+	\key bf \major
+	bf1 ~  |  bf2 c  |  d1 ~  |  d2 f\)  |  ef^( c  |  a'2. g4  |  f1)^(
+
+	\break
+
+	d2) f  |  ef1 ~  | }
+LH = \relative c, { c <f a c ef> <f a c ef> <f a c ef>  |  f, <f' a c ef> <f a c ef> <f a c ef>  | 
+	bf, <f' bf d> <f bf d> <f bf d>
+
+	\break
+
+	bf, <f' bf d> <f bf d> <f bf d>  |  c <f a c ef> <f a c ef> <f a c ef>  |  f, <f' a c ef> <f a c ef> <f a c ef>  | 
+	bf, <f' bf d> <f bf d> <f bf d>  |  bf, <f' bf d> <f bf d> <f bf d>  |  c <f a c> <f a c> <f a c>  | }

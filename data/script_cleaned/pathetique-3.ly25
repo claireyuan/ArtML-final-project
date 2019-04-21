@@ -1,0 +1,21 @@
+Global = { \key c \minor \time 2/2 }
+RH = \relative c' {
+ g4-. bes2_ \markup{\italic "dolce"} bes4 ~  | 	%25
+ bes8( c d es f g as  f)  | 
+ as( g f  es) es( d c  d)  | 
+ f( es d  c) << { bes4^. bes^. } \\ { as4 as } >>  | 
+ << {
+  bes1 ~  | 				%29 (1)
+  bes8( c d es f ges as  f)  | 
+ } \\ {
+  as,8( g f  es) es( d c  d)  | 		%29 (2)
+  es r r4 r2  | }
+LH = \relative c {
+ es,8 bes' es bes as bes d bes  | 	%25
+ g bes es bes d, bes' d bes  | 
+ es, bes' es bes as bes f' bes,  | 
+ g bes es bes d, bes' d, bes'  | 
+ es, bes' es, bes' as bes as bes  | 	%29
+ ges bes ges bes d, bes' d, bes'  | 
+ es,( bes' ges bes bes, bes' d, bes'  | 
+ ces, bes' es, bes' ces, a' es  a)  | }

@@ -1,0 +1,36 @@
+Global = { \key c \major \time 6/8 }
+RH = {{
+	<f f,>2^^  | 
+	<e e,>4^^ <a, a,>^^
+
+	\break
+
+	<d d,>8^^[ <a a,>^^] <a a,>4^^  | 
+	r8 <a a,>^^[ <g g,>^^ <f f,>^^]  | 
+	<< \stemup {df'2 ~ df8 s4.} \\
+	   \stemdown {df,8[ <df f>16 <df f>] <df f>8[ <df f>]  |  
+	      df'8[ <c, e> <c g'>^. <c c'>^.]}
+	>>
+	 | 
+	<< \stemup { <f f'>2(  |  \stemdown <f a c f>8^>)} \\
+	   \stemdown { r8 <a c>[ <a c> <a c>]  |  s8 }
+	>>
+	r8 r4 \bar " | }
+LH = \relative c {
+	<a cs e a>[ <a cs e a> <a cs e a> <a cs e a>]
+% end third page (lower)
+	\break
+% begin fourth page (lower)
+	<a a,>[ <a d f a> <a d f a> <a d f a>]  | 
+	<a cs e a>[ <a d f a> <a cs e a> <a d f a>]  | 
+	<a cs e a>[ <a d f a> <a cs e a> <a d f a>]  | 
+	<a cs e a>4 <a a,>4 ~
+	<a a,>4 <g g,>4  | 
+	\stemdown <f f,>8[ <a' c>] c,[ <a' c>] \stemneutral
+
+	\break \nopagebreak
+
+	f[ <a c>] c,[ <a' c>]  | 
+	f[ <a c>] c,[ <a' c>]  | 
+	f[ <a c>] c,[ <a' c>]  | 
+	<g g,>[ <bf c e>] c,[ <bf' c e>]  | }

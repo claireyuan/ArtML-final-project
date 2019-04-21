@@ -1,0 +1,20 @@
+Global = { \key f \major \time 2/2 }
+RH = \relative c'' { s64 c4*15/16 s4} \\
+	   \stemup { c'1^(  |  c2)} \\
+	 \stemdown { c,1_(  |  c2)} >> <f f,>2  | 
+	<d d'>4.^( <ef ef'>8 <f f'>4. <e e'>8  |  <f f'>4. <e e'>8 <f f'>4. <d d'>8)
+
+	\break
+
+	<ef ef'>4.^( <f f'>8 <g g'>4. <fs fs'>8  |  <g g'>4. <fs fs'>8 <g g'>4. <ef ef'>8)  | 
+	<f f'>4.^( <bf bf'>8 <g g'>4. <ef ef'>8)  |  <c ef c'>2 <c ef c'>  | }
+LH = \relative c { s2 s2\<
+
+	s4. s8\! s2  |  s1  |  s2\< s2\!  |  s2 s2\sf
+
+	s2\sf s2\mf  |  s1*3
+
+	s4 s2.\<  |  s8 s8\! s2.  |  
+	\once \override dynamiclinespanner #'direction = #'-1
+	\once \override dynamiclinespanner #'minimum-space = #'0
+	\settextcresc s1\<  |  s4 s4\! s2\sf  | }

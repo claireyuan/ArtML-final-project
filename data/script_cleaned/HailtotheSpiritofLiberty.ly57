@@ -1,0 +1,27 @@
+Global = { \key f \major \time 2/2 }
+RH = \relative c' { bf4 gf f ef
+
+	\break
+
+	d2 ~ \times 2/3 {d8[ ef e]} \times 2/3 {f8[ ef d\)]}  |  c2 c  |  bf1 ~  |  bf4 r r2  | 
+	\repeat volta 2
+{
+	r2 r4 r8 c16[^( d]  |  ef8[ d c d] ef4) d-^
+
+	\break
+
+	ef8[^( d c d)] ef4 d-^  |  r1  |  r2 r4 r8 ef16[^( f]  | }
+LH = \relative c, { ef)} >>
+
+	\break
+
+	f,4 <f' bf d> <f bf d> <f bf d>  |  f, <f' a ef'> <f a ef'> <f a ef'>  |  bf, <f' bf d> <f bf d> <f bf d>  | 
+	<f bf d> r \phrasingslurdown <bf, bf,>2\(
+
+	\repeat volta 2
+{
+	<a a,>4^^\) <d d,>^^ <a a,>^^ r  |  r2 r4 <d fs a d>
+
+	\break
+
+	r2 r4 <d fs a d>  |  a <d d,> <a a,>4. a16[_( bf]  |  c4) <f f,> <c c,> r  |  r2 r4 <f a c f>  | }

@@ -1,0 +1,19 @@
+Global = { \key c \minor \time 2/2 }
+RH = \relative c' {
+ c'8-. \f bes-. as-. g-. f-. es-. des-. c-.  | 
+ bes-. as-. g-. f-. e-. des-. c-. bes-. \clef bass  | 
+ as-. g-. f-. e-. f-. \sf g-. as-. g-.  | 		%105
+ f-. es!-. d-. c-. b-. c-. d-. c-.  | 
+ r16 g_ \markup{\italic "cresc."}( b d  g4)-. r16 g,( c es  g4)-.  | 
+ r16 g,( d' f  g4)-. r16 g,( c es  g4)-. \clef treble  | 
+ r16 g( b d  g4)-. r16 g,( c es  g4)-.  | 			%109
+ r16 g,( d' f  g4)-. r16 g,( c es  g4)-.  | }
+LH = \relative c {
+  g4)-. r r \times 2/3 {  g8[ d b] }  | 	%113
+ g4 r r \times 2/3 {  g'8[ d b] }  | 
+ g4 r r \times 2/3 {  g8[ d b] }  | 
+ g4 r r2  | 
+ <g' g,>1 ~  | 				%117
+ <g g,>  | 
+ <f' d g,> ~  | 
+ <f d g,>2^\fermata r  | }

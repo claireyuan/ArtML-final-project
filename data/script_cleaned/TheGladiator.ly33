@@ -1,0 +1,34 @@
+Global = { \key f \major \time 2/2 }
+RH = \relative c' { <d f,>4 c g4. a8)
+
+	\break
+
+	g1~  |  g2 f  |  f g4._( a8)  |  bf2 d  |  <bf ef g>1~^(  |  <bf ef g>4 f' ef gf,)
+
+	\break
+
+	bf4.^( f8 d'4. c8)  |  <ef a, f>2\( <a, f ef>
+}
+\alternative
+{
+	{
+		bf4\) r r2  |  r4 d,_( ef e)
+	}
+	{
+		bf'4 r r2  | }
+LH = \relative c {
+	a, <f' a ef'> f, <f' a ef'>  |  a, <f' a ef'> f, <f' a ef'>
+
+	\break
+
+	bf, <e bf' df>8[ <e bf' df>] <e bf' df>4 <e bf' df>  |  bf <f' bf d?> f, <f' bf d>  |  bf, <f' bf d> f, <f' bf d>  | 
+	bf, <f' bf d> f, <f' bf d>  |  ef, <g' bf ef> ef <g bf ef>  |  ef <g bf ef> ef <gf bf ef>
+
+	\break
+
+	f <bf d> f <bf d>  |  <f f,> <f a c> <f f,> <ef f a>
+}
+\alternative
+{
+	{
+		<bf d f bf> <d d,>_( <ef ef,> <e e,>  | }

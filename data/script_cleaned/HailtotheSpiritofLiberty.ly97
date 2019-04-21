@@ -1,0 +1,43 @@
+Global = { \key f \major \time 2/2 }
+RH = \relative c' { <ef ef'>1  |  <f f'>2 <g g'>
+
+	\break
+
+	<bf bf'>4.^( <a a'>8 <bf bf'>4. <c c'>8)  |  <bf bf'>4^> <gf gf'>^> <f f'>^> <ef ef'>^>  | 
+	<< \stemdown {\phrasingslurup d'2\( s4 \times 2/3 {f,8[ ef d\)]}} \\
+	   \stemdown {d2~ \times 2/3 {d8[ ef e]} s4} >>  | 
+	c2 <c c'>  | 
+}
+\alternative
+{
+	{
+		<bf bf'>1~  |  <bf bf'>4 r r2
+	}
+
+	{
+		<bf bf'>1~  |  <bf bf'>4 r <bf d f bf>^> r
+	}
+}
+	\bar " | }
+LH = \relative c, { f2 ef} >>
+
+	\break
+
+	d4 <f bf> <f bf> <f bf>  |  <ef ef,> <gf bf ef> <gf bf ef> <gf bf ef>  |  f, <f' bf d> <f bf d> <f bf d>  | 
+	f, <f' a c ef> <f a c ef> <f a c ef>
+}
+\alternative
+{
+	{
+		bf,4 <f' bf d> <f bf d> <f bf d>  |  <f bf d> r <bf, bf,>2
+	}
+
+	{
+		bf4 <f' bf d> <f bf d> <f bf d>  |  <f bf d> r <bf, bf,>^> r
+	}
+}
+	\bar " | ."
+     }
+     
+     dynamics = {
+	s1\f  |  s1*2  | }

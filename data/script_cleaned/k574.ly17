@@ -1,0 +1,20 @@
+Global = { \key g\major \voiceI \time 6/8 }
+RH = \relative g'' {
+	r4 r8 r4 a8-.  | 
+	\stemUp c!-. e-. e,( dis) g-. fis-.  |  % We use \stemUp to match the original edition
+	r4 r8 r4 \stemNeutral b8-.  | 
+	d!-. fis-. fis,( eis) a-. gis-.  | 
+	b( ais) e'!-. dis-. a'!( gis)  | 
+	d'!-. cis-. g!( fis) c'-. b-.  | 
+	f!( e) d-. c-. g'-. b,-.  | 
+	
+	a-. e'-. g,-. fis( a) d-.  | }
+LH = \relative g' {
+	s2.  | 
+	s2.  | 
+	s2.  | 
+	s2.  | 
+	s2.  | 
+	s2.  | 
+	s2.  | 
+	s2.  | }

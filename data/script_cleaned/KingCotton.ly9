@@ -1,0 +1,28 @@
+Global = { \key ef \major \time 6/8 }
+RH = \relative c'' { \stemneutral bf4.~ bf4 g8  | 
+
+	\break
+		\phrasingslurdown
+	\grace {c16\([ ef]} <c ef g>8^^\)[ r ef] ef[ r c]  | 
+	\grace {c16\([ ef]} <c ef g>8^^\)[ r ef] ef[ r c]  | 
+	af^^[ r af] af[ g f]  |  af^^[ r af] af[ g f]  | 
+
+\pagebreak
+
+% begin page 2
+
+	\grace {c'16\([ ef]} <c ef g>8^^\)[ r ef] ef[ r c]  | 
+	\grace {c16\([ ef]} <c ef g>8^^\)[ r ef] ef[ r c]  | 
+	<bf d f>[ r d] ef-.[ d-. c-.]  | }
+LH = \relative c { f[ r <af bf>] af[ r <bf d>]  | 
+	g[ r <bf ef>] ef,[ r <g bf ef>]  | 
+
+	\break
+
+	c,[ r <c' ef g>] <c ef g>[ r <c ef g>]  |  c,[ r <c' ef g>] <c ef g>[ r <c ef g>]  |  f,[ r <af c>] <af c>[ r <af c>]  | 
+	f[ r <af c>] <af c>[ r <af c>]  | 
+
+\pagebreak
+% begin page 2 (lower)
+
+	c,[ r <c' ef g>] <c ef g>[ r <c ef g>]  |  c,[ r <c' ef g>] <c ef g>[ r <c ef g>]  | }

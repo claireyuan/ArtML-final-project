@@ -1,0 +1,36 @@
+Global = { \key f \major \time 2/2 }
+RH = \relative c' { r4 ef8[^( d)] d[^( c)] c[^( bf)]
+	}
+}
+
+\pagebreak
+
+%begin page 3 (final page)
+
+\repeat volta 2
+{
+	a1~  |  a4 d8[( c)] c[( bf)] bf[( a)]  |  g1~  |  g4 ef'8[( d)] d[( c)] c[( bf)]  |  a1~
+
+	\break
+
+	a4 d8[( c)] c[( bf)] bf[( a)]  |  g1~  |  g4 <g g'>8-.[ <fs fs'>-.] <g g'>-.[<a a'>-. <bf bf'>-. <c c'>-.]  | 
+	<d d'>1~  | }
+LH = \relative c { <f f,>) r r2
+	}
+	{
+		<bf f d bf>4 <bf, bf,>_( <c c,> <cs cs,>  |  <d d,>) r r2
+	}
+}
+
+\pagebreak
+
+% begin page 3 (lower)
+
+\repeat volta 2
+{
+	r4 <ef ef,>^> <d d,>^> <cs cs,>^>  |  <d d,>^> r r2  |  r4 <a a,>^> <g g,>^> <fs fs,>^>  |  <g g,>^> r r2  | 
+	r4 <ef ef'>^> <d d'>^> <cs cs'>^>
+
+	\break
+
+	<d d'>^> r r2  |  r4 <a a'>^> <g g'>^> <fs fs'>^> <g g'>^> r r2  |  r4 <g' g'>8->[ <fs fs'>->] <g g'>4-> <bf bf'>->  | }

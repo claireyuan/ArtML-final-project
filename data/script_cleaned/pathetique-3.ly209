@@ -1,0 +1,22 @@
+Global = { \key c \minor \time 2/2 }
+RH = \relative c' {
+ f4-. \sf r \times 2/3 { r8  c[( d]  e[ d  c)] }  | 
+ f4-. <c  fis, es! c>\ff-. <c g es c>-. <b g d b>  | 	%185
+ <c g es c>-. r \times 2/3 { r8  c,[( d]  e[ d  c)] }  | 
+ f4-. \sf r \times 2/3 { r8  c[( d]  e[ d  c)] }  | 
+ f4-. \sf r \times 2/3 { r8  c,[ d]  e[ d c] }  | 
+ \times 2/3 {
+   f[ \p c d]  es![ d c]  f[-. c d]  es[_ \markup{\italic "cresc."} d c]  | 	%189
+   g'[-. c, d]  es[ d c]  a'[-. c, d]  es[ d c]  | 
+   b'[-. b, c]  d[ c b]  c'[-. c, d]  es[ d c]  | }
+LH = \relative c {
+   c4) r r2  | 
+  es'2( des  | 				%205 (1)
+   c4) r r2 \clef treble  | 
+ } \\ {
+  as,1 ~  | 
+  as4 r r2  | 
+  as'1 ~  | 				%205 (2)
+  as4 r r2  | 
+ } >>
+ as'4-. r r2  | }

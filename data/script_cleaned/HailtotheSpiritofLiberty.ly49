@@ -1,0 +1,10 @@
+Global = { \key f \major \time 2/2 }
+RH = \relative c' { d1 ~  |  d2 f)  |  ef\(^( c)
+
+	\break
+
+	a'2. g4  |  f1\)^(  |  d2) d2  |  ef1^(  |  f2 g  |  bf4. a8 bf4.) c8\(  | }
+LH = \relative c, { bf, <bf' d>
+		<< \stemup {e4\rest <bf d>  |  d\rest <bf ef> <bf ef> <bf ef>  |  c\rest <bf d> c\rest <bf ef>  | 
+			c\rest <bf f> <bf f> <bf f>  |  c\rest <bf gf> <bf gf> <bf gf>} \\
+		 \stemdown {af2  |  g1_(  |  f2) ef  |  d1_(  | }

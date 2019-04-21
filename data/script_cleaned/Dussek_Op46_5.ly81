@@ -1,0 +1,35 @@
+Global = { \key d \major \time 3/4 }
+RH = \relative g' {
+%82
+d4 r8 e,16 fis a g fis e  | 
+%83
+fis4 r8 d'16 cis d8 d  | 
+%84
+d4 r8 g,16 a c b a g  | 
+%85
+a4. b8 cis d  | 
+%86
+cis[ b a g fis e]  | 
+%87
+a4. fis16 d e4\trill  | 
+%88
+d4 fis16 c' fis, c' fis, c' fis, c'  | 
+%89
+<b g>4 <cis e,> <cis e,>  | }
+LH = \relative g {
+%83
+a16 d cis d a4 r  | 
+%84
+b16 d cis d b4 r  | 
+%85
+fis8[ d' a d fis, d']  | 
+%86
+g,[ d' g, d' g, d']  | 
+%87
+<d a>[ <d a> <d a> <d a> <d a> <d a>]  | 
+%88
+d[ d d d d d]  | 
+%89
+d[ d d d d d]  | 
+%90
+d[ d, d d d d]  | }

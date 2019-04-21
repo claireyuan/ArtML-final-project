@@ -1,0 +1,17 @@
+Global = { \key f \major \time 2/2 }
+RH = \relative c' { a^> r r <f' f'>  |  <bf bf'>1~  |  <bf bf'>2 <c c'>  |  <d d'>1~  |  <d d'>2 <f f'>  | 
+	<ef ef'> <c c'>
+
+	\break
+
+	<a' a'>2. <g g'>4  | 
+	<< \stemdown {f'1^(  |  d2)} \\
+	   \stemdown {f,1_(  | }
+LH = \relative c, { bf <f' bf d> <f bf d> <f bf d>  | 
+	bf, <f' bf d> f <a c ef>  |  bf, <f' bf d> <f bf d> <f bf d>  |  bf, <f' bf d> <f bf d> <f bf d>  | 
+	c <f a c ef> <f a c ef> <f a c ef>
+
+	\break
+
+	f, <f' a c ef> <f a c ef> <f a c ef>  |  bf, <f' bf d> <f bf d> <f bf d>  |  bf, <f' bf d> <f bf d> <f bf d>  | 
+	c <f a c ef> <f a c ef> <f a c ef>  | }

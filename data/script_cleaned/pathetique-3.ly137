@@ -1,0 +1,20 @@
+Global = { \key c \minor \time 2/2 }
+RH = \relative c' {
+ es4-. es8(  f) d4-. d8(  es)  | 
+ c4 r r2  | 
+ r8 b,( d  f) r f'( d  b)  | 				%129
+ r c,( es  g) r g'( es  c)  | 
+ r e,( g  bes) r bes'( g  e)  | 
+ r f,( as c f as c  f) \sf ~  | 
+ f4( es d c  | 						%133
+  b)-._ \markup{ {\dynamic "p"} {\italic " dolce"}} g2-- g4 ~  | }
+LH = \relative c {
+  c2 s  | 				%137 (1)
+  c,4( g' f g  | 
+  e g b, g'  | 
+  c, g' c  g)  | 
+  c( a cis  a)  | 				%141 (1)
+ } \\ {
+  s2 f4( g  | 
+  e g \stemneutral b,  g') \stemdown  | 	%137 (2)
+  s1*2  | }

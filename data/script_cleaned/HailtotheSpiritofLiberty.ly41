@@ -1,0 +1,18 @@
+Global = { \key f \major \time 2/2 }
+RH = \relative c' { ef2 f  |  d1 ~  |  d2 bf  |  a4^( a'2.)  |  g2^( c,)
+
+	\break
+
+	f1 ~  |  f2 f,  |  bf1^( ~  |  bf2 c  | }
+LH = \relative c, {
+	c <e bf' c> <e bf' c> <e bf' c>
+
+	\break
+
+	f, <f' a c> <f a c> <f a c>  |  f <b d> <c ef> <a c>  |  bf, <f' bf d> <f bf d> <f bf d>  | 
+	bf, <f' bf d> f <a c ef>  |  bf, <f' bf d> <f bf d> <f bf d>  |  bf, <f' bf d> <f bf d> <f bf d>  | 
+	c <f a c ef> <f a c ef> <f a c ef>
+
+	\break
+
+	f, <f' a c ef> <f a c ef> <f a c ef>  |  bf, <f' bf d> <f bf d> <f bf d>  | }

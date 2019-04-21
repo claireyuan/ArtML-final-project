@@ -1,0 +1,19 @@
+Global = { \key d \major \time 6/8 }
+RH = \relative c'' { <b d, b>4.^( <a d, a>  |  <cs g cs,> <d fs, d>)  |  d,8^^ r r <fs a,>4.^^~  | 
+	<fs a,>8[ d cs] d[ e fs]  |  g^^ r r <b g b,>4.^^
+
+	\break
+
+	b8-.[ a-. g-.] bf-.[ a-. g-.]  |  fs[ e d] e[ r e]  |  d r <a a'>^( <gs gs'>4 <a a'>8)  | 
+	<b' d, b>4.^( <a d, a>  | }
+LH = \relative c { d[ r <fs a>] a,[ r <fs' a>]
+
+	\break
+
+	d[ r <fs a>] a,[ r <fs' a>]  |  <g g,>4._( <fs fs,>  |  <e e,> <d d,>)  | 
+	<d d,>8[ r <fs a>] a,[ r < fs' a>]  |  d[ r <fs a>] << \stemup {c8[ r <fs a>]} \\
+		\stemdown { c4.} >>  |  b8[ r <g' b>] g,[ r <g' b>]
+
+	\break
+
+	g[ r <b e>] e,[ r <g bf e>]  |  a,[ r <fs' a d>] a,[ r <g' a>]  |  <d fs a> r r r4 r8  | }
