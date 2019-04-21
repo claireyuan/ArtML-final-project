@@ -1,0 +1,1 @@
+global = { \key b es \major \time 4 / 4 } rh = \relative g ' { < b es d > r 1 6 d ' ' f d r b es d b es r f b es f | r d f d r b es d b es r f b es f r d f d | r c f c r d f d r c f c r d es f d es | c 4 < a f ' > < a f ' > r | c ' 8 c ' 1 6 b c 8 - | c - | c - | c - | } lh = \relative g { \clef bass < a f > 8 c 1 6 b c 8 - | c - | c - | c - | c - | c - | | c c c , c d d e e | }

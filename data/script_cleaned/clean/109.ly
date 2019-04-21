@@ -1,0 +1,1 @@
+global = { \key a \minor \time 3 / 4 } rh = \relative c ' ' ' { r 2 . | r 2 . | r 2 . | a 2 . ( \p \ < | g 4 f e | d \ ! e \ > f | e d c \ ! | e 2 . ) | } lh = \relative c { d , 2 . | a ' 2 . | d , 2 . | a ' 2 . | c 2 . | g 2 . | d 2 . | a ' 2 . | }

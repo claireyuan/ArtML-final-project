@@ -1,4 +1,5 @@
 import glob
+import sys
 
 f = open('lilypond_vocab_sorted.txt', 'r')
 vocab = f.read().split()
@@ -20,8 +21,10 @@ def matchChunk(s):
 			break
 	return matched
 
+input_dir = sys.argv[1]
+output_dir = sys.argv[2]
 fileCount = 0
-for f in glob.glob("data/*.ly"):
+for f in glob.glob(sys.argv[1] + "/*.ly*"):
 	print "parsing " + f + " " + str(fileCount)
 	f = open(f, 'r')
 	tokens = f.read().lower().split()
@@ -29,7 +32,7 @@ for f in glob.glob("data/*.ly"):
 	tokenized = []
 	for token in tokens:
 		tokenized += matchChunk(token)
-	w = open('data/clean/' + str(fileCount) + '.ly', 'w')
+	w = open(output_dir + '/' + str(fileCount) + '.ly', 'w')
 	w.write(' '.join(tokenized))
 	w.close()
 	fileCount += 1

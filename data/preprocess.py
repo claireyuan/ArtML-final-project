@@ -1,4 +1,9 @@
-""" Takes Lilypond files and divides them into 8 measure snippets. """
+""" 
+Takes Lilypond files and divides them into 8 measure snippets. 
+
+Usage: python preprocess.py [input_dir] [output_dir] 
+(no slashes)
+"""
 
 
 import re
