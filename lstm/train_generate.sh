@@ -17,7 +17,7 @@ python main.py --cuda \
 	--save ./${1}/model.pt # 2>&1 | tee -a train${1}.log
 
 python main.py --cuda \
-	--reload ./${1}/checkpointmodel.pt \
+	--reload ./${1}/model.pt \
 	--data ../data/manually_cleaned \
 	--model GRU \
 	--emsize 32 \

@@ -52,6 +52,8 @@ parser.add_argument('--onnx-export', type=str, default='',
                     help='path to export the final model in onnx format')
 parser.add_argument('--reload', type=str, default=None,
                     help='path from which to reload the model')
+parser.add_argument('--checkpoint', type=str, default='checkpoint.pt',
+                    help='path to save checkpoint (state dict) to')
 args = parser.parse_args()
 
 # Set the random seed manually for reproducibility.
@@ -220,7 +222,7 @@ try:
         print('-' * 89)
         # Save the model if the validation loss is the best we've seen so far.
         if not best_val_loss or val_loss < best_val_loss:
-            with open('checkpoint' + args.save, 'wb') as f:
+            with open(args.checkpoint, 'wb') as f:
                 torch.save({'state_dict': model.state_dict()}, f)
             best_val_loss = val_loss
         else:
@@ -232,7 +234,7 @@ except KeyboardInterrupt:
 
 # Load the best saved model.
 with open(args.save, 'rb') as f:
-    loadModelFromFile(model, args.save)
+    loadModelFromFile(model, args.checkpoint)
 
 # Run on test data.
 test_loss = evaluate(test_data)
@@ -241,6 +243,7 @@ print('| End of training | test loss {:5.2f} | test ppl {:8.2f}'.format(
     test_loss, math.exp(test_loss)))
 print('=' * 89)
 
+# save full model for inference
 torch.save(model, args.save)
 
 if len(args.onnx_export) > 0:
