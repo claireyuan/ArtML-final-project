@@ -221,7 +221,7 @@ try:
         # Save the model if the validation loss is the best we've seen so far.
         if not best_val_loss or val_loss < best_val_loss:
             with open(args.save, 'wb') as f:
-                torch.save({'state_dict': model.state_dict()}, f)
+                torch.save({'state_dict': model.state_dict(), 'model': model}, f)
             best_val_loss = val_loss
         else:
             # Anneal the learning rate if no improvement has been seen in the validation dataset.
@@ -232,7 +232,7 @@ except KeyboardInterrupt:
 
 # Load the best saved model.
 with open(args.save, 'rb') as f:
-    loadModelFromFile(f)
+    loadModelFromFile(args.save)
 
 # Run on test data.
 test_loss = evaluate(test_data)
