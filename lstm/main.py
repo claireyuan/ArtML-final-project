@@ -100,16 +100,15 @@ test_data = batchify(corpus.test, eval_batch_size)
 
 ntokens = len(corpus.dictionary)
 
+model = model.RNNModel(args.model, ntokens, args.emsize, args.nhid, args.nlayers, args.dropout, args.tied).to(device)
 if (args.reload != None):
     # Load the best saved model.
     print("reloading model from file " + args.reload)
     with open(args.reload, 'rb') as f:
-        checkpoint = torch.load_state_dict(f)
+        model.load_state_dict(f)
         # after load the rnn params are not a continuous chunk of memory
         # this makes them a continuous chunk, and will speed up forward pass
         model.rnn.flatten_parameters()
-else:
-    model = model.RNNModel(args.model, ntokens, args.emsize, args.nhid, args.nlayers, args.dropout, args.tied).to(device)
 
 criterion = nn.CrossEntropyLoss()
 
