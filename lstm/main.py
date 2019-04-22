@@ -104,7 +104,7 @@ if (args.reload != None):
     # Load the best saved model.
     print("reloading model from file " + args.reload)
     with open(args.reload, 'rb') as f:
-        model = torch.load(f)
+        checkpoint = torch.load_state_dict(f)
         # after load the rnn params are not a continuous chunk of memory
         # this makes them a continuous chunk, and will speed up forward pass
         model.rnn.flatten_parameters()
@@ -220,7 +220,7 @@ try:
         # Save the model if the validation loss is the best we've seen so far.
         if not best_val_loss or val_loss < best_val_loss:
             with open(args.save, 'wb') as f:
-                torch.save(model, f)
+                torch.save(model.state_dict(), f)
             best_val_loss = val_loss
         else:
             # Anneal the learning rate if no improvement has been seen in the validation dataset.
@@ -231,7 +231,7 @@ except KeyboardInterrupt:
 
 # Load the best saved model.
 with open(args.save, 'rb') as f:
-    model = torch.load(f)
+    model = torch.load_state_dict(f)
     # after load the rnn params are not a continuous chunk of memory
     # this makes them a continuous chunk, and will speed up forward pass
     model.rnn.flatten_parameters()
