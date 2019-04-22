@@ -24,7 +24,7 @@ python main.py --cuda \
 	--nhid 256 \
 	--nlayers 2 \
 	--batch_size 64 \
-	--lr 20 \
+	--lr 1 \
 	--clip 0.25 \
 	--epochs 400 \
 	--save ./${1}/model_tuned.pt # 2>&1 | tee -a train${1}.log
