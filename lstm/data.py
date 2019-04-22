@@ -39,6 +39,13 @@ class Corpus(object):
             for word in f:
                 self.dictionary.add_word(word)
 
+        # count total number of tokens
+        with open(path, 'r', encoding="utf8") as f:
+            tokens = 0
+            for line in f:
+                words = line.split() + ['<eos>']
+                tokens += len(words)
+
         # Tokenize file content
         with open(path, 'r', encoding="utf8") as f:
             ids = torch.LongTensor(tokens)
