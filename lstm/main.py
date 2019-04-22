@@ -97,17 +97,20 @@ test_data = batchify(corpus.test, eval_batch_size)
 ###############################################################################
 # Build the model
 ###############################################################################
+def loadModelFromFile(model):
+    print("reloading model from file " + args.reload)
+    checkpoint = torch.load(args.reload)
+    model.load_state_dict(checkpoint)
+    # after load the rnn params are not a continuous chunk of memory
+    # this makes them a continuous chunk, and will speed up forward pass
+    model.rnn.flatten_parameters()
+    return model
 
 ntokens = len(corpus.dictionary)
 
 model = model.RNNModel(args.model, ntokens, args.emsize, args.nhid, args.nlayers, args.dropout, args.tied).to(device)
 if (args.reload != None):
-    # Load the best saved model.
-    print("reloading model from file " + args.reload)
-    model.load_state_dict(args.reload)
-    # after load the rnn params are not a continuous chunk of memory
-    # this makes them a continuous chunk, and will speed up forward pass
-    model.rnn.flatten_parameters()
+    model = loadModelFromFile(model)
 
 criterion = nn.CrossEntropyLoss()
 
@@ -229,10 +232,7 @@ except KeyboardInterrupt:
 
 # Load the best saved model.
 with open(args.save, 'rb') as f:
-    model = torch.load_state_dict(f)
-    # after load the rnn params are not a continuous chunk of memory
-    # this makes them a continuous chunk, and will speed up forward pass
-    model.rnn.flatten_parameters()
+    loadModelFromFile(f)
 
 # Run on test data.
 test_loss = evaluate(test_data)
