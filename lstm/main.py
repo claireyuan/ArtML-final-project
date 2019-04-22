@@ -97,9 +97,9 @@ test_data = batchify(corpus.test, eval_batch_size)
 ###############################################################################
 # Build the model
 ###############################################################################
-def loadModelFromFile(model):
+def loadModelFromFile(model, filename):
     print("reloading model from file " + args.reload)
-    checkpoint = torch.load(args.reload)
+    checkpoint = torch.load(filename)
     model.load_state_dict(checkpoint['state_dict'])
     # after load the rnn params are not a continuous chunk of memory
     # this makes them a continuous chunk, and will speed up forward pass
@@ -110,7 +110,7 @@ ntokens = len(corpus.dictionary)
 
 model = model.RNNModel(args.model, ntokens, args.emsize, args.nhid, args.nlayers, args.dropout, args.tied).to(device)
 if (args.reload != None):
-    model = loadModelFromFile(model)
+    model = loadModelFromFile(model, args.reload)
 
 criterion = nn.CrossEntropyLoss()
 
@@ -220,8 +220,8 @@ try:
         print('-' * 89)
         # Save the model if the validation loss is the best we've seen so far.
         if not best_val_loss or val_loss < best_val_loss:
-            with open(args.save, 'wb') as f:
-                torch.save({'state_dict': model.state_dict(), 'model': model}, f)
+            with open('checkpoint' + args.save, 'wb') as f:
+                torch.save({'state_dict': model.state_dict()}, f)
             best_val_loss = val_loss
         else:
             # Anneal the learning rate if no improvement has been seen in the validation dataset.
@@ -232,7 +232,7 @@ except KeyboardInterrupt:
 
 # Load the best saved model.
 with open(args.save, 'rb') as f:
-    loadModelFromFile(args.save)
+    loadModelFromFile(model, args.save)
 
 # Run on test data.
 test_loss = evaluate(test_data)
@@ -240,6 +240,8 @@ print('=' * 89)
 print('| End of training | test loss {:5.2f} | test ppl {:8.2f}'.format(
     test_loss, math.exp(test_loss)))
 print('=' * 89)
+
+torch.save(model, args.save)
 
 if len(args.onnx_export) > 0:
     # Export the model in ONNX format.
