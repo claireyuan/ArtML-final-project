@@ -13,7 +13,7 @@ python main.py --cuda \
 	--batch_size 64 \
 	--lr 20 \
 	--clip 0.25 \
-	--epochs 400 \
+	--epochs 100 \
 	--save ./${1}/model.pt # 2>&1 | tee -a train${1}.log
 
 python main.py --cuda \
@@ -26,7 +26,7 @@ python main.py --cuda \
 	--batch_size 64 \
 	--lr 1 \
 	--clip 0.25 \
-	--epochs 400 \
+	--epochs 50 \
 	--save ./${1}/model_tuned.pt # 2>&1 | tee -a train${1}.log
 
 python generate.py --cuda \

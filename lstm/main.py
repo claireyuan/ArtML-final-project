@@ -233,8 +233,7 @@ except KeyboardInterrupt:
     print('Exiting from training early')
 
 # Load the best saved model.
-with open(args.save, 'rb') as f:
-    loadModelFromFile(model, args.checkpoint)
+loadModelFromFile(model, args.checkpoint)
 
 # Run on test data.
 test_loss = evaluate(test_data)
