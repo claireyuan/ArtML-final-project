@@ -100,7 +100,7 @@ test_data = batchify(corpus.test, eval_batch_size)
 # Build the model
 ###############################################################################
 def loadModelFromFile(model, filename):
-    print("reloading model from file " + args.reload)
+    print("reloading model from file " + filename)
     checkpoint = torch.load(filename)
     model.load_state_dict(checkpoint['state_dict'])
     # after load the rnn params are not a continuous chunk of memory
