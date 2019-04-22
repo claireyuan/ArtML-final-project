@@ -6,6 +6,8 @@ import os
 from io import open
 import torch
 
+dictionary_path = '../data/lilypond_vocab_sorted.txt'
+
 class Dictionary(object):
     def __init__(self):
         self.word2idx = {}
@@ -31,14 +33,11 @@ class Corpus(object):
     def tokenize(self, path):
         """Tokenizes a text file."""
         assert os.path.exists(path)
-        # Add words to the dictionary
-        with open(path, 'r', encoding="utf8") as f:
-            tokens = 0
-            for line in f:
-                words = line.split() + ['<eos>']
-                tokens += len(words)
-                for word in words:
-                    self.dictionary.add_word(word)
+        assert os.path.exists(dictionary_path)
+        # Add words to the dictionary from vocab file
+        with open(dictionary_path, 'r', encoding="utf8") as f:
+            for word in f:
+                self.dictionary.add_word(word)
 
         # Tokenize file content
         with open(path, 'r', encoding="utf8") as f:
