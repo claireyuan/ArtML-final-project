@@ -38,6 +38,7 @@ class Corpus(object):
         with open(dictionary_path, 'r', encoding="utf8") as f:
             for word in f:
                 self.dictionary.add_word(word.strip())
+            self.dictionary.add_word('<eos>')
 
         # count total number of tokens
         with open(path, 'r', encoding="utf8") as f:
