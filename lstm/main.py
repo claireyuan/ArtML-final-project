@@ -1,4 +1,7 @@
-""" Copied from Pytorch word generation example. """
+""" 
+Copied from Pytorch word generation example. Modified to allow for 
+reloading a previous checkpoint to continue training.
+"""
 
 # coding: utf-8
 import argparse
@@ -47,6 +50,8 @@ parser.add_argument('--save', type=str, default='model.pt',
                     help='path to save the final model')
 parser.add_argument('--onnx-export', type=str, default='',
                     help='path to export the final model in onnx format')
+parser.add_argument('--reload', type=str, default=None,
+                    help='path from which to reload the model')
 args = parser.parse_args()
 
 # Set the random seed manually for reproducibility.
@@ -94,7 +99,17 @@ test_data = batchify(corpus.test, eval_batch_size)
 ###############################################################################
 
 ntokens = len(corpus.dictionary)
-model = model.RNNModel(args.model, ntokens, args.emsize, args.nhid, args.nlayers, args.dropout, args.tied).to(device)
+
+if (args.reload != None):
+    # Load the best saved model.
+    print("reloading model from file " + args.reload)
+    with open(args.reload, 'rb') as f:
+        model = torch.load(f)
+        # after load the rnn params are not a continuous chunk of memory
+        # this makes them a continuous chunk, and will speed up forward pass
+        model.rnn.flatten_parameters()
+else:
+    model = model.RNNModel(args.model, ntokens, args.emsize, args.nhid, args.nlayers, args.dropout, args.tied).to(device)
 
 criterion = nn.CrossEntropyLoss()
 
