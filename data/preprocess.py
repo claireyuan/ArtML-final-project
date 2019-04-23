@@ -30,15 +30,12 @@ def processOneFile(filename, output_dir):
 
 		time = (full_file.split('\\time')[1]).split()[0]
 
-		print key, time
 		regexed_file = re.split("(voice.*|upper.*|lower.*|top|bottom.*|lh|rh|mela|basa).[=] ", full_file.lower())
 		rh = regexed_file[2]
 		lh = regexed_file[4]
 		rh_relative, rh_measures = parseOneHand(rh)
 		lh_relative, lh_measures = parseOneHand(lh)
 
-		print rh
-		print lh
 		i = 1
 		while i < min(len(rh_measures)-8, len(lh_measures)-8):
 			with open(output_dir + '/' + os.path.basename(filename) + str(i), 'w') as out_file:
