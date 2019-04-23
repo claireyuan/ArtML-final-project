@@ -13,7 +13,7 @@ python main.py --cuda \
 	--batch_size 64 \
 	--lr 10 \
 	--clip 0.25 \
-	--bptt 200 \
+	--bptt 50 \
 	--epochs 300 \
 	--checkpoint ./${1}/checkpoint.pt \
 	--save ./${1}/model.pt # 2>&1 | tee -a train${1}.log
@@ -28,7 +28,7 @@ python main.py --cuda \
 	--batch_size 64 \
 	--lr 1 \
 	--clip 0.25 \
-	--bptt 200 \
+	--bptt 50 \
 	--epochs 150 \
 	--checkpoint ./${1}/tuned_checkpoint.pt \
 	--save ./${1}/model_tuned.pt # 2>&1 | tee -a train${1}.log
@@ -36,5 +36,6 @@ python main.py --cuda \
 python generate.py --cuda \
 	--data ../data/manually_cleaned \
 	--checkpoint ./${1}/model_tuned.pt \
+	--seed 3921117 \
 	--outf ./${1}/generated.txt \
-	--words 1000 # 2>&1 | tee -a train${1}.log
+	--words 15000 # 2>&1 | tee -a train${1}.log
