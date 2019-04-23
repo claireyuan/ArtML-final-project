@@ -11,7 +11,7 @@ with open(in_file, 'r') as r, open(out_file, 'w') as w:
 		for token in tokens:
 			if token in list('abcdefgr'):
 				cleaned += (' ' + token)
-        elif token in ['is', 'es', 's', '\'', '.', '-', ',']:
+			elif token in ['is', 'es', 's', '\'', '.', '-', ',']:
 				cleaned += (token)
 			else: 
 				cleaned += (' ' + token + ' ')
