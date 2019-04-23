@@ -228,6 +228,8 @@ try:
         else:
             # Anneal the learning rate if no improvement has been seen in the validation dataset.
             lr /= 4.0
+            print("Decreasing learning rate to " + str(lr))
+
 except KeyboardInterrupt:
     print('-' * 89)
     print('Exiting from training early')
