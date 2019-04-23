@@ -111,6 +111,7 @@ def loadModelFromFile(model, filename):
 ntokens = len(corpus.dictionary)
 
 model = model.RNNModel(args.model, ntokens, args.emsize, args.nhid, args.nlayers, args.dropout, args.tied).to(device)
+print(args)
 if (args.reload != None):
     model = loadModelFromFile(model, args.reload)
 
