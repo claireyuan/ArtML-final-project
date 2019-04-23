@@ -1,0 +1,35 @@
+Global = { \key c \major \time time }
+RH = {{
+%47
+a'4 gis' r8 gis'[ b' a']  | 
+%48
+a'4 gis' r8 gis'[ b' a']  | 
+%49
+\times 2/3 {gis'[ b' a']} \times 2/3 {gis'[ b' a']} \times 2/3 {gis'[ b' a']} \times 2/3 {gis'[ b' a']}  | 
+%50 printing error: third notes are crotchet (bes, stem up) and quaver (g, stem down) (corrected)
+gis'[ <d'' f''>] <d'' f''>4 r8 <d'' f''>[ <c'' e''> <b' d''>]  | 
+%51
+c''16 a'' c'' a'' c'' a'' c'' a'' c'' a'' c'' a'' c'' a'' c'' a''  | 
+%52
+c''16 a'' c'' a'' c'' a'' c'' a'' c'' a'' c'' a'' c'' a'' c'' a''  | 
+%53
+a''8 a'16 b' a'8 a' d''16 c'' b' a' d'' c'' b' a'  | 
+%54
+a''8 a'16 b' a'8 a' d''16 c'' b' a' d'' c'' b' a'  | }
+LH = {{ \clef f
+%50
+r4 e fis gis  | 
+%51
+<a a,>2 <a a,>4 <g g,>4  | 
+%52
+<f f,>2 <f f,>4 <e e,>4  | 
+%53
+<dis a c'>8[ <dis a c'> <dis a c'><dis a c'>] <dis a c'>2  | 
+%54
+<e a c'>8[ <e a c'> <e a c'> <e a c'>] <e a c'>2  | 
+%55
+<f a c'>8[ <f a c'> <f a c'><f a c'>] <f a c'>2  | 
+%56
+e16[ c' a c'] e[ c' a c'] e[ b gis b] e[ b gis b]  | 
+%57
+a2 r  | }

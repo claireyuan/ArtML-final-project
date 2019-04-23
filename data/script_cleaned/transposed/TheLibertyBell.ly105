@@ -1,0 +1,23 @@
+Global = { \key c \major \time time }
+RH = {{ <b' b>^^ <c'' c'>^^} \\
+	 \stemdown {\set fontsize=#-4 d'4\rest \set fontsize=#0 <f' c'>8 \set fontsize=#-4 e'4\rest \set fontsize=#0 <f' c'>8  | 
+		\set fontsize=#-4 e'4\rest \set fontsize=#0 <f' d'>8 \set fontsize=#-4 fis'4\rest \set fontsize=#0 <f' c'>8} >>  | 
+
+	\break
+
+	<bes' e'' bes''>8^^[ r <bes' e'' bes''>] <bes' e'' bes''>[ r <a' dis'' a''>]  |  <bes' e'' bes''>4.~ <bes' e'' bes''>4 <a' a''>8  | 
+	<< \stemup {s64*1/2 \set fontsize=#-4 c''4*31/32\rest \set fontsize=#0 <bes' e''>8
+		    s64*1/2 \set fontsize=#-4 c''4*31/32\rest \set fontsize=#0 <dis'' a'>8} \\
+	 \stemdown {<g'' g'>4.^^ <fis'' fis'>^^} >>  | 
+	<g'' e'' c'' g'>4 <c'' c'>8( <b' b>4 <c'' c'>8)  | 
+	<< \stemup {s64*1/2 \set fontsize=#-4 e''4*31/32\rest \set fontsize=#0 <f'' c''>8
+		    s64*1/2 \set fontsize=#-4 c''4*31/32\rest \set fontsize=#0 <b' f''>8} \\
+	 \stemdown {<a' a''>4.^^ <gis' gis''>^^} >>  | 
+	<a' c'' f'' a''>4 <c'' c'>8^( <b' b>4 <c'' c'>8)
+
+	\break
+
+	<d'' d'>4.^^ <bes' bes''>^^  | }
+LH = {{ s4.\> s4.\!  |  s2.\p  |  s2.  |  s4 s4.\< s8\!  |  s8 s4.\> s4\!
+
+	s2.*2  |  s4. s4.\<  |  s2.\!  |  s2.\f  | }

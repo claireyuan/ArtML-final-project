@@ -1,0 +1,10 @@
+Global = { \key c \major \time time }
+RH = {{ a'1 ~  |  a'2 c'')  |  bes'\(^( g')
+
+	\break
+
+	e''2. d''4  |  c''1\)^(  |  a'2) a'2  |  bes'1^(  |  c''2 d''  |  f''4. e''8 f''4.) g''8\(  | }
+LH = {{ f, <f a>
+		<< \stemup {b4\rest <f a>  |  a\rest <f bes> <f bes> <f bes>  |  g\rest <f a> g\rest <f bes>  | 
+			g\rest <f c> <f c> <f c>  |  g\rest <f des> <f des> <f des>} \\
+		 \stemdown {es2  |  d1_(  |  c2) bes,  |  a,1_(  | }

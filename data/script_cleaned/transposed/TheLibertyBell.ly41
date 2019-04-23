@@ -1,0 +1,21 @@
+Global = { \key c \major \time time }
+RH = {{ s4} >> c'8_( b4 c'8)  | 
+	e'4. g'  |  f'4^( g'8) \stemup d'4_( f'8)  |  \stemneutral
+	<< \stemup {e'4^( f'8) d'4^( e'8)  |  c'4^( d'8) bes4^( c'8)} \\
+	 \stemdown {<g bes>4. <f bes>  |  <e bes> <e g>} >>
+
+	\break
+
+	<a f' a'>4.^( <bes f' bes'>  |  <b f' b'> <c' f' c''>)  |  #(set-octavation 1)
+	<c'' f'' a''>8[ r <c'' f'' a''>] <c'' f'' a''>[ r <b' f'' gis''>]  | }
+LH = {{ c,4^( c8) c,4^( c8)
+
+	\break
+
+	f,8-^[ r f] g,-^[ r f]  |  gis,-^[ r f] a,-^[ r f]  |  f,[ r <f a c'>] <f a c'>[ r <f gis b>]  | 
+	f,[ r <f a c'>] <f a c'>[ r <c f a>]  |  f,8-^[ r f] g,-^[ r f]  |  gis,-^[ r f] a,-^[ r f]
+
+	\break
+
+	c,[ r <e g bes>] <e g bes>[ r <dis fis a>]  |  c,[ r <e g bes>] <e g bes>[ r <e g bes>]  | 
+	c,[ r <c e g>] c,[ r <c dis fis>]  | }

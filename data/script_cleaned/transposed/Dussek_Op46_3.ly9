@@ -1,0 +1,29 @@
+Global = { \key c \major \time time }
+RH = {{ c''- |  c''- |   | 
+%7
+<c'' a'>4 <b' g'>8 <f' a'> <e' g'>4 <d' f'>  | 
+%8
+<f' d'>2 <e' c'>4 r8 g  | 
+%9
+g2( b,8) g g g  | 
+%10
+g2( c8) c' c' c'  | 
+%11
+<c' a>4 <b g>8 <a f> <e g>4 <d f>  | }
+LH = {{
+%10
+r8 <e, g,> <e, g,> <e, g,> <e, g,>2  | 
+%11
+f,2 g,4 g,,  | 
+%12
+c, \clef treble c'' g' e'  | 
+%13
+c' g e c  |  \clef bass
+%14
+b, c b, c  | 
+%15
+b, g, g, r  |  \clef treble
+%16
+r4 <g b> <fis a> <g e>  | 
+%17
+<d fis> <c e> <b, d> <a, c>  | }

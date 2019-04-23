@@ -1,0 +1,27 @@
+Global = { \key c \major \time time }
+RH = {{ <a d' f'>4 r8 r4 r8  | 
+	r4 <bes e' bes'>8 <bes e' bes'>[ <bes e' a'> <bes e' g'>]
+
+	\break
+
+	<a d' f'>4 <a d' f'>8 <bes d' g'>[ <bes d' f'> <bes d' g'>]  |  <a cis' e' a'>4 r8 #(set-octavation 1) <a' cis'' e'' a''>4 r8  | 
+	<a'' cis''' e''' a'''>4 #(set-octavation 0) r8 r4 r8  |  r4 <d'' bes' d'>8-. <d'' bes' d'>-.[ <c'' a' c'>-. <bes' g' bes>-.]  | 
+	<a' f' a>4 r8 r4 r8
+
+	\break
+
+	r4 <d'' bes' d'>8 <d'' bes' d'>[ <c'' a' c'> <bes' g' bes>]  |  <a' f' a>4 r8 r4 r8  | 
+	r4 <d'' bes' d'>8 <d'' bes' d'>[ <c'' a' c'> <bes' g' bes>]  | }
+LH = {{ <f, f>4.) <des, des>  | 
+	<c, c>4 r8 <c, c>4 r8
+
+	\break
+
+	r4 <c, c>8 <c, c>[ <c, c> <c, c>]  |  <des, des>4 <as, as>8 <f, f>4 <des, des>8^^  | 
+	<c, c>4^^ g,8^^ <c c,>4^^ <c c,>8  |  <des des,>4 <as, as>8 <f, f>4 <des, des>8^^  | 
+	<c, c>4^^ g,8^^ <c c,>4^^ <c c,>8
+
+	\break
+
+	<f f,>4^^ <e e,>8 <f f,>4 <des des,>8  |  <c c,>4^^ <b, b,,>8 <c c,>4 <a, a,,>8  | 
+	<g, g,,>4^^ <a, a,,>8 <bes, bes,,>4 <g, g,,>8  | }

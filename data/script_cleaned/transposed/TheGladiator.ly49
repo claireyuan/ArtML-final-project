@@ -1,0 +1,23 @@
+Global = { \key c \major \time time }
+RH = {{ <a' a''>4 <d'' d'>8-.[ <cis'' cis'>-.] <d'' d'>-.[ <e'' e'>-. <f'' f'>-. <g'' g'>-.]
+
+	\break
+
+	<a'' a'>1~  |  <a'' a'>4 a'8-.[ a'-.] a'4-. a'8-.[ a'-.]  |  a'4 a'8[ a'] a'4 a'8[ a']  | 
+	\repeat tremolo 4 {a16[( a')]} \repeat tremolo 4 {a16[( a')]}  |  <a' a>4 <a' a>-> <bes' bes>-> <b' b>->
+
+	\break
+
+	<c'' c'>2^\markup {\column {\bold "grandioso." " "}} <d'' d'>4.( <e'' e'>8)  |  <f'' f'>2 <a'' a'>  |  <c''' c''>1~  |  <c''' c''>4 <bes'' bes'> <fis'' fis'>4.( <g'' g'>8)  | }
+LH = {{
+	<a, a,,>^> r r2
+
+	\break
+
+	r4 <d d,>8[ <cis cis,>] <d d,>4 <f f,>  |  <a, a,,> r r2  |  r1  | 
+	\repeat tremolo 4 {a,,16[( a,)]} \repeat tremolo 4 {a,,16[( a,)]}  |  <a, a,,>4 r r2
+
+	\break
+
+	f,4 <c f a> <c c,> <c f a>  |  f, <c f a> <c c,> <c f a>  |  g, <c e bes> <c c,> <c e bes>  | 
+	g, <c e bes > <c c,> <c e bes>  | }

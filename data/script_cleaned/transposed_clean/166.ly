@@ -1,0 +1,1 @@
+global = { \key c \major \time 2 / 4 \partial 8 } rh = { g 8 c ' ( e ' g ' c ' ) c ' 4 ( b 8 ) g d ' ( f ' a ' < d ' f ' > ) < d ' f ' > 4 ( < c ' e ' > 8 \ e ' ) e ' ' ( c ' ' g is ' a ' ) d ' ' ( b ' f is ' g ' ! ) a ' 8 ( c ' ' 4 ) f is ' 8 g ' 4 \ r } lh = { r 8 < c e > 4 r 8 < e g > < d f > 4 r r r 8 b , c 4 c , 8 r \clef treble c ' 4 r 8 c ' b 4 r 8 b c ' 4 d ' g r }

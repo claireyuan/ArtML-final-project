@@ -1,0 +1,25 @@
+Global = { \key c \major \time time }
+RH = {{ r2 r4 <c' a' c''>->  |  r <c' a' c''>->
+		<< \stemdown {<b' d''>2^>^(  |  c''4) } \\
+		 \stemdown {d'2_( c'4) } \\
+		\stemup {s64 a'4*15/16 gis'4  |  \stemdown a'} >> a'4^( e'4. a'8)
+
+	\break
+
+\repeat volta 2
+{
+	f'1~  |  f'4 d'_( b4. e'8)  |  a1^(~  |  a4 c' e' a')  |  bes'2. bes'4
+
+	\break
+
+	b'?2. b'4  | }
+LH = {{ <e, e,,>4.^> <e, e,,>8( <dis, dis,,>2)  | 
+	<e, e,,>4.^> <e, e,,>8 <f, f,,>4_( <e, e,,>  |  <a,, a,,,>) r r2
+
+	\bar " |  | "
+	\break
+
+\repeat volta 2
+{
+	d,4 <d f a> <d f a> <d f a>  |  e, <d e gis> <d e gis> <d e gis>  | 
+	a, <c e> e, <c e>  |  c, <c e> a,, <c e a>  | }

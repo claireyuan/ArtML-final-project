@@ -1,0 +1,22 @@
+Global = { \key a \minor \time time }
+RH = {{				%93 (1)
+  c''' b'' d'''  c''')  | 
+ } \\ {
+  \stemneutral
+  a''2( <d''' d''>  | 
+  g'' <c''' c''>) ~  | 
+  \stemdown
+  c''4( a' d'' c''  | 			%89 (2)
+  bes' a' g'  c'')  | 
+  s1*2  | 
+  a''2 g''4 f''  | 				%93 (2)
+  e'' d'' f'' e''  | }
+LH = {{
+ <a' f'!> r) r <f' g>(  | 		%97
+ <e' c'> r) r8 \clef treble c'''8-. d'''-. e'''-.  | 
+ f'''-. e'''-. d'''-. c'''-. bes''-. a''-. g''-. f''-. \clef bass  | 
+ e''-. d''-. c''-. bes'-. a'-. g'-. f'-. e'-.  | 
+ d'-. c'-. bes-. a-. g-. fis-. g-. a-.  | 	%101
+ bes-. a-. bes-. b-. c'-. d'-. dis'-. e'-.  | 
+ f2 bes  | 
+ e a  | }

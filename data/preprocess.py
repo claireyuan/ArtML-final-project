@@ -30,7 +30,7 @@ def processOneFile(filename, output_dir):
 
 		time = (full_file.split('\\time')[1]).split()[0]
 
-		regexed_file = re.split("(.*voice.*|upper.*|lower.*|top.*|bottom.*|lh|rh|mela|basa) = ", full_file.lower())
+		regexed_file = re.split("(voice.*|upper.*|lower.*|top|bottom.*|lh|rh|mela|basa).[=] ", full_file.lower())
 		rh = regexed_file[2]
 		lh = regexed_file[4]
 		rh_relative, rh_measures = parseOneHand(rh)
@@ -39,6 +39,7 @@ def processOneFile(filename, output_dir):
 		i = 1
 		while i < min(len(rh_measures)-8, len(lh_measures)-8):
 			with open(output_dir + '/' + os.path.basename(filename) + str(i), 'w') as out_file:
+				print "Writing to " + output_dir + '/' + os.path.basename(filename) + str(i)
 				out_file.write("Global = {{ \\key {0} {1} \\time {2} }}\n".format( key[0], key[1], 'time'))
 				if (rh_relative is None):
 					out_file.write("RH = {{")
@@ -61,6 +62,7 @@ def processOneFile(filename, output_dir):
 input_dir = sys.argv[1]
 output_dir = sys.argv[2]
 
+print "HELLO"
 # try to process all lilypond files in input directory
 # skip file if error occurs
 for f in glob.glob(input_dir + "/*.ly"):

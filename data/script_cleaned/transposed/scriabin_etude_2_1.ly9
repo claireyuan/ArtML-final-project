@@ -1,0 +1,32 @@
+Global = { \key a \minor \time time }
+RH = {{
+		% bar 10
+		g''8. fis''16 fis''2  | 
+		<g' b' e''>8 <g' fis''> <e'' g''> <b' a''> <g'' b''> e'''  | 
+		d'''8. cis'''16 cis'''2  | 
+	}
+	\\
+	{
+		s8 c'4 a' s8  | 
+		<g' a' d''> <g' d''> <f' d''> <f' d''> <f' d''> <f' d''>  | 
+		s8 a'4 a' s8  | 
+		f''8 f'' f'' f'' e'' e''  | 
+		% bar 5
+		s8 e''4 a'' s8  | }
+LH = {{
+		s2.  | 
+		a8 a4 f s8  | 
+		<e d' a'>8\arpeggio <d' a'> <d' a'> <d' a'> <d' gis'> <d' gis'>  | 
+		% bar 5
+		a2.  | 
+		<b e'>2 a4  | 
+		g2 a4  | 
+		e4 e2  | 
+	}
+	>>
+
+	% bars 9-12
+
+	<<
+	{
+		<a, a>8[ <g, g>] <fis, fis> r r a'  | }

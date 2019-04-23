@@ -1,0 +1,17 @@
+Global = { \key c \major \time time }
+RH = {{ <c'' f'' a''>2.^^(  |  <c'' e'' g''>8[) r e''] c''[ r e'']  |  <d'' b' f'>2.^^(  | 
+	<c'' g' e'>4) <c'' e''>8^( <d'' f''>4 <dis'' fis''>8)  |  g''8-.[ f''-. e''-.] c'''-.[ b''-. a''-.]  |  g''-.[ c''\rest e''-.] c''-.[ r e''-.]
+
+	\break
+
+	<d'' b' f'>2.^^(  |  <c'' g' e'>8)[ r e''] c''[ r e'']  |  g''[ r e''] g''[ r a'']  | }
+LH = {{ f,4_( g,8 a,[ g, f,])  |  c[ r <e g>] g,[ r <e g>]  |  g,4_( a,8 b,[ a, g,])  | 
+	<< \stemup {c4 c'8^( b4 a8) } \\
+	 \stemdown {c4 a,8\rest a,4\rest a,8\rest} >>  | 
+	c8[ r <e g>] g,[ r <e g>]  |  <c c,>[ r <e g>] e,[ r <e g>]
+
+	\break
+
+	g,4_( a,8 b,[ a, g,])  |  c[ r <e g>]
+		<< \stemup {a,8[ r <e a>]  |  e[ r <g c'>] es[ r <g c'>]} \\
+		 \stemdown {a,4._(  | }

@@ -1,0 +1,24 @@
+Global = { \key a \minor \time time }
+RH = {{
+      e''2.\!  | 
+      a'4 g' a'  | 
+      b' c'' d''  | 
+      b' c'' \> d''  | 
+      e'2.  | 
+      < bes' g' d' bes>2.\!)  | 
+      <c'' g' e' c'>2.  | 
+      \barnumbercheck #40
+    } {
+      f''2.( \<  | }
+LH = {{
+      c'4\rest <g' d' b>2  | 
+      c'4\rest <g' e' b g>2  | 
+      g4\rest <c' g>4 <f' c' a>  | 
+      s2.  | 
+      s2.  | 
+    } {
+      \change staff=treble
+      \stemup
+      d'4\rest <f' d' a>2  | 
+      d'4\rest <g' es' c' g>2  | 
+      c'4\rest <es' bes g>2  | }

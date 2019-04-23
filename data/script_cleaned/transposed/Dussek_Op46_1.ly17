@@ -1,0 +1,17 @@
+Global = { \key c \major \time time }
+RH = {{)] a''[( g''- | ) g''( fis''- | )]} \\ {g''8[ g''] g''[ fis''] fis''[ e'' e'' d'']} >>  | 
+% m16
+<< {fis''( g''- | ) g''( fis''- | )] fis''[( e''- | )] e''[( d''- | )]} \\ {d''[ e''] e''[ d''] d''[ c''] c''[ b']} >>  | }
+LH = {{
+% m18
+g4 r r2  |  r1  | 
+% m20
+g4 c8[ c] d[ d] d,[ d,]  |  d,[ g d b,] g,4 r \bar": | :"
+% m22
+g16[ d' b d'] g[ d' b d'] g[ d' b d'] g[ d' b d']  | 
+% m23
+fis[ d' c' d'] fis[ d' c' d'] fis[ d' c' d'] fis[ d' c' d']  | 
+% m24
+f[ d' b d'] f[ d' b d'] f[ d' b d'] f[ d' b d']  | 
+% m25
+e[ c' g c'] e[ c' g c'] e[ c' g c'] e[ c' g c']  | }

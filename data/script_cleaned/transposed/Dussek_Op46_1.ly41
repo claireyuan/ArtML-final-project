@@ -1,0 +1,32 @@
+Global = { \key c \major \time time }
+RH = {{
+% m27
+r16 a''[ gis'' a''] b''[ a'' gis'' a''] r g''[ fis'' g''] a''[ g'' fis'' g'']  | 
+% m28
+r f''[ e'' f''] g''[ f'' e'' f''] r e''[ dis'' e''] f''[ e'' dis'' e'']  | 
+% m29
+r d''[ cis'' d''] e''[ d'' cis'' d''] r c''[ b' c''] d''[ c'' b' c'']  | 
+% m30
+b'[ c'' d'' e''] f''8 r r f''[ f'' d'']  | 
+% m31
+b'16[ c'' d'' e''] f''8 r r f''[ f'' d'']  | 
+% m32
+b'16[ c'' d'' c''] b'8 r a'16[ b' c'' b'] a'8 r  | 
+gis'4 <gis' e''> <gis' e''> r  | 
+% m33
+<c'' e''>4.( <d'' b'>8 <c'' a'>4) r  | }
+LH = {{ <g g,>4 r4 r2  | 
+% 43
+<g b>4 r <g b> r  | 
+% 44
+<g b> r r2  |  \clef treble
+% 45
+c'16[ g' e' g'] c'[ g' e' g'] c'[ g' e' g'] c'[ g' e' g']  | 
+% 46
+g[ f' d' f'] g[ f' d' f'] c'[ g' e' g'] c'[ g' e' g']  | 
+% 47
+c'[ g' e' g'] c'[ g' e' g'] c'[ g' e' g'] c'[ g' e' g']  | 
+% 48
+b[ g' d' g'] b[ g' d' g'] c'[ g' e' g'] c'[ g' e' g']  | 
+% 49
+<f' c'>8[ <f' c'> <f' c'> <f' c'>] <f' c'>[ <f' c'> <f' c'> <f' c'>]  | }

@@ -1,0 +1,28 @@
+Global = { \key c \major \time time }
+RH = {{ <bes'' bes'''>2.~  |  <bes'' bes'''>4. <f'' f'''>4 <des'' des'''>8  | 
+	<c'' c'''>4. <b' b''>4 <c'' c'''>8  |  <des'' des'''>4. <f'' f'''>  |  <c''' c''''>8 r r <f''' f''>4.~
+
+	\break
+
+	<f''' f''>4. <e''' e''>4( <f''' f''>8)  |  <a''' a''>4.^^ c'''  |  <g'' g'''>^^ c'''
+}
+\alternative
+{
+	{
+		<f''' f''>2.~  |  <f''' f''>4 \ottava #0 <a'' a'>8 <a'' a'>4 <a'' a'>8
+	}
+	{
+		\ottava #1 <f'' f'''>2.~  | }
+LH = {{ <f f,>[ r <a c'>] c[ r <a c'>]  |  <f f,>[ r <a c'>] c[ r <a c'>]  | 
+	<< \stemup { fis[ bes\rest <c' d'>] a[ bes\rest <c' d'>]
+		\break
+
+		fis[ bes\rest <c' d'>] d[ r <c' d'>]} \\
+	 \stemdown { fis4. a \break fis d } >>  | 
+
+	g8[ r <bes d'>] g[ r <bes d'>]  |  bes[ r <des' g'>] bes[ r <des' g'>]  | 
+	<< \stemup { a[ d'\rest <c' f'>] a[ c'\rest <c' f'>]  |  bes[ c'\rest <des' f'>] bes[ c'\rest <des' f'>]  | 
+		a[ bes\rest <c' f'>] f[ bes\rest <a c'>]
+		\break
+
+		d[ g\rest <f bes>] des[ g\rest <f bes>] c[ g\rest <f a>] c[ g\rest <f a>]  | }

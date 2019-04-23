@@ -1,0 +1,43 @@
+Global = { \key c \major \time time }
+RH = {{ b''[ a'' g''] a''[ r a'']  |  g''4 r8 <g'' d'' b' g'>4^^ r8
+}
+\alternative
+{
+	{
+		r4 e''8^( f''4 fis''8)
+	}
+	{
+		r4 <g'' g'>8^( <fis'' fis'>4 <g'' g'>8)
+	}
+}
+
+\pagebreak
+
+% begin page 2
+
+	<a'' c'' a'>4.^( <g'' c'' g'>  |  <b'' f'' b'> <c''' e'' c''>)  |  c''8^^ r r <e'' g'>4.^^~  |  <e'' g'>8[ c'' b'] c''[ d'' e'']  | 
+	d''^^ r r <b' f''>4.^^~  |  <b' f''>8[ d'' cis''] d''[ e'' f'']  |  e''4^^ r8 \acciaccatura dis'''8 e'''4 r8
+
+	\break
+
+	g''4 <g'' g'>8^( <fis'' fis'>4 <g'' g'>8)  | }
+LH = {{ e es)} >>  | 
+	d8[ r <g b>] d[ r <fis c'>]  |  <g b>4 r8 <g g,>4^^ r8
+}
+\alternative
+{
+	{
+		r2.
+	}
+	{
+		r2.
+	}
+}
+
+\pagebreak
+
+% begin page 2 (lower)
+
+	<f f,>4._( <e e,>  |  <d d,> <c c,>)  |  <c c,>8^^[ r <e g>] g,[ r <e g>]  | 
+	<c c,>^^[ r <e g>] g,[ r <e g>]  |  b,[ r <f g>] g,[ r <f g>]  | 
+	d[ r <f g>] g,[ r <f g>]  | }

@@ -1,0 +1,20 @@
+Global = { \key c \major \time time }
+RH = {{ <c' e' g'>} >> r4 \phrasingslurup c'2\(
+	}
+}
+\pagebreak
+%begin page 3
+
+	\key f \major
+	f'1 ~  |  f'2 g'  |  a'1 ~  |  a'2 c''\)  |  bes'^( g'  |  e''2. d''4  |  c''1)^(
+
+	\break
+
+	a'2) c''  |  bes'1 ~  | }
+LH = {{ g, <c e g bes> <c e g bes> <c e g bes>  |  c, <c e g bes> <c e g bes> <c e g bes>  | 
+	f, <c f a> <c f a> <c f a>
+
+	\break
+
+	f, <c f a> <c f a> <c f a>  |  g, <c e g bes> <c e g bes> <c e g bes>  |  c, <c e g bes> <c e g bes> <c e g bes>  | 
+	f, <c f a> <c f a> <c f a>  |  f, <c f a> <c f a> <c f a>  |  g, <c e g> <c e g> <c e g>  | }

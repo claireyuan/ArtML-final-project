@@ -1,0 +1,20 @@
+Global = { \key a \minor \time time }
+RH = {{
+ \slashedgrace{c'''16[( d''']} e'''2)(  a''4) a''8(  b'')  | 
+ c'''4-. c'''8(  d''') b''4-. b''8(  c''')  | 				%177
+ a''( gis'' a'' b'' c''' cis''' d'''  e''')  | 
+ f'''_ \markup{\italic "cresc."} e''' g''' f''' e''' d''' c'''! b''  | 
+ e''' dis''' f''' e''' d''' c''' b'' a''  | 
+ c''' b'' d''' c''' b'' ais'' c''' b''  | 					%181
+ a''!4 \p r \times 2/3 { r8  a'''[_ \markup{\italic "cresc."}( b''']  cis''''[ b'''  a''')] }  | 
+ d''''4-. \sf r \times 2/3 { r8  a'''[( b''']  cis''''[ b'''  a''')] }  | }
+LH = {{
+ <b' a' f' d'>4-. <b' \sf gis' e'>2.  | 
+ <a' e' c'>4-. <a' \sf e' c'>2.  | 		%197
+ <bes' \sf f' d'>4-. <bes' f' d'>2 <bes' f' d'>4  | 
+ <c'' bes' g' e'>1 ~  | 
+ <c'' bes' g' e'>2 r  | 
+ <e c e,>1 ~  | 			%201
+ <e c e,>2.^\fermata r4  | 
+ << {
+  c'2( bes  | }

@@ -1,0 +1,19 @@
+Global = { \key a \minor \time time }
+RH = {{
+ r16 \ff e''16( gis'' b''  e'''4)-. r16 e''( a'' c'''  e'''4)-.  | 
+ r16 e''( b'' d'''  e'''4)-. r16 e''( a'' c'''  e'''4)-.  | 
+ \times 2/3 { r8  e''[( dis'']  e''[ gis'' b'']  e'''[ \sf b'' gis''] }  e''4)-.  |  %113
+ \times 2/3 { r8  gis''[( fisis'']  gis''[ b'' e''']  gis'''[ \sf e''' b''] }  gis''4)-.  | 
+ \times 2/3 { r8  b''[( ais'']  b''[ e''' gis''']  b'''[ \sf gis''' e'''] }  b''4)-.  | 
+ \times 2/3 { r8  d'''[( cis''']  d'''[ gis''' b''']  d''''[ b''' gis''']  d''''[ b'''  gis''')] }  | 
+ d''''2. \ff \times 2/3 {  c''''!8[ b''' a'''] }  | 			%117
+ \times 2/3 {  gis'''8[ f''' e''']  d'''[ c''' b'']  a''[ gis'' f''] } \times 4/5 {  e''16[ d'' c'' b' a'] }  | }
+LH = {{
+ a8 \p c' e' a' a d' e' gis'  | 		%121
+ a c' e' a' c'' e'' c'' b'  | 
+ a' e'' <c'' a'> e'' <b' gis'> e'' <a' f'> e''  | 
+ e' gis' b' e'' e' gis' b' e''  | 
+ d' f' gis' b' d' f' gis' b'  | 			%125
+ c' e' a' c'' f' a' c'' dis''  | 
+ e' a' c'' e'' e' gis' b' e''  | 
+ r a, c e a c' d' e'  | }

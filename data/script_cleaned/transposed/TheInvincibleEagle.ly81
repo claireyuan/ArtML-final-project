@@ -1,0 +1,18 @@
+Global = { \key c \major \time time }
+RH = {{
+	<g'' es'' c''>4.^^ <g'' d'' b'>^^  |  <g'' es'' c''>^^ <ges'' es'' c''>^^  |  <f'' des'' bes'>^^ <bes'' des'' bes'>^^  |  <as'' des'' as'>^^ <ges'' des'' ges'>^^  | 
+	<f'' des'' as'>^^ <des'' bes'>^^
+
+\pagebreak
+
+% begin page 4
+
+	<f'' des'' as'>4.^^ <des'' bes'>^^  |  <f'' des'' as'>^^ <des'' bes'>^^  |  <c'' as''>^^ <b' f''>^^  |  <c'' e'' c'''>8^^ r r <c'' c'''>4.^^~  | }
+LH = {{ <c c,>4^^ <d d,>8 <es es,>4 <c c,>8  |  <as, as,,>4^^ <bes, bes,,>8 <c c,>4 <as, as,,>8  | 
+	<g, g,,>8^^[ c, es,] g,4^^ g,8  |  <c c,>4.^^ <a, a,,>^^  |  <bes, bes,,>^^ <ges, ges>^^  |  <f, f>^^ <es, es>^^  |  <des, des>^^ <ges, ges>^^
+
+\pagebreak
+
+% begin page 4 (lower)
+
+	<des, des>^^ <ges, ges>^^  |  <des, des>^^ <bes,, bes,>^^  | }

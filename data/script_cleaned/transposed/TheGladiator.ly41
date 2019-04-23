@@ -1,0 +1,36 @@
+Global = { \key c \major \time time }
+RH = {{ r4 bes'8[^( a')] a'[^( g')] g'[^( f')]
+	}
+}
+
+\pagebreak
+
+%begin page 3 (final page)
+
+\repeat volta 2
+{
+	e'1~  |  e'4 a'8[( g')] g'[( f')] f'[( e')]  |  d'1~  |  d'4 bes'8[( a')] a'[( g')] g'[( f')]  |  e'1~
+
+	\break
+
+	e'4 a'8[( g')] g'[( f')] f'[( e')]  |  d'1~  |  d'4 <d' d''>8-.[ <cis' cis''>-.] <d' d''>-.[<e' e''>-. <f' f''>-. <g' g''>-.]  | 
+	<a' a''>1~  | }
+LH = {{ <c c,>) r r2
+	}
+	{
+		<f c a, f,>4 <f, f,,>_( <g, g,,> <gis, gis,,>  |  <a, a,,>) r r2
+	}
+}
+
+\pagebreak
+
+% begin page 3 (lower)
+
+\repeat volta 2
+{
+	r4 <bes, bes,,>^> <a, a,,>^> <gis, gis,,>^>  |  <a, a,,>^> r r2  |  r4 <e, e,,>^> <d, d,,>^> <cis, cis,,>^>  |  <d, d,,>^> r r2  | 
+	r4 <bes,, bes,>^> <a,, a,>^> <gis,, gis,>^>
+
+	\break
+
+	<a,, a,>^> r r2  |  r4 <e,, e,>^> <d,, d,>^> <cis,, cis,>^> <d,, d,>^> r r2  |  r4 <d, d>8->[ <cis, cis>->] <d, d>4-> <f, f>->  | }

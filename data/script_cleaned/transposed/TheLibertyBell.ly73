@@ -1,0 +1,27 @@
+Global = { \key c \major \time time }
+RH = {{ <a' f' a>4 <a' f' a>8 <b' f' b>[ a' <b' f' b>]  | 
+	<c'' g' e' c'>4 r8 #(set-octavation 1) <c''' g'' e'' c''>4 #(set-octavation 0) r8
+
+	\break
+
+	#(set-octavation 1) <c''' e''' g''' c''''>4 #(set-octavation 0) r8 r4 r8  |  r4 r8 r4 <b' as' f' b>8^^  | 
+	<c'' g' e' c'>4^^ g''8^^ <c''' c''>4.^^  |  r4 r8 r4 <b' as' f' b>8^^  | 
+	<c'' g' e' c'>4^^ g''8^^ <c''' c''>4.^^  | 
+
+	\break
+
+	<b' as' f' b>2.^^  |  <c'' a' f' c'>^^  | }
+LH = {{ <c c,>4. r4 r8
+	\bar " |  | "
+	f,8^^[ r <a, f>] g,^^[ r <bes, f>]
+
+	\break
+
+	gis,^^[ r <b, f>] a,^^[ r <c f>]  |  f,[ r <f a c'>] <f a c'>[ r <f gis b>]  |  f,[ r <f a c'>] <f a c'>[ r <f a>]  | 
+	f,^^[ r <a, f>] g,^^[ r <bes, f>]  |  gis,^^[ r <b, f>] a,^^[ r <c f>]
+
+\pagebreak
+
+% begin page 4 (lower)
+
+	g,8[ r <e g bes>] <e g bes>[ r <dis fis a>]  |  c,[ r <e g bes>] <e g bes>[ r <e g bes>]  | }

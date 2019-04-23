@@ -1,0 +1,44 @@
+Global = { \key c \major \time time }
+RH = {{ gis'2._(  |  <a' d''>8)[ r c'']} >> a'8[ r f']  | 
+	e'4. c'  |  d' b
+
+\pagebreak
+}
+% begin page 2
+\alternative
+{
+	{
+		c'4.~ c'4 g'8
+	}
+	{
+		c'4.~ c'4 c'8
+	}
+}
+	\bar " |  | "
+	\key f \major
+	<a f' a'>4.^( <bes f' bes'>  |  <b f' b'> <c' f' c''>)  |  #(set-octavation 1)
+	<c'' f'' a''>8_^\arpeggio[ r <c'' f'' a''>] <c'' f'' a''>[ r <b' f'' gis''>]  | }
+LH = {{ g,[ r <e g>] <e g>[ r <e g>]  |  b,[ r <f g>] g,[ r <f g>]
+
+\pagebreak
+}
+% begin page 2 (lower)
+
+\alternative
+{
+	{
+		<c e g>8[ r <c e g>] <c e g>4 r8
+	}
+	{
+		<c e g>8[ r <c e g>] <c e g>4 r8
+	}
+}
+	\bar " |  | "
+	\key f \major
+
+	f,8-^[ r f] g,-^[ r f]  |  gis,-^[ r f] a,-^[ r f]  |  f,[ r <f a c'>] <f a c'>[ r <f gis b>]  | 
+	f,[ r <f a c'>] <f a c'>[ r <c f a>]
+
+	\break
+
+	f,8-^[ r f] g,-^[ r f]  |  gis,[ r f] a,[ r f]  | }

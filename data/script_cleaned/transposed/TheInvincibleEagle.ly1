@@ -1,0 +1,27 @@
+Global = { \key c \major \time time }
+RH = {{ c''8-.[ b'-. c''-.] a'4-. <a' a''>8  |  <g' c'' g''>4.^^ <a' c'' e''>4^^ e''8-.  | 
+	g''-.[ fis''-. g''-.] e''4-. e''8^(  |  f''[) c''\rest f'']^( e''[) c''\rest e'']^(
+
+	\break
+
+	d''[) a'\rest d'']^( c''[) a'\rest c'']  |  <g' g''>4 r8 <g' b' d'' g''>4^^ r8  |  r4 e''8\( f''4 fis''8
+\repeat volta 2
+{
+	g''4 e''8\) c'''-.[ b''-. a''-.]  |  g''-.[ c''\rest e''-.] c''-.[ a'\rest e''-.]  |  <d'' b' f'>2.^^(
+
+	\break
+
+	<c'' g' e'>8)[ r e''] c''[ r e'']  | }
+LH = {{ c-.[ b,-. c-.] a,4.-.  |  <e, e>4.^^ <a, a>4^^ e8-.  | 
+	g-.[ fis-. g-.] e4-. e8^(  |  f[) r f]^( e[) r e]^(
+
+	\break
+
+	d[) r d]^( c[) r c]  |  g,4 r8 <g, g,,>4^^ r8  |  r2.
+\repeat volta 2
+{
+	c8[ r <e g>] g,[ r <e g>]  |  <c c,>[ r <e g>] e,[ r <e g>]  |  g,4_( a,8 b,[ a, g,])
+
+	\break
+
+	c[ r <e g>] g,[ r <e g>]  | }

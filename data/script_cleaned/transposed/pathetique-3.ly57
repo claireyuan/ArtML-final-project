@@ -1,0 +1,19 @@
+Global = { \key a \minor \time time }
+RH = {{
+ \times 2/3 {  c'''8[ e''' d''']  c'''[ b'' a'']  gis''[ a'' g'']  f''[ e'' d''] }  | 		%53
+ c''4 r \times 2/3 { r8  g'[ a']  b'[ a' g'] }  | 
+ c''4 r \times 2/3 { r8  g'[ a']  b'[ a' g'] }  | 
+ c''4 r \times 2/3 { r8  gis'[ a'_ \markup{\italic "cresc."}]  b'[ a' gis'] }  | 
+ \times 2/3 {  d''8[ c'' b']  f''[ e'' d'']  b''[ a'' gis'']  d'''[ c''' b''] }  | 	%57
+ d''''2. \ff \times 2/3 {  c''''8[ b''' a'''] }  | 
+ \times 2/3 {  gis'''8[ f''' e''']  d'''[ c''' b'']  a''[ gis'' f''] } \times 4/5 {  e''16[ d'' c'' b' a'] }  | 
+ gis'1 \sf ~  | }
+LH = {{
+ f1  | 						%57
+ <e e,> ~  | 
+ <e e,>  | 
+ <d' b e> ~  | 
+ <d' b e>2^\fermata r  | 			%61
+ a8 c' e' a' a d' e' gis'  | 
+ a c' e' a' c'' e'' c'' b'  | 
+ a' e'' <c'' a'> e'' <b' gis'> e'' <a' f'> e''  | }

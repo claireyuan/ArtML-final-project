@@ -1,0 +1,19 @@
+Global = { \key a \minor \time time }
+RH = {{
+ a''4-. b''^\trill( \f \slashedgrace{a''16[ b'']} c'''4)-. <gis''' b'' gis''>-.  | 	%77
+ <a''' c''' a''>-. r r2  | 
+ a'2( \p d''  | 
+ g'  c'')  | 
+ f'( bes'4 a'  | 				%81
+ g' f'  e') r  | 
+ r a''2 d''4 ~  | 
+ d'' g''2 c''4( ~  | }
+LH = {{
+ d'4( g2 a4  | 				%81
+ bes b c'  c)  | 
+ f2( bes  | 
+ e  a)  | 
+ d( e4 f  | 				%85
+ fis g  c) r  | 
+ r <a' f'>2 <d' bes>4 ~  | 
+ <d' bes> <g' e'>2 <c' a>4 ~  | }

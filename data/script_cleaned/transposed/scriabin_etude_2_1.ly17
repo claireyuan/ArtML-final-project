@@ -1,0 +1,37 @@
+Global = { \key a \minor \time time }
+RH = {{
+		<g'' e'''>8 <e'' g''> <e'' g''> <e'' g''> <c'' e''> <c'' e''>  | 
+		<b' e''>8 e'' e'' e'' <c'' dis'' a''> <c'' dis'' a''>  | 
+		<g' b'> <g' b'> <d' gis'> <d' gis'> <d' gis'> <d' gis'>  | 
+		s8 e'4 a' s8  | 
+		% bar 10
+		<a' c'' e''>8 <a' c'' e''> <a' c'' e''> <a' dis''> <a' dis''> <a' dis''>  | 
+		s8 b'4 e'' s8  | 
+		<e'' g'' b''>8 <e'' g'' b''> <e'' g'' b''> <e'' ais''> <e'' ais''> <e'' ais''>  | 
+	}
+	>>
+
+	\key ges \minor
+
+	% bars 13-16
+
+	<<
+	{
+		<eses'' ges'' ces'''>8 <eses'' des'''> <ces''' eses'''> <ces''' fes'''> <eses''' ges'''> <ces''' ges''' ces''''>  | }
+LH = {{
+		% bar 10
+		g'8. fis'16 fis'8 c''4 b'8  | 
+		<e e'>8[ <d d'>] <cis cis'> r r e''  | 
+		d''8. cis''16 cis''8 g''4 fis''8  | 
+	}
+	\\
+	{
+		s4. fis8~ fis4  | 
+		% bar 10
+		b8[ b] b b4 b8  | 
+		s4. cis'8~ cis'4  | 
+		fis'8[ fis'] fis' fis'4 fis'8  | 
+	}
+	\\
+	{
+		s2.  | }

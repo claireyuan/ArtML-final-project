@@ -1,0 +1,39 @@
+Global = { \key a \minor \time time }
+RH = {{
+		ceses''' beses'' beses''  | 
+	}
+	\\
+	{
+		<beses' ges''>8 <beses' as''> <beses' as''> <beses' ges''> <beses' geses''> <as' fes''>  | 
+		<ases' fes''>8 <ases' geses''> <ases' geses''> <ases' fes''> <ases' fes''> <ges' eses''>  | 
+	}
+	\\
+	{
+		s4 \stemdown \acciaccatura { \slurup beses''8 \slurneutral } \once \override notehead #'x-extent = #'(0.0 . 0.0) \hidenotes as'' \unhidenotes \slurneutral s4.  | 
+		s4 \stemdown \once \override slur #'control-points = #'((1 . -0.9) (1.66 . -1.5) (2.33 . -1.5) (3 . -1.2)) \acciaccatura ases''8 \slurneutral s2  | 
+	}
+	>>
+
+	% bars 23-24
+
+	<<
+	{
+		s4 \acciaccatura { \slurdown des''8 \slurneutral } \once \override notehead #'x-extent = #'(0.0 . 0.0) \stemdown \hidenotes ces'' \unhidenotes \stemup s4.  | 
+		s4 \acciaccatura { \slurdown des''8 \slurneutral } \once \override notehead #'x-extent = #'(0.0 . 0.0) \stemdown \hidenotes ces'' \unhidenotes \stemup s4.  | 
+	}
+	\\
+	{
+		\once \override beam  #'positions = #'(2 . 1.5) \stemup <eses' as' des''>8 <eses' as' ces''> <eses' as' ces''> <eses' as' bes'> <eses' as' bes'> <eses' as' ces''>  | }
+LH = {{
+		des' des' des' des' <beses des'> <beses eses'>  | 
+		fes8 fes fes fes geses geses  | 
+		fes8 fes fes fes geses geses  | 
+	}
+	\\
+	{
+		ges2.  | 
+		ges2.  | 
+		ges2.  | 
+		% bar 20
+		ges2.  | 
+		ces'2 fes4  | }

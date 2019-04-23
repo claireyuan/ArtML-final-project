@@ -1,0 +1,1 @@
+global = { \key a \minor \time } rh = { { \ r e 2 { r 2 . ^ \ " e d | r 2 . | r 2 . | r 2 . | s 4 e ' ' ( \p \ < g ' ' | f ' ' e ' ' b ' | is a a a ' b ' \ ! \ = c ' ' \ > | \ b a r g ' 2 . | } lh = { { r 4 < e ' b g > 2 | r 4 < e ' c ' a > 2 | r 4 < e ' b g > 2 | r 4 < e ' c ' a > 2 | r 4 < e ' b g > 2 | r 4 < e ' c ' a > 2 | r 4 < e ' b g > 2 | r 4 < e ' c ' a > 2 \ f | }

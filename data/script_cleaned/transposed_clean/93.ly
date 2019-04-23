@@ -1,0 +1,1 @@
+global = { \key c \major \time 2 / 2 } rh = { g ' 4 ( c ' ' b ' c ' ' d ' ' 2 f ' ' e ' ' 4 c ' ' d ' ' b ' c ' ' 2 g ' ) ( e ' ' 4 ) ( b ' c ' ' a ' d ' ' a ' b ' 2 a ' 4 ) < a ' c ' ' > ( < g ' b ' > < f is ' a ' > ) < f is ' a ' > 2 ( g ' 4 ) r } lh = { r 4 e ( d c b , d b , g , c e f g e g e c ) r g is ( a g f is 2 g 4 e c a , d d , g , d , g , , ) r }

@@ -1,0 +1,21 @@
+Global = { \key a \minor \time time }
+RH = {{
+  d''2. ~  | 
+  d''4 es''  as''\!  | 
+  bes''2.  | 
+  f''2.)  | 
+  r2.  | 
+  r2.  | 
+  g''2.( \p \<  | 
+  \barnumbercheck #41
+  f''4\! g'' a''  | }
+LH = {{
+  r4 <g' f' d' bes>2  | 
+  r4 <as' es' c'>2  | 
+  r4 <g' d' bes>2  | 
+  r4 <a'! f' c' a!>2  | 
+
+  r4 <g' e'! b!>2  | 
+  r4 <a' f' c' a>2  | 
+  r4 <g' e' b>2  | 
+  r4 <a' f' c' a>2  | }

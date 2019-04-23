@@ -1,0 +1,42 @@
+Global = { \key c \major \time time }
+RH = {{ a'4.^( f''  | 
+	e'' a')  |  d''4.~ d''4 e''8  |  f''4^( e''8 f''4 d''8  |  c''4.) a'  |  g'2.\(
+}
+\alternative
+{
+	{
+		f'4\) c'8_( d'4 des'8)  | 
+\break
+	}
+	{
+		f'4 a'8^( c''4 f''8)  | 
+	}
+}
+
+\repeat volta 2
+{
+	\acciaccatura dis''8 e''4^> r8 a'4 r8  | }
+LH = {{
+	c8[ r <e g>] <e g bes>[ r <e g bes>]  |  f,[ r <f a c'>] <f a c'>[ r <f a c'>]  | 
+	f^>[ r <a c'>] d^>[ r <f a d'>]  | 
+
+	\break
+
+	a,[ r <e a cis'>] <e a cis'>[ r <e a cis'>]  |  bes,[ r <g bes d'>] <g bes d'>[ r <g bes d'>]  | 
+	b,[ r <f gis d'>] <f gis d'>[ r <f gis d'>]  |  c[ r <f a c'>] <f a c'>[ r <f a c'>]  | 
+	c[ r <e bes c'>] c[ r <e bes c'>]
+}
+\alternative
+{
+	{
+		<f a c'>4 r8 r4 r8
+	\break
+	}
+	{
+		<f a c'>4 r8 r4 r8
+	}
+}
+\repeat volta 2
+{
+	\clef treble
+	\acciaccatura dis' e'4^> r8 a4 r8  | }

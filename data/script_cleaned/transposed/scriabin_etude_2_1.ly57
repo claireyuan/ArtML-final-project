@@ -1,0 +1,22 @@
+Global = { \key a \minor \time time }
+RH = {{
+		b''8. g''16 g''4 b''  | 
+		g''8. e''16 e''8 r8 r4  | 
+		e''8 f'' \acciaccatura g'' f'' e'' f'' <f'' b''>  | 
+		% bar 35
+		f''8. e''16 e''2  | 
+		\once \override beam  #'positions = #'(3 . 3) e''8[ f'' \acciaccatura g'' f'' e''] \times 2/3 {f'' c''' b''}  | 
+		b''8. e''16 e''2  | 
+		s4 \acciaccatura { \slurdown g''8 \slurneutral } \once \override notehead #'x-extent = #'(0.0 . 0.0) \stemdown \hidenotes f'' \unhidenotes \stemup s4.  | 
+		s4 \acciaccatura { \slurdown e''8 \slurneutral } \once \override notehead #'x-extent = #'(0.0 . 0.0) \stemdown \hidenotes d'' \unhidenotes \stemup s4.  | }
+LH = {{
+		% bar 30
+		a'16 e' a' g' fis'8. e''16 e'' 8 d''16 c''  | 
+		c''16 b' b' ais' ais' b' b' c'' b' e' e' fis'  | 
+		fis'16 g' g' c'' c'' b' b' g' g' fis' fis' e'  | 
+		<e b e'>4. s4.  | 
+		b8 b b b b b  | 
+		% bar 35
+		b8 b b b b b  | 
+		b8 b b b b b  | 
+		b8 b b b b b  | }

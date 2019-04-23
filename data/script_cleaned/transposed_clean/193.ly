@@ -1,0 +1,1 @@
+global = { \key c \major \time } rh = { { < b f ' > ( d ' ) a - . b - . | c ' ( e ' ) g - . a - . | g ( a ) g - . d ' - . | e ' 4 ( c ' 8 ) e ' - . | < b f ' > ( d ' ) a - . b - . | c ' ( e ' ) g - . a - . | | g ( a ) g - . d ' - . | } lh = { { r 4 f 8 - . f - . | e 4 e 8 - . e - . | f 4 f 8 - . f - . | g 4 e | r 4 f 8 - . f - . | e 4 e 8 - . e - . | f 4 f 8 - . f - . | e 4 r | }

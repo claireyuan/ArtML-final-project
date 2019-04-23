@@ -1,0 +1,26 @@
+Global = { \key c \major \time time }
+RH = {{
+		\set fontsize=#-4 fis'4\rest \set fontsize=#0 <d' f'>8 \set fontsize=#-4 fis'4\rest \set fontsize=#0 <c' f'>8} >>  | 
+
+\pagebreak
+% begin page 4
+
+	<bes' e'' bes''>8[ r <bes' e'' bes''>] <bes' e'' bes''>[ r <a' dis'' a''>]  |  <bes' e'' bes''>4.~ <bes' e'' bes''>4 <a' a''>8  | 
+	<< \stemup {s64*1/2 \set fontsize=#-4 c''4*31/32\rest \set fontsize=#0 <bes' e''>8
+		    s64*1/2 \set fontsize=#-4 c''4*31/32\rest \set fontsize=#0 <dis'' a'>8} \\
+	 \stemdown {<g'' g'>4.^^ <fis'' fis'>^^} >>  | 
+	<g'' e'' c'' g'>4 <c'' c'>8( <b' b>4 <c'' c'>8)  | 
+	<< \stemup {s64*1/2 \set fontsize=#-4 e''4*31/32\rest \set fontsize=#0 <f'' c''>8
+		    s64*1/2 \set fontsize=#-4 c''4*31/32\rest \set fontsize=#0 <b' f''>8} \\
+	 \stemdown {<a' a''>4.^^ <gis' gis''>^^} >>
+
+	\break
+
+	<c'' f'' a''>4 <c'' c'>8( <b' b>4 <c'' c'>8)  |  <e'' e'>4.^^ <g'' g'>^^  |  <f'' f'>4( <g'' g'>8) <d'' d'>4( <f'' f'>8)  | }
+LH = {{ f,[ r <f a c'>] <f a c'>[ r <f gis b>]  | 
+	f,[ r <f a c'>] <f a c'>[ r <f a>]  |  f,^^[ r <a, f>] g,^^[ r <bes, f>]  |  gis,[ r <b, f>] a,[ r <c f>]
+
+	\break
+
+	g,[ r <e g bes>] <e g bes>[ r <dis fis a>]  |  c,[ r <e g bes>] <e g bes>[ r <e g bes>]  |  c,[ r <c e>] c,[ r <c dis>]  | 
+	<c c,>4 <c c,>8_( <b, b,,>4 <c c,>8)  |  f,8[ r <c f>] f,[ r <f gis>]  | }

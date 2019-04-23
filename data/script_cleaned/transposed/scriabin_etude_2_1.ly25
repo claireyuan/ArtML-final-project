@@ -1,0 +1,47 @@
+Global = { \key a \minor \time time }
+RH = {{
+		beses'''8. ges'''16 ges'''4 eses'''  | 
+		% bar 15
+		des'''8. beses''16 beses''4 des'''  | 
+		beses''8. ges''16 ges''8 r8 r4  | 
+	}
+	\\
+	{
+		s8 ges''4 ces''' s8  | 
+		<beses'' ges'''> <ges'' beses''> <ges'' beses''> <ges'' beses''> <eses'' ges''> <eses'' ges''>  | 
+		% bar 15
+		<des'' ges''> ges'' ges'' ges'' <eses'' f'' ces'''> <eses'' f'' ces'''>  | 
+		<beses' des''> <beses' des''> <beses' des''> des''-.( des''-. des''-.)  | 
+	}
+	>>
+
+	\key ces \major
+
+	% bars 17-20
+
+	<<
+	{
+		s4 \acciaccatura { \slurdown bes''8 \slurneutral } \once \override notehead #'x-extent = #'(0.0 . 0.0) \stemdown \hidenotes as'' \unhidenotes \stemup s4.  | }
+LH = {{
+		% bar 10
+		s4 fis'2  | 
+		s2.  | 
+		s4 cis''2  | 
+	}
+	>>
+
+	\key ges \minor
+
+	% bars 13-16
+
+	<<
+	{
+		ces''8[ beses'] as' ges''4 eses''8  | 
+		eses'' des'' c'' des'' des'' ges'  | 
+		% bar 15
+		as' beses' eses'' des'' beses' as'  | 
+		<des' ges'>[ <des' ges'>] <des' ges'> \nobeam des'-.( des'-.[ des'-.])  | 
+	}
+	\\
+	{
+		ces'2.  | }

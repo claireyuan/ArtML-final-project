@@ -1,0 +1,45 @@
+Global = { \key c \major \time time }
+RH = {{ <g'' g'>-. <fis'' fis'>-. <g'' g'>-. <a'' a'>-.
+
+	\break
+
+	<d'' d'>2.^> <e'' e'>4-.  |  <f'' f'>-. <g'' g'>-. <a'' a'>-. <b'' b'>-.
+}
+\alternative
+{
+	{
+		<c''' c''>1~  |  <c''' c''>4. <b'' b'>8 <a'' a'>4. <g'' g'>8
+	}
+	{
+		<c''' c''>1~  |  <c''' c''>4 a_( bes b)
+	}
+}
+
+\break
+
+\key f \major
+\repeat volta 2
+{
+	c'2 d'4._( e'8)  |  f'2 a'  |  <c'' bes' e'>1^>^(~  |  <c'' bes' e'>4 bes' fis'4. g'8)  |  <a' c'>1^>^(~  | }
+LH = {{ <c c,> <e g c'> g, <e g c'>  |  <c c,> <e g c'> g, <e g c'>
+
+	\break
+
+	<b, b,,> <f g b> g, <f g b>  |  <b, b,,> <f g b> g, <f g b>
+}
+\alternative
+{
+	{
+		c4 <c e g c'> <c e g c'> <c e g c'>  |  <c e g c'> r r2
+	}
+	{
+		c4 <c e g c'> <c e g c'> <c e g c'>  |  <c e g c'> r r2
+	}
+}
+
+\break
+
+\key f \major
+\repeat volta 2
+{
+	f,4 <cf a> c, <c f a>  |  f, <c f a> c, <c f a>  |  g, <c e bes> c, <c e bes>  |  g, <c e bes> c, <c e bes>  | }

@@ -1,0 +1,22 @@
+Global = { \key a \minor \time time }
+RH = {{
+ c'' f'' e'' d''  | 				%85
+ c'' b' d''  c'')  | 
+ << {
+  s1*2  | 
+  f''2 bes''4 a''  | 				%89 (1)
+  g'' f'' e'' c''  | 
+  \stemneutral
+  r <a''' a''>2( d'''4 ~  | 
+  d''' <g''' g''>2  c'''4) ~  | 
+  \stemup
+  c'''( f''' e''' d'''  | }
+LH = {{
+ <c' a> <f' d'>( g a  | 		%89
+ bes b  c') r  | 
+ <a' f'>2( <d'' bes'>  | 
+ <g' e'> <c'' a'>)  | 
+ d'( e'4 f'  | 				%93
+ fis' g'  c') c''(  | 
+ b'! c'' es'' fis'  | 
+  g')-. r r <bes' c'>(  | }

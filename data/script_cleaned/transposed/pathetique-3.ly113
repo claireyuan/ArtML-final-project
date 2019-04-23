@@ -1,0 +1,19 @@
+Global = { \key a \minor \time time }
+RH = {{
+ a'''8-. \f g'''-. f'''-. e'''-. d'''-. c'''-. bes''-. a''-.  | 
+ g''-. f''-. e''-. d''-. cis''-. bes'-. a'-. g'-. \clef bass  | 
+ f'-. e'-. d'-. cis'-. d'-. \sf e'-. f'-. e'-.  | 		%105
+ d'-. c'!-. b-. a-. gis-. a-. b-. a-.  | 
+ r16 e_ \markup{\italic "cresc."}( gis b  e'4)-. r16 e( a c'  e'4)-.  | 
+ r16 e( b d'  e'4)-. r16 e( a c'  e'4)-. \clef treble  | 
+ r16 e'( gis' b'  e''4)-. r16 e'( a' c''  e''4)-.  | 			%109
+ r16 e'( b' d''  e''4)-. r16 e'( a' c''  e''4)-.  | }
+LH = {{
+  e'4)-. r r \times 2/3 {  e'8[ b gis] }  | 	%113
+ e4 r r \times 2/3 {  e'8[ b gis] }  | 
+ e4 r r \times 2/3 {  e8[ b, gis,] }  | 
+ e,4 r r2  | 
+ <e e,>1 ~  | 				%117
+ <e e,>  | 
+ <d' b e> ~  | 
+ <d' b e>2^\fermata r  | }

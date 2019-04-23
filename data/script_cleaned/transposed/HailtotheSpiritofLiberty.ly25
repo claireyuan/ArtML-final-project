@@ -1,0 +1,44 @@
+Global = { \key c \major \time time }
+RH = {{ <e''' e''>2 e''
+
+	\break
+
+	d''4-^ r c''-^ r  |  a'-^ r a'4.^( c''8)  |  a'-.[ b'-. c''-. b'-.] a'4-. c''-.  |  a' r a'4.^( c''8  |  e''4) r g''4.^( g'8)
+
+	\break
+
+	\acciaccatura g'8 e''4 r \acciaccatura f'8 d''4 r
+}
+\alternative
+{
+	{
+		<< \stemup {c''1 ~  |  c''4 \stemdown c''8[^( d''] e''[ f'' g'' a''])} \\
+		 \stemdown {d'4\rest <c' e' g'> <c' e' g'> <c' e' g'>  |  <c' e' g'> s2.} >>
+	}
+
+	{
+		<< \stemup {c''1 ~  |  c''4} \\
+		 \stemdown {d'4\rest <c' e' g'> <c' e' g'> <c' e' g'>  | }
+LH = {{ a, <c e a> <c e a> <c e a>  | 
+	f, <c f a> <c f a> <c f a>  |  g, <c e g> <c e g> <c e g>
+
+	\break
+
+	b, <f g> g, <f g>
+}
+\alternative
+{
+	{
+		<c c,>4 <b, b,,> <a, a,,> <g, g,,>  |  c, r r2
+	}
+
+	{
+		<c c,>4 <b, b,,> <a, a,,> <g, g,,>  |  <c c,> r r2
+	}
+}
+\pagebreak
+
+	%begin page 3 (lower)
+\key f \major
+	f,4 <c f a> <c f a> <c f a>  |  f, <c f a> c <e g bes>  |  f, <c f a> <c f a> <c f a>  | 
+	f, <c f a> <c f a> <c f a>  | }

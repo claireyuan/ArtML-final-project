@@ -1,0 +1,28 @@
+Global = { \key c \major \time time }
+RH = {{ \stemneutral g'4.~ g'4 e'8  | 
+
+	\break
+		\phrasingslurdown
+	\grace {a'16\([ c'']} <a' c'' e''>8^^\)[ r c''] c''[ r a']  | 
+	\grace {a'16\([ c'']} <a' c'' e''>8^^\)[ r c''] c''[ r a']  | 
+	f'^^[ r f'] f'[ e' d']  |  f'^^[ r f'] f'[ e' d']  | 
+
+\pagebreak
+
+% begin page 2
+
+	\grace {a'16\([ c'']} <a' c'' e''>8^^\)[ r c''] c''[ r a']  | 
+	\grace {a'16\([ c'']} <a' c'' e''>8^^\)[ r c''] c''[ r a']  | 
+	<g' b' d''>[ r b'] c''-.[ b'-. a'-.]  | }
+LH = {{ d[ r <f g>] f[ r <g b>]  | 
+	e[ r <g c'>] c[ r <e g c'>]  | 
+
+	\break
+
+	a,[ r <a c' e'>] <a c' e'>[ r <a c' e'>]  |  a,[ r <a c' e'>] <a c' e'>[ r <a c' e'>]  |  d[ r <f a>] <f a>[ r <f a>]  | 
+	d[ r <f a>] <f a>[ r <f a>]  | 
+
+\pagebreak
+% begin page 2 (lower)
+
+	a,[ r <a c' e'>] <a c' e'>[ r <a c' e'>]  |  a,[ r <a c' e'>] <a c' e'>[ r <a c' e'>]  | }

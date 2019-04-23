@@ -1,0 +1,22 @@
+Global = { \key a \minor \time time }
+RH = {{:"
+  \repeat volta 2 {
+    r2.^\markup{\hspace #10 "lent et douloureux"}  | 
+    r2.  | 
+    r2.  | 
+    r2.  | 
+    s4 e''( \pp \< g''  | 
+    f'' e'' b'  | 
+    % the hairpin override is to align it with a previous hairpin
+    a' b'\! \once\override hairpin.y-offset = #7 c''\>  | 
+    \barnumbercheck #8
+    g'2.  | }
+LH = {{
+    r4 <e' b g>2  | 
+    r4 <e' c' a>2  | 
+    r4 <e' b g>2  | 
+    r4 <e' c' a>2  | 
+    r4 <e' b g>2  | 
+    r4 <e' c' a>2  | 
+    r4 <e' b g>2  | 
+    r4 <e'  c' a>2\f  | }
