@@ -1,0 +1,18 @@
+Global = { \key c \major \time time }
+RH = {{ <bes' g'' bes''>4. f''4( des''8)  |  c''4.^( b'4 c''8  |  des''4. f'')  |  c'''8 r r f''4.^(  |  f'') e''4^( f''8)
+
+	\break
+
+	<a'' a'>4.^( c'')  |  <g' g''>^( c'')  | 
+	<< \stemdown { a4\rest <a' c''>8 <a' c''>4 <a' c''>8  |  s4} \\
+	    \stemup  {\tieneutral <f' f''>2.~  | }
+LH = {{
+
+	g8[ r <bes d'>] g[ r <bes d'>]  | 
+	<< \stemup { bes8[ d'\rest <des' g'>] bes[ d'\rest <des' g'>]  |  a[ bes\rest <c' f'>] a[ bes\rest <c' f'>]  | 
+		bes[ bes\rest <des' f'>] bes[ bes\rest <des' f'>]  |  a[ bes\rest <c' f'>] f[ g\rest <a c'>]  |  d[ g\rest <f bes>] des[ g\rest <f bes>]
+
+	\break
+
+		c[ es\rest <f a>] c[ es\rest <f a>]  |  c[ es\rest <e g>] c[ es\rest <e g>]} \\
+	 \stemdown {bes4. bes  |  a a  | }

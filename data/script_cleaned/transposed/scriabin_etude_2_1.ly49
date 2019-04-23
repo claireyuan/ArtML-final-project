@@ -1,0 +1,40 @@
+Global = { \key a \minor \time time }
+RH = {{
+		\once \override beam  #'positions = #'(2 . 1.5) <eses' as' des''>8 <eses' as' ces''> <eses' as' ces''> <eses' as' bes'> <eses' as' bes'> <eses' as' ces''>  | 
+	}
+	>>
+
+	\key a \minor
+
+	% bars 25-45
+
+	<<
+	{
+		% bar 25
+		s4 \acciaccatura { \slurdown c''8 \slurneutral } \once \override notehead #'x-extent = #'(0.0 . 0.0) \stemdown \hidenotes b' \unhidenotes \stemup s4.  | 
+		<c' a'>8 <c' b'> <a' c''> <a' d''> <c'' e''> <a' c'' a''>  | 
+		g''8. f''16 f''2  | 
+		<d' a' d''>8 <f' e''> <d'' f''> <a' g''> <d'' a''> <d'' a'' d'''>  | 
+		<c'' c'''>8. <b' b''>16 <b' b''>2  | 
+		% bar 30
+		<c'' e'' a''>8 <c'' b''> <a'' c'''> <a'' d'''> <c''' e'''> <a'' e''' a'''>  | 
+		g'''8. e'''16 e'''4 c'''  | }
+LH = {{
+		beses2 eses4  | 
+		s2.  | 
+		s2.  | 
+	}
+	>>
+
+	\key a \minor
+
+	% bars 25-45
+
+	<<
+	{
+		% bar 25
+		f'2 e'4  | 
+		<a, e e'>8\arpeggio <e e'> <e e'> <e e'>~ <a, e> <e e'>  | 
+		<a, d a d'>\arpeggio <a d' a'> <a d' a'> <a d' a'> <a d' a'> <a d' a'>  | 
+		<f f'>8 <e e'> <d d'> <c c'> <b, b> <b f' a'>  | 
+		<e d' a'>8\arpeggio <d' a'> <d' a'> <d' a'> <e d' gis'> <d' gis'>  | }

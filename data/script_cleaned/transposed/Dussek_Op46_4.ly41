@@ -1,0 +1,31 @@
+Global = { \key c \major \time time }
+RH = {{
+%41
+<< {\stemdown{ c''4 <c'' a'> <c'' a'>}} \\ {\stemup{e''4 fis'' fis''}} >> | 
+%42 original mark below was "rf"
+<< \stemdown {b'4 d''2\rfz} \\ \stemup {g''4 f''2} >> | 
+%43
+<< \stemdown {c''4 <c'' a'> <c'' a'>} \\ \stemup {e''4 fis'' fis''} >> | 
+%44
+<< \stemup {g'' g'' g''} \\ \stemdown { b' b' b'} >> | 
+%45 r8 below missing in printed score (could also be d4-.)
+<< {\stemdown b'2} \\ {\stemup g''2} >> \bar": | :" r8 d'8-.  | 
+%46
+<b d' g'>2 b'16 a' g' a'  | 
+%47
+g'8 r <g' b'> r <b' d''> r  | }
+LH = {{
+%44
+g d8 g b, d  | 
+%45
+g,4 g \bar": | :" r  | 
+%46
+g,8[ g g, g g, g]  | 
+%47
+g,8[ g g, g g, g]  | 
+%48
+g,8[ g g, g g, g]  | 
+%49
+g,8[ g g, g g, g]  | 
+%50
+g,8[ g g, g g, g]  | }

@@ -1,0 +1,27 @@
+Global = { \key c \major \time time }
+RH = {{ f''4 des'' c'' bes'
+
+	\break
+
+	a'2 ~ \times 2/3 {a'8[ bes' b']} \times 2/3 {c''8[ bes' a'\)]}  |  g'2 g'  |  f'1 ~  |  f'4 r r2  | 
+	\repeat volta 2
+{
+	r2 r4 r8 g'16[^( a']  |  bes'8[ a' g' a'] bes'4) a'-^
+
+	\break
+
+	bes'8[^( a' g' a')] bes'4 a'-^  |  r1  |  r2 r4 r8 bes'16[^( c'']  | }
+LH = {{ bes,)} >>
+
+	\break
+
+	c,4 <c f a> <c f a> <c f a>  |  c, <c e bes> <c e bes> <c e bes>  |  f, <c f a> <c f a> <c f a>  | 
+	<c f a> r \phrasingslurdown <f, f,,>2\(
+
+	\repeat volta 2
+{
+	<e, e,,>4^^\) <a, a,,>^^ <e, e,,>^^ r  |  r2 r4 <a, cis e a>
+
+	\break
+
+	r2 r4 <a, cis e a>  |  e, <a, a,,> <e, e,,>4. e,16[_( f,]  |  g,4) <c c,> <g, g,,> r  |  r2 r4 <c e g c'>  | }

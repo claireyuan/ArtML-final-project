@@ -1,0 +1,35 @@
+Global = { \key c \major \time time }
+RH = {{
+%71
+g'4 g''16[ e'' d'' c''] f''[ e'' d'' c''] b' a' g' f'  | 
+%72
+e'4 r16 c' c'' c' r b b' b r a a' a  | 
+%73
+g'4 g''16[ e'' d'' c''] f''[ e'' d'' c''] b' a' g' f'  | 
+%74
+e'4 c'16[ d' e' f'] g'8 e' d' c'  | 
+%75
+b4 <b g'> <b g'> r  | 
+%76
+r16 g' a' b' c'' d'' e'' f'' g''8 g'16 g'' g' g'' g' g''  | 
+%77
+g' g'' g' g'' g' g'' g' g'' g' g'' g' g'' g' g'' g' g''  | 
+%78
+r g'[ a' b'] c''[ d'' e'' f''] g''8 g'16 g'' g' g'' g' g''  | }
+LH = {{
+%75
+g,[ g d b,] g,4 r  | 
+%76
+<c e>2 r4 <c e>8 g,  | 
+%77
+<b, d>8 g, <c e> g, <d f> g, <b, d> g,  | 
+%78
+<c e>4 r r <c e>8 g,  | 
+%79
+<b, d> g, <c e> g, <d f>[ g,] <b, d> g,  | 
+%80
+<c e>4 r \clef g <e c'>8[ <e c'> <e c'> <e c'>]  | 
+%81
+<f c'>[ <f c'> <e c'> <e c'>] <f c'>4 r  | 
+%82
+<g c' e'>2 <g d' f'>  | }

@@ -1,0 +1,42 @@
+Global = { \key c \major \time time }
+RH = {{
+
+	\break
+
+	<c'' c'''>^>[ r <c'' c'''>]^( <b' b''>4^> <a' a''>8  |  <g' g''>^>)[ r <g' g''>-.]^( <f' f''>4^> <e' e''>8  | 
+	<d' d''>8)[ r <f' f''>]^( <e' e''>4 <d' d''>8  |  <c' c''>4 <b b'>8 <a a'>4 <g g'>8)  | 
+
+	\break
+
+	\stemup <c' c''>8[ r c''] \stemneutral <c'' c'''>4^>^( <a' a''>8)  |  <g' g''>4^^^( <a' a''>8) <f' f''>4^^^( <d' d''>8)  | 
+	<e' e''>4^^^( <c' c''>8) <d' d''>4^^^( <b b'>8)  | 
+}
+\alternative
+{
+	{
+		<c' c''>4 r8 <g' b' d'' g''>4^> r8
+	}
+	{
+		<c' c''>4 c'8_( d'4 des'8)
+	}
+}
+
+\pagebreak
+
+% begin page 3
+
+\key f \major
+\repeat volta 2
+{
+	c'8[ r f'] e'[ r f']  | }
+LH = {{
+	d[ r <fis a c'>] d[ r <fis a c'>]  |  g-.[ a-. ais-.] b-.[ a-. g-.]  | 
+
+	\break
+
+	<a a,>^>[ r <a a,>]^( <g g,>4^> <f f,>8  |  <e e,>_>)[ r <e e,>]_( <d d,>4_> <c c,>8  | 
+	<b, b,,>)[ r <f, f>]_( <e, e>4 <d, d>8  |  <c, c>4 <b,, b,>8 <a,, a,>4 <g,, g,>8)  | 
+
+	\break
+
+	e,[ r <e g>] <f a>[ r <f a>]  |  cis,[ r <cis e>] <d f>[ r <d f>]  | }

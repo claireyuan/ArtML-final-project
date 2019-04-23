@@ -1,0 +1,20 @@
+Global = { \key a \minor \time time }
+RH = {{
+ <dis''' c'''! a''>2-. <dis''' b'' a''>-.  | 
+ <e''' b'' gis''>4 r r e'  | 					%157
+ <b' gis'>(-. <b' gis'>-. <b' gis'>-. <b' gis'>)-.  | 
+ << {
+  e''2. e''4  | 
+  s1  | 
+  g''2. g''4  | 						%161 (1)
+  s1  | 
+  b''2. fis''4(  | }
+LH = {{
+ <b' gis'>2. \clef treble <f''! d''!>4  | 
+ <e'' c''>2. <f'' d''>4  | 			%165
+ <e'' c''>2. <f'' d''>4  | 
+ r1  | 
+ r1  | 
+ r1  | 					%169
+ r2 r4 \clef bass e-.  | 
+ a8 c' e' a' a d' e' gis'  | }

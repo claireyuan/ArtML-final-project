@@ -1,0 +1,31 @@
+Global = { \key c \major \time time }
+RH = {{
+%10
+\times 2/3 {e''8[ g'' f'']} \times 2/3 {e''[ d'' c'']} \times 2/3 {b'[ d'' c'']} \times 2/3 {b'[ a' g']}  | 
+%11
+\times 2/3 {r g'' f''} \times 2/3 {e''[ d'' c'']} \times 2/3 {r d'' c''} \times 2/3 {b'[ a' g']}  | 
+%12
+c''4 c'16 d' e' f' g'8 e' d' c'  | 
+%13
+b4 <b g'> <b g'> r  | 
+%14
+d''2 c''8 b' a' g'  | 
+%15
+fis'16 g' a' g' fis'4 r8 a'' fis'' d''  | 
+%16
+g''4. d''8 c'' b' a' g'  | 
+%17
+fis'16[ g' a' g'] fis'4 r8 a'' fis'' d''  | }
+LH = {{
+%9
+d'4 d' e'  |  f' f'8 g' f'4  | 
+%11
+e'4 e' f'  |  fis'2 g'4  | 
+%13
+a'4 b'8( c'') b'( c'')  | 
+%14
+g'4 b'8( c'') b'( c'')  | 
+%15
+g'4 <d'' f''> <c'' e''>  | 
+%16
+<b' d''>2 r4  | }

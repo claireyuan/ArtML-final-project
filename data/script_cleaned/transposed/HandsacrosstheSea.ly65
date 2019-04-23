@@ -1,0 +1,18 @@
+Global = { \key c \major \time time }
+RH = {{
+	f'4.^( g'8 a'4. g'8  |  f'2 c')
+
+	\break
+
+	<< \stemup {\set fontsize = #-4 fis''4\rest a''8[^( g''] f''4) a''8[^( g'']  |  f''4) fis''\rest e''2\rest} \\
+	 \stemdown {f'1~  |  f'2 c'} >>  | 
+	g'4.^( a'8 bes'4. a'8  |  g'2 c')  | 
+	<< \stemup {\set fontsize = #-4 fis''4\rest bes''8[^( a''] g''4) bes''8[^( a'']  |  g''4) fis''\rest e''2\rest} \\
+	 \stemdown {g'1~  | }
+LH = {{ e, <c g bes> c, <c g bes>  | 
+	e, <c g bes> c, <c g bes>  |  e, <c g bes> c, <c g bes>  |  f, <c f a> f, <c f a>
+
+	\break
+
+	f, <c f a> f, <c f a>  |  bes, <d f bes> bes, <c f bes>  |  bes, <d f bes> bes, <d f bes>  | 
+	<a, f a>4.^( d8 bes,4. g,8)  |  c,4 <bes, f> c, <bes, e>  | }

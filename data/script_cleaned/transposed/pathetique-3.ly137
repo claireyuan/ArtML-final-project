@@ -1,0 +1,20 @@
+Global = { \key a \minor \time time }
+RH = {{
+ c'''4-. c'''8(  d''') b''4-. b''8(  c''')  | 
+ a''4 r r2  | 
+ r8 gis'( b'  d'') r d'''( b''  gis'')  | 				%129
+ r a'( c''  e'') r e'''( c'''  a'')  | 
+ r cis''( e''  g'') r g'''( e'''  cis''')  | 
+ r d''( f'' a'' d''' f''' a'''  d'''') \sf ~  | 
+ d''''4( c'''' b''' a'''  | 						%133
+  gis''')-._ \markup{ {\dynamic "p"} {\italic " dolce"}} e'''2-- e'''4 ~  | }
+LH = {{
+  a''2 s  | 				%137 (1)
+  a'4( e'' d'' e''  | 
+  cis'' e'' gis' e''  | 
+  a' e'' a''  e'')  | 
+  a''( fis'' ais''  fis'')  | 				%141 (1)
+ } \\ {
+  s2 d''4( e''  | 
+  cis'' e'' \stemneutral gis'  e'') \stemdown  | 	%137 (2)
+  s1*2  | }

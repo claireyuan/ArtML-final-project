@@ -1,0 +1,21 @@
+Global = { \key c \major \time time }
+RH = {{ c''-.[ g'-. c''-. e''-.] g''-. r
+		<< \stemdown {a''4^^^(  |  f'') g''4^^^( e'') f''4^^^(  |  d'')} \\
+		   \stemdown {e''4  |  d'' d''4 c'' c''  |  b'} \\
+		   \stemdown {a'4_(  |  a'8) fis'\rest g'4_( g'8) fis'\rest f'4_( |  f')} >>
+	r r \times 2/3 {g'8[^( a' b')]}
+
+	\break
+
+	\repeat volta 2
+{
+	c''4 r8 c''^( d''4) r8 d''8^(  |  e'') r <c'' c'''>4^( <b' b''> <a' a''>)  | }
+LH = {{ c'[ g c' e] g r
+		<< \stemup {cis4^(  |  d8) a,\rest b,4^( c8) a,\rest as,4^(  |  g,)} \\
+		   \stemup {cis,4_(  |  d,) b,,_( c,) as,,_(  |  g,,)} >> r4 r r
+
+	\break
+\repeat volta 2
+{
+	c,4 <c e g> g, <d f g>  |  c, <c e g> <c e g> <c e g>  |  d, <d f g> g, <d f g>  | 
+	c, <c e g> <c e g> <c e g>  | }

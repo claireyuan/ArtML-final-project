@@ -1,0 +1,20 @@
+Global = { \key a \minor \time time }
+RH = {{
+ } >>
+ r2 r4 c'''(  | 
+ a'' bes'' d'''  e'')  | 
+ g''( f'' a'' b'!  | 				%97
+  c'')-. g'''( c''''  bes''')  | 
+ a'''2( d''''  | 
+ g'''  c'''')  | 
+ f'''_ \markup{\italic "cresc."} <bes''' bes''>4-. <a''' a''>-.  | 	%101
+ <g''' g''>-. <f''' f''>-. <e''' e''>-. bes''-.  | }
+LH = {{
+ d <d d,> ~  | 				%105
+ <d d,> <dis dis,>  | 
+ e,4-. r8 b,16( gis,  e,4)-. r8 c16( a,  | 
+  e,4)-. r8 d16( b,  e,4)-. r8 c16( a,  | 
+  e,4)-. r8 b16( gis  e4)-. r8 c'16( a  | 	%109
+  e4)-. r8 d'16( b  e4)-. r8 c'16( a  | 
+  e4)-. r8 b'16( gis'  e'4)-. r8 c''16( a'  | 
+  e'4)-. r8 d''16( b'  e'4)-. r8 c''16( a'  | }

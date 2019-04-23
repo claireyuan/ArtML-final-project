@@ -1,0 +1,19 @@
+Global = { \key a \minor \time time }
+RH = {{
+ <a''' c''' a''> r r2  | 			%17
+ <cis''  a' e'>1\fp  | 
+ d''8( a'' f'' d''' a'' f''' d'''  a''')  | 
+ g'''( e''' cis''' a'' g'' gis'' a''  e'')  | 
+ g''!2(  f''4) r  | 			%21
+ <b'  g' d'>1\fp  | 
+ c''8( g'' e'' c''' g'' e''' c'''  g''')  | 
+ f'''( e''' d''' c''' b'' a'' g''  f'')  | }
+LH = {{
+ <a a,> r r2  | 				%17
+ <g g,>1  | 
+ <f f,>4 r r2  | 
+ r4 <a' cis'> <a' cis'> <a' cis'>  | 
+ <a' d'>2. r4  | 				%21
+ <f f,>1  | 
+ <e e,>4 r r2  | 
+ r4 <g' b>-. <g' b>-. <g' b>-.  | }

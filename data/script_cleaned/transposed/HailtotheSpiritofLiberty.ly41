@@ -1,0 +1,18 @@
+Global = { \key c \major \time time }
+RH = {{ bes'2 c''  |  a'1 ~  |  a'2 f'  |  e'4^( e''2.)  |  d''2^( g')
+
+	\break
+
+	c''1 ~  |  c''2 c'  |  f'1^( ~  |  f'2 g'  | }
+LH = {{
+	g, <b, f g> <b, f g> <b, f g>
+
+	\break
+
+	c, <c e g> <c e g> <c e g>  |  c <fis a> <g bes> <e g>  |  f, <c f a> <c f a> <c f a>  | 
+	f, <c f a> c <e g bes>  |  f, <c f a> <c f a> <c f a>  |  f, <c f a> <c f a> <c f a>  | 
+	g, <c e g bes> <c e g bes> <c e g bes>
+
+	\break
+
+	c, <c e g bes> <c e g bes> <c e g bes>  |  f, <c f a> <c f a> <c f a>  | }

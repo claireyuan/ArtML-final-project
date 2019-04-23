@@ -1,0 +1,21 @@
+Global = { \key c \major \time time }
+RH = {{ <d'' d'''>4. <bes' bes''>  |  \aftergrace <a' a''>2._\( {bes''16[ a'']\)}
+
+	\break
+
+	<g'' g'>4 <c'' c'>8^( <d'' d'>4^> <des'' des'>8  |  <c'' c'>4^>) <f'' f'>8 <e'' e'>4 <f'' f'>8  | 
+	<a'' a'>4.^> <f'' f'''>^>  |  <e'' e'''>^> <a'' a'>^>  |  <d''' d''>4.~ <d''' d''>4 <e''' e''>8  | 
+
+	\break
+
+	<f''' f''>4 <e''' e''>8 <f''' f''>4 <d''' d''>8  |  <c''' c''>4.^> <a'' a'>^>  | }
+LH = {{ <c c,>4_> <d d,>8_> <c c,>4_> <b, b,,>8_>  | 
+
+	\break
+
+	<c c,>4 <c c,>8_( <d d,>4^> <e e,>8  |  <f f,>8)[ r <f a c'>] <f a c'>[ r <f a c'>]  | 
+	f[ r <a c'>] d[ r <f a d'>]  |  a,[ r <e a cis'>] <e a cis'>[ r <e a cis'>]  |  <bes, bes,,>4_> <c c,>8 <d d,>4_> <bes, bes,,>8  | 
+
+	\break
+
+	<b, b,,>[ r <f gis>] <f gis>[ r <f gis>]  |  c[ r <f a>] <f a>[ r <f a>]  | }

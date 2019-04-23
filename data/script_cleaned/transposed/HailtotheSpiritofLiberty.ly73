@@ -1,0 +1,17 @@
+Global = { \key c \major \time time }
+RH = {{ e^> r r <c' c''>  |  <f' f''>1~  |  <f' f''>2 <g' g''>  |  <a' a''>1~  |  <a' a''>2 <c'' c'''>  | 
+	<bes' bes''> <g' g''>
+
+	\break
+
+	<e'' e'''>2. <d'' d'''>4  | 
+	<< \stemdown {c'''1^(  |  a''2)} \\
+	   \stemdown {c''1_(  | }
+LH = {{ f, <c f a> <c f a> <c f a>  | 
+	f, <c f a> c <e g bes>  |  f, <c f a> <c f a> <c f a>  |  f, <c f a> <c f a> <c f a>  | 
+	g, <c e g bes> <c e g bes> <c e g bes>
+
+	\break
+
+	c, <c e g bes> <c e g bes> <c e g bes>  |  f, <c f a> <c f a> <c f a>  |  f, <c f a> <c f a> <c f a>  | 
+	g, <c e g bes> <c e g bes> <c e g bes>  | }

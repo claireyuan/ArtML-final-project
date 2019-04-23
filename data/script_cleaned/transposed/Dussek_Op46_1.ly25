@@ -1,0 +1,23 @@
+Global = { \key c \major \time time }
+RH = {{
+% m17
+<d'' b'>4 a'16[ c'' a' c''] g'[ b' g' b'] fis'[ a' fis' a']  | 
+% m18
+g'8[ b'] << { b'([ a'- | )] a'[( g'- | ) g'( fis'- | )] } \\ { g'[ fis'] fis'[ e' e' d'] } >>  | 
+% m19
+<< {fis'[( g'- | ) g'( fis'- | )] fis'[( e'- | }
+LH = {{
+% m26
+<c' f'>4 r <c' e'> r  |  \clef treble
+% m27
+<g' d'> r <g' c'> r  |  \clef bass
+% m28
+<gis e'> r <a e'> r  |  \clef treble
+% m29-30
+d'8[ f' d' f'] d'8[ f' d' f']  |  d'8[ f' d' f'] d'8[ f' d' f']  | 
+% m31
+d'8[ f' d' f'] dis'8[ fis' dis' fis']  |  \clef bass
+% m32
+e'4 <e' e> <e' e> r  | 
+% m33
+a,8[ a a a] a[ a a a]  | }

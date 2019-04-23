@@ -1,0 +1,27 @@
+Global = { \key c \major \time time }
+RH = {{ des''8[) c'' bes' c''] des''4 c''-^  |  des''8[ c'' bes' c''] des''4 c''-^  | 
+	r2 r4 r8 bes'16[^( c'']
+
+\pagebreak
+
+	%begin page 4
+
+	des''8[) c''-. bes'-. a'-.] g'2~  |  g'4 f'^^ e'4.^^ bes'16[^( c'']  |  des''8[) c''-. bes'-. a'-.] g'2~  |  g'4 f'^^ e'4.^^ bes'16[^( c'']  | 
+	des''8[) c''-. bes'-. a'-.] g'4 f'  |  e'^> d'^> c'^> b^>
+
+	\break
+
+	bes^> a^> g^> f^>  | }
+LH = {{
+	r2 r4 <c e g c'>  |  g, <c c,> <g, g,,> r
+
+	\pagebreak
+%begin page 4 (lower)
+
+
+	r2 r4 <f, f,,>^^  |  <e, e,,>^^ <d, d,,>^^ <c, c,,>^^ r  |  r2 r4 <f, f,,>^^  |  <e, e,,>^^ <d, d,,>^^ <c, c,,>4.^^ bes,16[^( c]  | 
+	des8[) c bes, a,] g,4 f,  |  e, <d, d> <c, c> <b,, b,>
+
+	\break
+
+	<bes,, bes,> <a,, a,> <g,, g,> <f,, f,>  |  <e,, e,> <d,, d,> <e,, e,> c,  | }

@@ -1,0 +1,19 @@
+Global = { \key a \minor \time time }
+RH = {{
+ \times 2/3 {  cis''8[-. a'' b'']  cis'''[ b'' a''] } d'''2  | 
+ \times 2/3 {  cis'''8[-. a'' b'']  cis'''[ b'' a'']  e'''[ cis''' d''']  e'''[ d''' cis'''] }  | 	%149
+ \times 2/3 {  g'''!8[( fis''' e''']  d'''[ cis''' b'']  a''[ gis'' a'']  ais''[ b''  g'')] }  | 
+ r4 \times 2/3 {  fis'8[( a' d'']  fis''[ a''  d''')] }  fis'''8[-. fis'''-.]  | 
+ fis'''(  e''') d'''-. cis'''-. cis'''(  b'') a''-. gis''-.  | 
+ a''4 r r e'' \p  | 						%153
+ <b'' gis''>-.( <b'' gis''>-. <b'' gis''>-. <b'' gis''>)-.  | 
+ <e''' a''>2. <e''' a''>4  | }
+LH = {{
+ fis''2-. fis''-.  | 
+ e''4 r r2 \clef bass  | 			%157
+ <e' d'>4-.( <e' d'>-. <e' d'>-. <e' d'>)-.  | 
+ <e' c'!>2. c'4  | 
+ f'!-. f'-.( <g'! f'>-. <g' f'>)-.  | 
+ <g' e'>2. e'4  | 				%161
+ a'-. <c'' a'>-.( <c'' a'>-. <c'' a'>)-.  | 
+ <b' gis'>2. <c'' a'>4  | }

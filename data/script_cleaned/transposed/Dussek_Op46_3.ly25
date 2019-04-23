@@ -1,0 +1,27 @@
+Global = { \key c \major \time time }
+RH = {{ d''- |  d''- |   | 
+%17
+d'' d'' d'' d'' d''- |  d''( d'' fis'')  | 
+%18
+g''4 <b' g'>4 <a' fis'>( <g' e'>)  | 
+%19
+<fis' d'>( <e' c'> <d' b> <c' a>)  | 
+%20 printing error: last four notes below are 16ths/semiquavers in original
+<b g>4 a'16 g' fis' g' b'8 g' b' g'  | }
+LH = {{
+%20
+g,4 r r2  | 
+%21
+e4 r r2  |  \clef treble
+%22
+cis8[ g bes g] cis4 r  |  \clef bass
+%23
+d8[ d, fis, a,] d4 r  | 
+%24
+g,8[ b, d b,] g, b, d b,  | 
+%25
+g,8[ b, d b,] g, b, d b,  | 
+%26
+g,8[ c d c] g, b, d b,  | 
+%27
+g,8[ c d c] g, b, d b,  | }

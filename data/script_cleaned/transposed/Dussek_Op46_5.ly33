@@ -1,0 +1,25 @@
+Global = { \key c \major \time time }
+RH = {{
+%35
+<< {\stemdown c''4 a' a'} \\ {\stemup e''4 fis'' fis''} >>  | 
+%36
+<< {\stemdown b' b' b'} \\ {\stemup g''4 g'' g''} >>  | 
+%37
+<g'' b'>2 \bar ": | :" d''4  | 
+%38
+<b' g'>8[ d' <b' g'> d' <a' c''> d']  | 
+%39
+<d'' b'>8[ d' <d'' b'> d' <ais' cis''> d']  | 
+%40
+<d'' b'>8[ d' <d'' b'> d' <ais' cis''> d']  | 
+%41
+<d'' b'>4 r8 d'' d''' b''  | }
+LH = {{
+%36
+g,[ g d g b, d]  | 
+%37
+g,4 g \bar ": | :" r  | 
+%38
+g2.  |  g2.  |  g2.  |  g4 g, r  |  \clef treble
+%42
+b'8[ d'' b' d'' c'' d'']  | }

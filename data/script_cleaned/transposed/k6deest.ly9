@@ -1,0 +1,19 @@
+Global = { \key c \major \time time }
+RH = {{ b4 <g b d f>2\arpeggio
+     |  e'4 r \grace {c16[ d]} e8.[ d32 c]
+     |  b4 <g b d f>2\arpeggio
+     |  e'4 r16  g,[ c e]  g[ e d c]
+     |  d4 r16  g,[ b d]  g[ d b g]
+     |  c4 r16  a[ c fis]  a[ fis d c]
+     |   b[ g g' a]  f[ g e f]  d[ e c d] % these are "f", not "fis"!
+     |   b[ d g, a]  f[ g e f]  d[ e c d]
+     | }
+LH = {{  d[ g f g]  b,[ g' d g]  b,[ g' d g]
+     |   c,[ g' e g]  c,[ g' e g]  c,[ g' e g]
+     |   d[ g f g]  b,[ g' d g]  b,[ g' d g]
+     |  r  c,[ e g] c4 r
+     |  r16  b,[ d g] b4 r
+     |  r16  a,[ c fis] a4 r
+     |   g8[ e' d c b a]
+     |   g[ e d c b a]
+     | }

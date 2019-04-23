@@ -1,0 +1,25 @@
+Global = { \key c \major \time time }
+RH = {{ <des'' bes' f' des'>^^  |  <c'' bes' e' c'>4. <bes' bes>4.^^
+	\bar " |  | "
+	<< \stemup {<a' a>4.^^ <bes' bes>^^
+		\break
+
+		<b' b>^^ <c'' c'>^^} \\
+	 \stemdown {\set fontsize=#-4 d'4\rest \set fontsize=#0 <c' f'>8 \set fontsize=#-4 fis'4\rest \set fontsize=#0 <c' f'>8
+		\break
+
+		\set fontsize=#-4 fis'4\rest \set fontsize=#0 <d' f'>8 \set fontsize=#-4 fis'4\rest \set fontsize=#0 <c' f'>8} >>  | 
+	<c'' f'' a''>8^^[ r <c'' f'' a''>] <c'' f'' a''>[ r <b' f'' gis''>]  |  <c'' f'' a''>4.~ <c'' f'' a''>4 <c'' c'>8  | 
+	<< \stemup {<a' a>4.^^ <bes' bes>^^  |  <b' b>^^ <c'' c'>^^} \\
+	 \stemdown {\set fontsize=#-4 d'4\rest \set fontsize=#0 <c' f'>8 \set fontsize=#-4 fis'4\rest \set fontsize=#0 <c' f'>8  | }
+LH = {{ c,[ r <c e>] c,[ r <c dis>]  | 
+	c,4 <c, c>8_( <b,, b,>4 <c, c>8)  |  f,[ r <c f>] f,[ r <f gis>]
+
+	\break
+
+	f,4 <c, c>8_( <b,, b,>4 <c, c>8)  |  g,8[ r <c e g>] g,[ r <c e g>]  |  g,[ r <b, f g>] g,[ r <b, f g>]  | 
+	c,4^( c8) c,4^( c8)  |  c,4^( c8) c,4^( c8)
+
+	\break
+
+	f,8^^[ r <a, f>] g,^^[ r <bes, f>]  |  gis,^^[ r <b, f>] a,^^[ r <c f>]  | }

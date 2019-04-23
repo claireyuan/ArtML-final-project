@@ -1,0 +1,43 @@
+Global = { \key c \major \time time }
+RH = {{ <bes' bes''>1  |  <c'' c'''>2 <d'' d'''>
+
+	\break
+
+	<f'' f'''>4.^( <e'' e'''>8 <f'' f'''>4. <g'' g'''>8)  |  <f'' f'''>4^> <des'' des'''>^> <c'' c'''>^> <bes' bes''>^>  | 
+	<< \stemdown {\phrasingslurup a''2\( s4 \times 2/3 {c''8[ bes' a'\)]}} \\
+	   \stemdown {a'2~ \times 2/3 {a'8[ bes' b']} s4} >>  | 
+	g'2 <g' g''>  | 
+}
+\alternative
+{
+	{
+		<f' f''>1~  |  <f' f''>4 r r2
+	}
+
+	{
+		<f' f''>1~  |  <f' f''>4 r <f' a' c'' f''>^> r
+	}
+}
+	\bar " | }
+LH = {{ c2 bes,} >>
+
+	\break
+
+	a,4 <c f> <c f> <c f>  |  <bes, bes,,> <des f bes> <des f bes> <des f bes>  |  c, <c f a> <c f a> <c f a>  | 
+	c, <c e g bes> <c e g bes> <c e g bes>
+}
+\alternative
+{
+	{
+		f,4 <c f a> <c f a> <c f a>  |  <c f a> r <f, f,,>2
+	}
+
+	{
+		f,4 <c f a> <c f a> <c f a>  |  <c f a> r <f, f,,>^> r
+	}
+}
+	\bar " | ."
+     }
+
+     dynamics = {
+	s1\f  |  s1*2  | }

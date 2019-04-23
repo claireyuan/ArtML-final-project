@@ -1,0 +1,19 @@
+Global = { \key a \minor \time time }
+RH = {{
+  \stemneutral <d'' a'>4 <d'' a'>-.( <d'' b'>-. <d'' b'>)-. ~ \stemdown  | 
+  b' b'(  c''2) ~  | 						%161 (2)
+  \stemneutral <fis'' c''>4 <fis'' dis''>-.( <fis'' dis''>-. <fis'' dis''>)-. ~ \stemdown  | 
+  dis'' dis''(  e'') dis'' ~  | 
+  dis'' dis''(  e'') gis'' ~  | 
+  gis'' gis''(  a'') gis'' ~  | 						%165 (2)
+  gis'' gis''(  a'') gis'' ~  | 
+  gis'' fisis''_ \markup{\italic "calando"}( gis''  b'')  | }
+LH = {{
+ c e a c' f a c' dis'  | 
+ e a c' e' e e' e e'  | 		%181
+ a( a' gis' a' g' a' e'  a')  | 
+ f'( a' d' a' g' a' e'  a')  | 
+ f'( a' d' a' g' a' e'  a')  | 
+ f'4-. <f' c' a f>-. <e' c' a e>-. <e' b gis e>-.  | 	%185
+ a,8-. a( gis a g a e  a)  | 
+ f( a d a g a e  a)  | }

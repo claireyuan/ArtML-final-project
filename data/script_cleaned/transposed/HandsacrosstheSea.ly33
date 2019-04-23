@@ -1,0 +1,23 @@
+Global = { \key c \major \time time }
+RH = {{ <g' g''>4-^ <c'' c'''>-^ <g' g''>-^ r8 <f' f''>^(
+
+	\break
+
+	<e' e''>4) r8 <dis' dis''>^( <e' e''>2)  |  r4 c''-^ <c'' e''>-^ <c'' g''>-^  |  <c'' c'''> r8 <b' b''>^( <c'' c'''>2)  | 
+	<a' a''>4.^( <b' b''>8 <c'' c'''>4 <a' a''>)  | 
+	#(set-octavation 1)
+	<d'' g'' d'''>1~  |  <d'' g'' d'''>4 r <c'' c'''>-^ <d'' g'' d'''>-^  |  <e'' g'' e'''> r8 <dis'' dis'''>^( <e'' e'''>2)
+
+	\break
+
+	a''4 <e'' e'''> <e'' a''>-^ <d'' gis'' b''>-^  |  <c'' a'' c'''> r8 \stemdown <b' b''>^( <c'' c'''>2)  | }
+LH = {{ c <e g> g, <e g>
+
+	\break
+
+	c <e g> g, <e g>  |  c <e g> <c c,>^^ <b, b,,>^^  |  <a, a,,> <c e> a, <c e>  |  d, <c d fis> d, <c d fis>  | 
+	g, <b, d g> fis, <b, d>  |  f,? <b, d> <e e,>^^ <d d,>^^  |  <c c,> <e g> b, <d e gis>
+
+	\break
+
+	a, <c e a> <c c,>^^ <b, b,,>^^  |  <a, a,,> <c e> g, <bes, c e>  | }

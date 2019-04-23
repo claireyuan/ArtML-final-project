@@ -1,0 +1,37 @@
+Global = { \key c \major \time time }
+RH = {{
+%33
+r16 g'' fis'' g'' b''[ g'' b'' g''] b'' g'' b'' g''  | 
+%34
+r e'' dis'' e'' g''[ e'' g'' e''] g'' e'' g'' e''  | 
+%35
+d''4 a'8[ b' c'' d'']  | 
+%36
+<a' c''>2 <g' b'>4  | 
+%37
+r16 g''[ fis'' g''] b''[ g'' b'' g''] b''[ g'' b'' g'']  | 
+%38
+e''8[ g'' fis'' e'' d'' c'']  | 
+%39
+b'2 b'16[ a' g' a']  | 
+%40 original mark below was "rf"
+g'4 << {\stemdown d''2\rfz} \\ {\stemup f''2} >> | }
+LH = {{
+%35
+d8[ fis d fis d fis]  | 
+%36
+e[ g e g e g]
+%37
+b,4 r r  | 
+%38
+c4 r r  | 
+%39
+d d' <c' d>  | 
+%40
+<b g> b8 d' b g  | 
+%41
+c'4 d' d'  | 
+%42
+g b8 d' b g  | 
+%43
+c'4 d' d'  | }

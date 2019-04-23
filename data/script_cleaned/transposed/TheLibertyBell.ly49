@@ -1,0 +1,24 @@
+Global = { \key c \major \time time }
+RH = {{ <c'' f'' a''>4.~ <c'' f'' a''>4 #(set-octavation 0) c'8  | 
+	<a f' a'>4.^( <bes f' bes'>  |  <b f' b'> <c' f' c''>)  |  #(set-octavation 1)
+
+	\break
+
+	<c'' g'' bes''>8[ r <c'' g'' bes''>] <c'' g'' bes''>[ r <c'' fis'' a''>]  |  <c'' g'' bes''>4.~ <c'' g'' bes''>4 #(set-octavation 0) a'8  | 
+	<< \stemup {g'4.^>^( fis'  |  <c' e' g' g>4)} \\
+	 \stemdown {a4\rest <bes e'>8 a4\rest <a dis'>8  |  s4} >> c'8_( b4 c'8)  | }
+LH = {{ c,[ r <c e g>] <c e g>[ r <c e g>]  |  f,[ r <c f>] f,[ r <f gis>]
+
+	\break
+
+	f,[ r <c f a>] <c f a>[ r <c f a>]  |  bes,[ r <d f bes>] g,[ r <d f bes>]  | 
+	c[ r <d f a>] c,[ r <c e bes>]  |  f,[ r <c f>] <c f>[ r <c f>]  | 
+	<f f,>4 <f f,>8-. <f f,>-.[ <e e,>-. <d d,>-.]
+
+\pagebreak
+
+% begin page 3 (lower)
+
+\repeat volta 2
+{
+	<cis cis,>2.(  |  <d d,>4) <f f,>8-. <f f,>-.[ <e e,>-. <d d,>-.]  |  <cis cis,>2.(  | }

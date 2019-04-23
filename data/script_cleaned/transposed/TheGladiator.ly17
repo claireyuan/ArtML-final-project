@@ -1,0 +1,15 @@
+Global = { \key c \major \time time }
+RH = {{ <e'' e'>2.^> <f'' f'>4-.  | 
+	<g'' g'>-. <fis'' fis'>-. <g'' g'>-. <a'' a'>-.  |  <d'' d'>2.^> <e'' e'>4-.  |  <f'' f'>-. <g'' g'>-. <a'' a'>-. <b'' b'>-.
+
+	\break
+
+	<d''' d''>4.^>( <c''' c''>8) <b'' b'>4.^>( <c''' c''>8)  |  <g'' g'>4 <g'' g'> <a'' a'>4.^> <e'' e'>8  |  <f'' f'>2.^> <g'' g'>4-.  | 
+	<a'' a'>-. <g'' g'>-. <a'' a'>-. <b'' b'>-.  |  <e'' e'>2.^> <f'' f'>4-.  | }
+LH = {{ <d d,> <f g b> g, <f g b>  |  <c c,> <e g c'> g, <e g c'>  |  <c c,> <e g c'> g, <e g c'>  | 
+	<b, b,,> <f g b> g, <f g b>  |  <b, b,,> <f g b> g, <f g b>
+
+	\break
+
+	<c c,> <e g c'> <c dis fis c'>2^>~  |  <c e g c'>4 <g g,>^> <e e,>^> <c c,>^>  |  <d d,> <f g b> g, <f g b>  | 
+	<d d,> <f g b> g, <f g b>  | }

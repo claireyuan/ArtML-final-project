@@ -1,0 +1,24 @@
+Global = { \key c \major \time time }
+RH = {{ <c' a>} >> r4 r2
+
+	\bar " |  | "
+\pagebreak
+
+% begin page 4
+
+\repeat volta 2
+{
+	r2 \repeat "tremolo" 4 { <c'' es''>16^( a'16) }  | 
+	\repeat "tremolo" 4 { <bes' d''>16\( g' } \repeat "tremolo" 4 { <bes' d''>16 g'\) }  | 
+	<g' bes' d''>4 r r <fis' c'' d''>-.-^  |  <g' bes' g''>-.-^ r r2  |  r2 \repeat "tremolo" 4 { <d'' f''>16^( b') }  | 
+	\repeat "tremolo" 4 { <c'' e''>16\( a') } \repeat "tremolo" 4 { <c'' e''>16 a'\) }
+
+	\break
+
+	<a' c'' e''>4 r r <gis' d'' e''>-^  | }
+LH = {{ <a, a,,> r8 <e, e> <c, c>4^^ <b,, b,>^^  |  <bes,,? bes,?>2.^^ <a,, a,>4  | 
+	<g,, g,>2.^^ <a,, a,>4  |  <bes,, bes,>2. <a,, a,>4  |  <g,, g,>2. <a,, a,>4  |  <bes,, bes,>^^ <a,, a,>^^ <bes,, bes,>^^ <c, c>^^
+
+	\break
+
+	<des, des>^^ <bes,, bes,>^^ r2  |  <des, des>8-.-^[ <c, c>-.] <bes,, bes,>4-. <g,, g,> <f,, f,>  |  <e,, e,> c,^^ d,^^ e,^^  | }

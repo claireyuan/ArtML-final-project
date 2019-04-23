@@ -1,0 +1,19 @@
+Global = { \key c \major \time time }
+RH = {{ a4.\trill  g16[ a] g4
+     |  r16  d[ f d] r  c[ e c] r  b[ d b]
+     |  r  c[ b a]  g[ a g f]  e[ f e d]
+     |  c8 r  f'16[( e d  c)]  c'8[ b]
+     |  a4.\trill  g16[ a] g4
+     |  r16  d[ f d] r  c[ e c] r  b[ d b]
+     |  r  c[ b a]  g[ a g f]  e[ f e d]
+     |  c4 r \grace {c'16[ d]} e8.[ d32 c]
+     | }
+LH = {{ <c f>[ <c f> <c f> <c f>] <c e>[ <c e>]
+     |  f r g r g, r
+     |  c r r4 r
+     |  r8 <c e>[ <c e> <c e> <c e> <c e>]
+     |  <c f>[ <c f> <c f> <c f>] <c e>[ <c e>]
+     |  f r g r g, r
+     |  c r r4 r \clef bass
+     |   c,16[ g' e g]  c,[ g' e g]  c,[ g' e g]
+     | }

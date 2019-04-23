@@ -1,0 +1,22 @@
+Global = { \key a \minor \time time }
+RH = {{
+ <g'' d'' b'>2. g''4  | 
+ <d''' g''>-.( <d''' g''>-. <d''' g''>-. <d''' g''>)-.  | 
+ << {
+  g'''2.( gis'''4 \sf  | 						%49 (1)
+  \stemneutral <a''' a''>)-. r <b'' f'' d''>-. r  | 
+ } \\ {
+  g''2_ \markup{\italic "cresc."} bes''  | 				%49 (2)
+  s1  | 
+ } >>
+ <c'''  e''>4\p r \times 2/3 { r8  g''[ a'']  b''[ a'' g''] }  | 
+ c'''4 r \times 2/3 { r8  g''[ a'']  b''[ a'' g''] }  | }
+LH = {{
+ <c'' e'>1  | 						%49
+ <c'' f'>4-. r <g' g>-. r \clef treble  | 
+ \times 2/3 { r8  c''[ d'']  e''[ d'' c''] } f''2  | 
+ \times 2/3 {  e''8[ c'' d'']  e''[ d'' c''] } f''2  | 
+ <e'' c''>4 \clef bass a' f' g'  | 				%53
+ \times 2/3 { r8  c[ d]  e[ d c] } f2 \sf  | 
+ \times 2/3 {  e8[ c d]  e[ d c] } f2 \sf  | 
+ \times 2/3 {  e8[ c d]  e[ d c] } f2 ~  | }

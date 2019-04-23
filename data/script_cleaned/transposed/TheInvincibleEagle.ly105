@@ -1,0 +1,20 @@
+Global = { \key c \major \time time }
+RH = {{ <f''' f''>4. <e''' e''>4( <f''' f''>8)  | 
+	<g''' g''>4. <d''' d''>
+
+	\break
+
+	<g''' g''>2.~  |  <g''' g''>4. <c''' c''>4 <bes'' bes'>8  |  <a'' a'>4. <c''' c''>  |  <a'' a'''> \acciaccatura gis'''8 <a''' a''>4.  | 
+	\acciaccatura gis'''8 <a''' a''>8^^ r r <a''' a''>4.~  |  <a''' a''> <g''' g''>4 <f''' f''>8  |  <e''' e''>4. <d''' d''>
+
+	\break
+
+	<es''' es''>4^^( <d''' d''>8) <es''' es''>4^^( <d''' d''>8)  | }
+LH = {{ <g g,>[ r <bes c'>] c[ r <bes c'>]  | 
+	<g g,>[ r <bes c'>] c[ r <bes c'>]  |  <g g,>[ r <bes c'>] c[ r <bes c'>]  |  d[ r <f a d'>] d[ r <f a d'>]  | 
+	bes,[ r <g bes d'>] b,[ r <g b d'>]
+
+	\break
+
+	c^^[ r <e g c'>] g,[ r <e g c'>]  |  e[ r <g c'>] c[ r <e g c'>]  |  <f f,>[ r <a c'>] c[ r <a c'>]  | 
+	<f f,>[ r <a c'>] c[ r <a c'>]  | }

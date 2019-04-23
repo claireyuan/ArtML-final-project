@@ -1,0 +1,63 @@
+Global = { \key c \major \time time }
+RH = {{ e'1~  |  e'4 a'^( e'4. a'8)  |  f'1~
+
+	\break
+
+	f'4 d'_( b4. e'8)  |  a1^(~  |  a4 c' e' a')  |  <c'' c'>2.^> <b' b>4
+
+	\break
+
+	<c'' c'>2.^> <b' b>4  |  <e'' e'> r <e'' b' gis' e'>^> r
+}
+\alternative
+{
+	{
+		r4 a' e'4.^( a'8)
+	}
+
+	{
+		r4 <e' e''>-. <dis' dis''>-. <e' e''>-.
+	}
+}
+
+\pagebreak
+
+%begin page 2
+
+\repeat volta 2
+{
+	<f' f''>2.^> <g' g''>4^.  |  <a' a''>-. <g' g''>-. <a' a''>-. <b' b''>-.  | }
+LH = {{
+	<d d,>^> <d f bes>8[ <d f bes>] <d f bes>4 <d f bes>
+
+	\break
+
+	<dis dis,>4^> <dis fis b>8[ <dis fis b>] <dis fis b>4 <dis fis b>  | 
+	<e e,> <e gis b>8[ <e gis b>] <e gis b>4 <e gis b>  |  <a e c a,>1^>  | 
+	d,4 <d f a> <d f a> <d f a>
+
+	\break
+
+	e, <d e gis> <d e gis> <d e gis>  |  a, <c e> e, <c e>  | 
+	c, <c e> a,, <c e a>  |  f,^> <c dis a>8[ <c dis a>] <c dis a>4 <b, dis a>
+
+	\break
+
+	f,^> <c dis a>8[ <c dis a>] <c dis a>4 <b, dis a>  |  <e gis> r <e b, gis, e,>^> r
+}
+\alternative
+{
+	{
+		r1
+	}
+	{
+		r1
+	}
+}
+\pagebreak
+
+% begin page 2 (lower)
+
+\repeat volta 2
+{
+	<d d,>4 <f g b> g, <f g b>  | }

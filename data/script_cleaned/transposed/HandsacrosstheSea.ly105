@@ -1,0 +1,20 @@
+Global = { \key c \major \time time }
+RH = {{ s64 g'4*15/16 s4} \\
+	   \stemup { g''1^(  |  g''2)} \\
+	 \stemdown { g'1_(  |  g'2)} >> <c'' c'>2  | 
+	<a' a''>4.^( <bes' bes''>8 <c'' c'''>4. <b' b''>8  |  <c'' c'''>4. <b' b''>8 <c'' c'''>4. <a' a''>8)
+
+	\break
+
+	<bes' bes''>4.^( <c'' c'''>8 <d'' d'''>4. <cis'' cis'''>8  |  <d'' d'''>4. <cis'' cis'''>8 <d'' d'''>4. <bes' bes''>8)  | 
+	<c'' c'''>4.^( <f'' f'''>8 <d'' d'''>4. <bes' bes''>8)  |  <g' bes' g''>2 <g' bes' g''>  | }
+LH = {{ s2 s2\<
+
+	s4. s8\! s2  |  s1  |  s2\< s2\!  |  s2 s2\sf
+
+	s2\sf s2\mf  |  s1*3
+
+	s4 s2.\<  |  s8 s8\! s2.  | 
+	\once \override dynamiclinespanner #'direction = #'-1
+	\once \override dynamiclinespanner #'minimum-space = #'0
+	\settextcresc s1\<  |  s4 s4\! s2\sf  | }

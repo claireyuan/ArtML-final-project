@@ -1,0 +1,35 @@
+Global = { \key c \major \time time }
+RH = {{
+	<f' f''>4.^( <g' g''>8 <a' a''>4. <g' g''>8  |  <f' f''>2 <c' c''>)  | 
+	<< \stemup { \set fontsize = #-4 b'4\rest a'8[ g'] f'4 a'8[ g']  |  s64 f'4*15/16 s4} \\
+	   \stemup { f''1^(  |  f''2)} \\
+	 \stemdown { f'1_(  |  f'2)} >> <c' c''>2
+
+	\break
+
+	<g' g''>4.^( <a' a''>8 <bes' bes''>4. <a' a''>8  |  <g' g''>2 <c'' c'>)  | 
+	<< \stemup { \set fontsize = #-4 c''4\rest bes'8[ a'] g'4 bes'8[ a']  | }
+LH = {{ f, <c f a> f, <c f a>
+
+	\break
+
+	bes, <d f bes> bes, <d f bes>  |  bes, <d f bes> bes, <d f bes>  |  <a, f a> r8 d^( bes,4. g,8)  | 
+	c,4 <bes, f> c, <bes, e>  |  \phrasingslurdown <f, f,,>4.\( <g, g,,>8 <a, a,,>4. <g, g,,>8
+}
+\alternative
+{
+	{
+		<f, f,,>4\) r8 <c, c> <a,, a,>4^^ <g,, g,>^^
+	}
+
+	{
+		<f,, f,>4 r <f,, f,>^^ r
+	}
+}
+	\bar " | ."
+     }
+
+     dynamics = {
+	s1*3\ff  |  s2 s2\sf
+
+	s2\sf s2\mf  |  s1*2  | }

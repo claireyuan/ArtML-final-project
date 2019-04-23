@@ -1,0 +1,39 @@
+Global = { \key c \major \time time }
+RH = {{ #(set-octavation 1) <a'' c'''>-.[ <a'' b''>-. a''-.] <a'' c'''> r r  | 
+	<a'' c'''>-.[ <a'' b''>-. a''-.] <a'' c'''> #(set-octavation 0) r r  | 
+	\clef bass
+	\acciaccatura dis e4 r8 a,4 r8
+
+	\break
+
+	\clef treble
+	\acciaccatura fis'' g''4^> r8 c''4 r8  |  #(set-octavation 1) <c''' es'''>-.[ <c''' d'''>-. c'''-.] <c''' es'''>^> r r  | 
+	<c''' es'''>-.[ <c''' d'''>-. c'''-.] <c''' es'''>^> #(set-octavation 0) r r  | 
+	\clef bass
+	\acciaccatura fis g4^> r8 c4 r8  | 
+	\clef treble
+	<as' c'' es'' as''>4.~ <as' c'' es'' as''>4 <bes' des'' es'' g''>8
+
+\pagebreak
+
+% begin page 4
+
+	<as' c'' es'' as''>4 <bes' des'' es'' g''>8 <as' c'' es'' as''> r r  | 
+	<as' c'' es'' as''>4.^>~ <as' c'' es'' as''>4 <bes' des'' es'' g''>8  | }
+LH = {{ f''[ f'' f''] <e'' a'> r r f''[ f'' f''] <e'' a'> r r
+	\clef bass
+	\acciaccatura dis, e,4 r8 a,,4 r8
+
+	\break
+
+	\clef treble
+	\acciaccatura fis' g'4^> r8 c'4 r8  |  as''-.[ as''-. as''-.] <g'' c''>^> r r  |  as''-.[ as''-. as''-.] <g'' c''>^> r r
+	\clef bass
+	\acciaccatura fis, g,4^> r8 c,4 r8  |  <as, as>4.^>~ <as, as>4 <es, es>8
+
+\pagebreak
+
+% begin page 4
+
+	<as, as>4 <es, es>8 <as, as> r r  |  <as, as>4.~ <as, as>4 <es, es>8  |  <as, as>4 <es, es>8 <as, as> r r  | 
+	<as, as>4 <es, es>8 <as, as>4 <c c,>8  |  <f f,>4. <des des,>  | }

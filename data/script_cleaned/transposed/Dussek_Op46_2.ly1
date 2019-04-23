@@ -1,0 +1,35 @@
+Global = { \key c \major \time time }
+RH = {{
+%2
+<e' c' g> e'16 d' e' f' e'4 r  | 
+%3
+<g' e'>4 f'16 e' d' c' <f' a'>8 <f' a'> <b' d'> <b' d'>  | 
+%4
+<c'' c'>4 <c'' c'> <c'' c'> r  | 
+%5
+g'4.( e'8) c'-. c'( d' e')  | 
+%6
+g'8[( f' e' d']) d'2  | 
+%7
+g'4. e'8 c'-. c'( d' e')  | 
+%8
+e'4.( d'8) c'( b a g)  | 
+%9
+r8 g''- | }
+LH = {{
+%2
+c,8[ c c c] c c c c  | 
+%3
+c,8[ c c c] c c c c  | 
+%4
+c,4 c c, r  | 
+%5
+c8[ g e g] c g e g  | 
+%6
+b,8[ d f g] b, d f g  | 
+%7
+c8[ g e g] c g e g  | 
+%8
+<f d g,>2 r  | 
+%9
+c8[ g e g] c g e g  | }

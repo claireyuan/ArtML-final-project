@@ -1,0 +1,19 @@
+Global = { \key c \major \time time }
+RH = {{
+	a''4 <e'' e'''> <e'' a''>-^ <d'' gis'' b''>-^  |  <c'' a'' c'''> r8 \stemdown <b' b''>8^( <c'' c'''>2)  |  \stemneutral
+	#(set-octavation 0)
+	f''4 <c'' c'''> <c'' f''>-^ <c'' fis''>-^
+
+	\break
+
+	<c'' e'' g''>4.-^ <c'' c'''>8 <g' g''>4 <a' a''>  |  <f' f''>4.-^ <e' e''>8 <f' f''>4 <d' d''>  | 
+	<< \stemup { c''1~  |  c''4} \\
+	 \stemdown { <g' e' c'>4 <g' e' c'> <g' e' c'> <g' e' c'>  |  <g' e' c'>} >> r8 <g' g''>8^( <a' a''>4. <f' f''>8)  | 
+	<e' e''>4 r8 <dis' dis''>^( <e' e''>2)  | }
+LH = {{ <c c,> <e g> b, <d e gis>  |  a, <c e a> <c c,>^^ <b, b,,>^^  | 
+	<a, a,,> <c e> g, <bes, c e>  |  f, <a, c f> <a, a,,>^^ <as, as,,>^^
+
+	\break
+
+	<g, g,,> <c e> e, <c e>  |  d, <b, f g> g, <b, f g>  |  <c e g> r8 <b, b,,> <a, a,,>4 <g, g,,>  |  <c c,> r r2  | 
+	<c c,>4 <e g> g, <e g>  | }

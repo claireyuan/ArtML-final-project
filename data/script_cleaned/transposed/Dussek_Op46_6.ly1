@@ -1,0 +1,33 @@
+Global = { \key c \major \time time }
+RH = {{
+%2
+<e' g' c''>4 <e' c'> <d' f'> <e' g'>  | 
+%3
+<e' g'>2. <d' f'>4  | 
+%4
+<c' e'> c''8 b' d'' c'' b' a'  | 
+%5
+<g' e'>2. <d' f'>4  | 
+%6
+<c' e'> r r8 g'16 a' g'8 g'  | 
+%7
+g''4 e'' d'' c''  | 
+%8
+<d'' g'>4 r r8 g'16 a' g'8 g'  | 
+%9
+g''4 f'' e'' d''  | }
+LH = {{
+%2
+<< {\stemdown c'4} \\ {\stemup e'8 d'} >> e'8 f' g'4  | 
+%3
+<f' a'>4 <f' a'> <f' a'>  | 
+%4
+<f' a'>2 <e' g'>4  | 
+%5
+<< {\stemdown d' d' d'} \\ {\stemup f' f'8 g' f'4} >>  | 
+%6
+<< {\stemdown c' c' c'} \\ {\stemup e' e'8 f' e'4} >>  | 
+%7
+d'4 d'8 c' d' e'  | 
+%8
+c'2 \bar ": | :" g'8 e'  | }

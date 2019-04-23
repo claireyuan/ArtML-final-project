@@ -1,0 +1,23 @@
+Global = { \key c \major \time time }
+RH = {{ <g'' g'>4. <d'' d'>
+
+	\break
+
+	<g'' g'>2.~  |  <g'' g'>4. c''4^( bes'8)  |  a'4.( c''  |  a'') \acciaccatura gis''8 a''4.  |  \acciaccatura gis''8 a''8^^ r r <a'' c'' a'>4.~  | 
+	<a'' c'' a'> g''4^( f''8  |  e''4. d'')
+
+	\break
+
+	es''4^^( d''8) es''4^^( d''8)  |  <bes' g'' bes''>2.^^~  | }
+LH = {{ d[ r <f a d'>] d[ r <f a d'>]  |  bes,[ r <g bes d'>] b,[ r <g b d'>]
+
+	\break
+
+	c[ r <e g c'>] g,[ r <e g c'>]  |  e,[ r <e g c'>] \stemup <c c,>[ r <e g c'>]  | 
+	\stemneutral f[ r <a c'>] c[ r <a c'>]  |  f[ r <a c'>] c[ r <a c'>]  |  f[ r <a c'>] c[ r <a c'>]  | 
+	f[ r <a c'>] c[ r <a c'>]  | 
+	<< \stemup { fis[ bes\rest <c' d'>] a[ bes\rest <c' d'>]
+		\break
+
+		fis[ bes\rest <c' d'>] d[ r <c' d'>]} \\
+	 \stemdown { fis4._( a \break fis d) } >>  | }

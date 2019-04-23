@@ -1,0 +1,25 @@
+Global = { \key a \minor \time time }
+RH = {{
+		<g' a' d''> <g' d''> <f' d''> <f' d''> <f' d''> <f' d''>  | 
+		s8 a'4 a' s8  | 
+		f'' f'' f'' f'' e'' e''  | 
+		% bar 30
+		s8 e''4 a'' s8  | 
+		<g'' e'''>8 <e'' g''> <e'' g''> <e'' g''> <c'' e''> <c'' e''>  | 
+		<b' e''>8 e'' e'' e'' <c'' dis'' a''> <c'' dis'' a''>  | 
+		<g' b'>8[ <g' b'>] <g' b'> b'-. \nobeam ( b'-. b'-.)  | 
+		<gis' d''>8 <a' d''> <a' d''> <a' d''> <a' d''> <a' d''>  | }
+LH = {{
+	}
+	\\
+	{
+		% bar 25
+		e8 e e e e e  | 
+		s2.  | 
+		s2.  | 
+		a8 a4 f s8  | 
+		s2.  | 
+		% bar 30
+		a2.  | 
+		<b e'>2 a4  | 
+		g2 a4  | }

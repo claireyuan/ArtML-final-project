@@ -1,0 +1,42 @@
+Global = { \key a \minor \time time }
+RH = {{
+		as''8. ges''16 ges''2  | 
+		\once \override beam  #'positions = #'(5 . 5) ges''8[ as'' \acciaccatura bes'' as'' g''] \times 2/3 {as'' es''' des'''}  | 
+		% bar 20
+		des'''8. ges''16 ges''2  | 
+	}
+	\\
+	{
+		\stemup <bes' fes'' ges''>8 <ces'' fes'' as''> <ces'' fes'' as''> <ces'' fes'' g''> <ces'' fes'' as''> <ces'' fes'' as'' des'''> \stemdown  | 
+		<ces'' fes''> <ces'' fes''> <bes' fes''> <bes' fes''> <bes' fes''> <bes' fes''>  | 
+		<bes' fes''> <ces'' fes''> <ces'' fes''> <ces'' fes''> <ces'' fes''> <ces'' fes'' as''>  | 
+		% bar 20
+		<ces'' fes'' as''> <ces'' fes'' as''> <bes' fes''> <bes' fes''> <bes' fes''> <bes' fes''>  | 
+	}
+	>>
+
+	% bars 21-22
+
+	<<
+	{
+		ces'''2 ces'''4  | }
+LH = {{
+		<des' ges'>2 ces'4  | 
+		% bar 15
+		beses2 ces'4  | 
+		ges4~ ges8 r8 r4  | 
+	}
+	>>
+
+	\key ces \major
+
+	% bars 17-24
+
+	<<
+	{
+		des'8 des' des' des' des' des'  | 
+		des' des' des' des' des' des'  | 
+		des' des' des' des' des' des'  | 
+		% bar 20
+		des' des' des' des' des' des'  | 
+		es' es' es' es' eses' eses'  | }

@@ -1,0 +1,22 @@
+Global = { \key c \major \time time }
+RH = {{
+   r <e' g'>[-. <f' a'>-. <e' g'>-.]  | 
+   <<f' \\ d'_5_3>> d'16 b g8-- r  | 
+   r <d' f'>[-. <e' g'>-. <d' f'>-.]  | 
+   e'8_1( c''16 e' f'8 c''16 fis'_2  | 
+   g'8_3 c''16 gis'_2 a'8)-. c'-.  | 
+   b[-2( c'-1 f'  e')\>]  | 
+   d'16-5( c' b  a)  g8\!-- r  | 
+   e'8[^3\f( g'16 e']  c'8)-- r  | }
+LH = {{
+   c4-5-- d-- e-- f--  g8[( e-2 b,-5  c)-2] g,4-- r16 f( e d  | 
+    c4) r8 g16( e  c8)-- r8 r4 g,4 r8 d16( b,  g,8)-- r8 r4  | 
+   c,8-5-. c-. d,8-5-. c-. e,8-5-. c-. f,8-4-. a,-. g,4-1-- g,,-- c,-- r  | 
+}
+
+basb =  {
+   \su \ad c'4_- b_- c'_- r b_- a_- b_- r  | 
+   \sd \ab a g fis d g c d \su \ad r16 c'( b a  | 
+    g4) r8 d'16( b  g8) r r4 \sd \ab d4 r8 a,16(^"r.h."( fis,  d,4)--^"l.h." r  | 
+   g,8-5-. g-. a,-5-. g-. b,-4-. g-. c-4-. e-. d4-1-- d,-- g,-- r  | 
+   r <cis-5 e-3 g-1> <d f> <cis e g> <d f> <cis e g> <d f> r  | }

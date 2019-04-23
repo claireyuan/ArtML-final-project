@@ -1,0 +1,19 @@
+Global = { \key c \major \time time }
+RH = {{ % not d8-.
+        e'-. c'-. c''( b') fis'-. g'-.  | 
+        bes'( a') cis'-. d'-. f'-. e'-.  | 
+        d'-.[ r b'(] a') g''-. fis''-.  |   % not e)-.
+        a'( gis') d''-. c''-. fis'-. g'-.  | 
+        r4 fis'8( g') c''-.( b')-.  | 
+        e'4 g'8 f'-. b-. c'-. ~  | 
+        c' d'4 ~ d'8 e'4 ~  | 
+        e'8 f'4 ~ f'8 g'4 ~  | }
+LH = {{
+        r2.  | 
+        r4 r8 r4 c'8  | 
+        b-. g g'( fis') cis'-. d'-.  | 
+        f'( e') gis-. a-. c'!-. b-.  | 
+        s4 d'8 d'4. ~  | 
+        d'8( cis') a ~ a-. as-. g-.  | 
+        a4 ais8 b4.  | 
+        c'4 cis'8 d'4 dis' 8  | }

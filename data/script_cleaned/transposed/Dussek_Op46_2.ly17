@@ -1,0 +1,35 @@
+Global = { \key c \major \time time }
+RH = {{
+%17
+e' c'' e' c'' e' c'' e' c'' e' c'' e' c'' e' c'' e' c''  | 
+%18
+e' c'' e' c'' e' c'' e' c'' e' c'' e' c'' e' c'' e' c''  | 
+%19
+b'4 <b' g''> <b' g''> r  | 
+%20
+g''4 a''16 g'' fis'' e'' d''8 b' d'' b'  | 
+%21
+d''4. c''8 a'2  | 
+%22 original has b flat below, changed to b because of natural b in left hand
+g'8 g' \grace a'16 g'8 fis'16 g' a'8[ a'] \grace b'16 a'8 g'16 a'  | 
+%23
+b'8 g' d'' b' b' a' d'4  | 
+%24
+g'' a''16 g'' f'' es'' d''8 bes' d'' bes'  | }
+LH = {{
+%18
+<e, e> <d, d> <e, e> <fis, fis>  | 
+%19
+g,8[ g d b,] g,4 r  |  \clef g
+%20
+g8[ d' b d'] g d' b d'  | 
+%21
+fis[ a c' d'] fis a c' d'  | 
+%22
+<b g> <b g> <b g>4 <d' fis>8 <d' fis> <d' fis>4  | 
+%23
+<d' g>2 <c' a d>  | 
+%24
+g8[ d' bes d'] g8[ d' bes d']  | 
+%25
+fis[ a c' d'] fis a c' d'  | }

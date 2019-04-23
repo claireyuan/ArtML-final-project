@@ -1,0 +1,35 @@
+Global = { \key c \major \time time }
+RH = {{
+%29
+g'4 <d' b>8. <c' e'>16 <d' b>4 <d' b>  | 
+%30
+<fis' a>4. d'8 fis' d' fis' d'  | 
+%31
+g'4 g' g' r \bar ": | :"  | 
+%32
+d'2 d'8 e' fis' g'  | 
+%33 error corrected: original has no accidental natural e here but e flat
+fis' e' dis' e' e'4 r  | 
+%34
+e8 r g r c' r e' r  | 
+%35
+e'([ d' cis' d'] d'4) r8 d'  | }
+LH = {{
+%35
+g,[ b, g, b,] g, b, g, b,  | 
+%36
+r <a, c> <a, c> <a, c> <a, c>4 r
+%37
+r8 <b, d> <b, d> <b, d> <b, d>2  | 
+%38
+c2 d4 dis  | 
+%39
+dis2 e4 r  |  \clef treble
+%40
+r8 <a c'> <a c'> <a c'> <a c'>4 r  | 
+%41
+r8 <b d'> <b d'> <b d'> <b d'>4 r  | 
+%42
+c'2 d'4 d  |  \clef bass
+%43
+g,8 b, g, b, g, b, g, b,  | }
