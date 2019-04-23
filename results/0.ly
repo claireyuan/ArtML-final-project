@@ -37,4 +37,5 @@ lh = { d 8 < g a e f >
       }
     >>
   }
+  %\midi { \tempo 4 = 104 }
 }
