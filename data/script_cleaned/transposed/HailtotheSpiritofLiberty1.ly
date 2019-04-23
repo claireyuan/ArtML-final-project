@@ -1,4 +1,3 @@
-\language "nederlands"
 Global = {\key  c \major \time 2/2}
 
 
