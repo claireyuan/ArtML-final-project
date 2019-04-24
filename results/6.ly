@@ -17,5 +17,5 @@ lh = { g 8 ( g  b ) d ees ( fis  gis bes g ) c' ( a b d' a' b d' b' g' ) a' \sta
       }
     >>
   }
- %\midi { \tempo 8 = 104 }
+ \midi { \tempo 4 = 104 }
 }
