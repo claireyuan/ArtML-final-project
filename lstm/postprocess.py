@@ -13,6 +13,10 @@ with open(in_file, 'r') as r, open(out_file, 'w') as w:
 				cleaned += (' ' + token)
 			elif token in ['is', 'es', 's', '\'', '.', '-', ',']:
 				cleaned += (token)
+			elif token in list('0123456789'):
+				cleaned += token
+			elif token in list('[]|\\'):
+				continue
 			else: 
 				cleaned += (' ' + token + ' ')
 		w.write(' '.join(cleaned.split()) + '\n\n')
