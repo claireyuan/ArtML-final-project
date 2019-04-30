@@ -1,3 +1,12 @@
+"""
+Takes all Lilypond files from [input_dir] and parses them by the vocab file 
+given. Tries to match the longest chunk it can. Ignores unknown tokens. 
+Each output file is placed in [output_dir] and named by id number. Output is 
+whitespace-separated tokens.
+
+Usage: python parse.py [input_dir] [output_dir]
+"""
+
 import glob
 import sys
 

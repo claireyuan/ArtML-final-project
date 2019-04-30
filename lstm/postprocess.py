@@ -1,3 +1,9 @@
+"""
+Post-processing LSTM output. Removes unnecessary whitepace and bar lines.
+
+Usage: python postprocess.py [input_file] [output_file]
+"""
+
 import sys
 
 in_file = sys.argv[1]
